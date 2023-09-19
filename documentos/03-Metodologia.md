@@ -1,7 +1,12 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+A metodologia apresenta as ferramentas utilizadas pela equipe para criação, manutenção da estrutura e para o sucesso da execução de todas as tarefas do projeto. 
+
+
+Relação de Ambientes de Trabalho 
+
+Para desenvolver a ferramenta, são utilizadas diversas plataformas de gerenciamento de projetos, repositórios e desenhos de interface, conforme tabela abaixo: 
 
 
 ## Gerenciamento de Projeto
