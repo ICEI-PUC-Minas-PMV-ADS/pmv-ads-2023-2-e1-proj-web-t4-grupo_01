@@ -45,7 +45,7 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
+| RF-01 | Página inicial oferecendo espaço para login com nome de usuário e senha e botão para registro                   | Alta   | 
 |  ...  |  ...                    | ...   |
 
 **Prioridade: Alta / Média / Baixa. 
