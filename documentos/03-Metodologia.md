@@ -16,10 +16,10 @@ Para desenvolver a ferramenta, são utilizadas diversas plataformas de gerenciam
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 [Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
+- Scrum Master: Pedro Rosas
+- Product Owner: Marcel Gonçalves.
+- Equipe de Desenvolvimento: Pedro Rosas, Leticia Mateus, Quezia Emilly, Marcel Gonçalves, Marcus Vinícius e Geraldo Augusto.
+- Equipe de Design: Quezia Emilly, Leticia Mateus.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -67,9 +67,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
+| Documentos do projeto               | Microsoft 365                      | PUC Minas - Projeto Animais Abandonados.docx                            |
 | Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Gerenciamento do Projeto            | Trello                             | https://trello.com/invite/b/rc72lYi6/ATTId79e2d123c72cd8a54489ba94912e528CA2A7581/pet-190-pt2                          |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
