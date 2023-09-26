@@ -67,7 +67,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | Microsoft 365                      | PUC Minas - Projeto Animais Abandonados.docx                            |
+| Documentos do projeto               | Microsoft 365                      | https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/742145_sga_pucminas_br/ETyCqsm8p8lJg47hPbejBQYB8-4uET4lcEnUyyGbO3pILA?e=NA2rRO                             |
 | Projeto de Interface                | Figma                              | http://....                            |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/invite/b/rc72lYi6/ATTId79e2d123c72cd8a54489ba94912e528CA2A7581/pet-190-pt2                          |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
