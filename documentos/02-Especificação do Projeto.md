@@ -43,7 +43,7 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 
 ## Histórias de Usuários
 
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
+|EU COMO...    | QUERO/PRECISO ...  |PARA ...                  |
 |--------------------|---------------------------|----------------------------------|
 | Usuário organizacional              | Formulário de cadastro organizacional                       | Para divulgar informações referentes a organização que represento.                             |
 | Usuário voluntário                 | Formulário de cadastro de ‘voluntários’                        | Para ter acesso às informações dos perfis organizacionais.                               |
