@@ -89,8 +89,17 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF- 00 |  Permitir postagem de fotos dos serviços/animais/campanhas prestados pelo usuário organizacional.                     | Alta   | 
+| RNF- 01 |  Permitir adicionar ou favoritar os perfis organizacionais que prestaram/prestam serviços de boa qualidade.           | Média  | 
+| RNF- 02 |  Permitir avaliar a qualidade do serviço prestado pelos perfis organizacionais.                                       | Média  | 
+| RNF- 03 |  Solicitar das organizações/clínicas o CNPJ durante o preenchimento das informações no app.                           | Baixo  | 
+| RNF- 04 |  Solicitar das organizações/clínicas o link para o site delas no preenchimento das informações no app.                | Baixo  | 
+| RNF- 05 |  Ferramenta para mudar o idioma padrão de interação com o app.                                                        | Baixo  | 
+| RNF- 06 |  Ferramenta para mudar as cores de fundo/texto do app entre modo luminoso e modo escuro.                              | Baixo  | 
+| RNF- 07 |  Definir uma barra Header com os botões: Home (levando para o perfil), busca, emergência e logout                     | Alta   | 
+
+
+
 
 **Prioridade: Alta / Média / Baixa. 
 
