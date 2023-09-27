@@ -38,11 +38,12 @@ As tarefas são organizadas e distribuídas através do Trello, seguindo as segu
 
 <ul>
   <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
+  <li>Desenvolvimento (Desenvolvimento)</li>
+  <li>Documentação (Documentação)</li>
+  <li>Gerência de Projetos (Gerência de Projetos)</li>
+  <li>Infraestrutura (Infraestrutura)</li>
+  <li>Testes (Testes)</li>
+  <li>Interface (Interface)</li>
 </ul>
 
 <figure> 
