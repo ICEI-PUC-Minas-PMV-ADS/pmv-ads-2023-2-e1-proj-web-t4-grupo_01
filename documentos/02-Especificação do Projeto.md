@@ -59,7 +59,7 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 | Usuário voluntário                | Página de busca                        | Para achar informações sobre abrigos/clínicas/ONGs/serviços relacionados ao animal em questão.                               |
 | Usuário organizacional                 | Formulário da página de galeria para fotos                        | Para acrescentar ou remover as fotos para divulgação do espaço físico/animal para adoção/produtos e serviços/cartaz de campanha.                               |
 | Usuário voluntário                | Uma ou mais forma de interagir com os perfis organizacionais.                        | Para facilitar a localização de informações dos perfis organizacionais favoritos do usuário voluntário e/ou ajudar no posicionamento dentro do mecanismo de busca dos perfis organizacionais do app por maio de avaliação do serviço prestado.                              |
-| ...                | ...                       | ...                              |
+
 
 
 
@@ -79,7 +79,7 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 | RF- 05   |  Página com informações sobre cuidados em situações de emergência, presente em todas as páginas exceto login, formulários e a página de informações de emergência facilitando o acesso ao mesmo                     | Média   |
 | RF- 06   |  Botão que leva para página com ferramenta de busca, permitindo busca selecionando opções de uma lista pré-definida, acessível de todas as páginas exceto página de login e formulários de cadastro                    | Alta   |
 | RF- 07   |  Botão para logout                    | Média   |
-|  ...  |  ...                    | ...   |
+
 
 **Prioridade: Alta / Média / Baixa. 
 
