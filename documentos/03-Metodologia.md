@@ -7,7 +7,7 @@ A metodologia apresenta as ferramentas utilizadas pela equipe para criação, ma
 
 Relação de Ambientes de Trabalho 
 
-Para desenvolver a ferramenta, são utilizadas diversas plataformas de gerenciamento de projetos, repositórios e desenhos de interface, conforme tabela abaixo: 
+Para desenvolver a ferramenta, é utilizado Trello para organização e divisão de tarefas, Microsoft 365 para documentação, GitHub para repositório e Figma para desenhos de interface. Os links de acesso podem ser visualizados na tabela de ferramentas. 
 
 
 
@@ -22,24 +22,13 @@ Para desenvolver a ferramenta, são utilizadas diversas plataformas de gerenciam
 
 ### Processo
 
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-
 As tarefas são organizadas e distribuídas através do Trello, seguindo as seguintes listas: 
 
- 
-Tarefas: recebe a lista de tarefas que serão trabalhadas. Todas as atividades e histórias deverão aparecer primeiramente nesta lista. 
-
-A fazer: serão migrados os cards para esta lista à medida que forem atribuídas as tarefas aos responsáveis. 
-
-Em andamento: o card é movido para a lista quando a tarefa estiver sendo executada. 
-
-Em testes: são todas as tarefas que foram executadas e estão em processo de validação. 
-
-Concluído: os testes foram concluídos com sucesso, a tarefa é executada por completo promovendo a ferramenta para ação.
-
+- Tarefas: recebe a lista de tarefas que serão trabalhadas. Todas as atividades e histórias deverão aparecer primeiramente nesta lista. 
+- A fazer: serão migrados os cards para esta lista à medida que forem atribuídas as tarefas aos responsáveis. 
+- Em andamento: o card é movido para a lista quando a tarefa estiver sendo executada. 
+- Em testes: são todas as tarefas que foram executadas e estão em processo de validação. 
+- Concluído: os testes foram concluídos com sucesso, a tarefa é executada por completo promovendo a ferramenta para ação.
 
 
 
