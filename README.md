@@ -15,7 +15,6 @@ Objetivamente será um espaço de informações condensadas para o voluntario (a
 
 * Geraldo Augusto
 * Letícia Mateus
-* Marcel Gonçalves
 * Marcus Vinicius
 * Pedro Rosas
 * Quezia Emilly
