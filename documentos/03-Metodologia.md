@@ -15,9 +15,9 @@ Para desenvolver a ferramenta, é utilizado Trello para organização e divisão
 ### Divisão de Papéis
 
 - Scrum Master: Pedro Rosas
-- Product Owner: Marcel Gonçalves.
-- Equipe de Desenvolvimento: Pedro Rosas, Leticia Mateus, Quezia Emilly, Marcel Gonçalves, Marcus Vinícius e Geraldo Augusto.
-- Equipe de Design: Quezia Emilly, Leticia Mateus.
+- Product Owner: Leticia Mateus.
+- Equipe de Desenvolvimento: Pedro Rosas, Leticia Mateus, Quezia Emilly, Marcus Vinícius e Geraldo Augusto.
+- Equipe de Design: Quezia Emilly, Marcus Vinícius e Geraldo Augusto.
 
 
 ### Processo
