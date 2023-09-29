@@ -2,7 +2,7 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`Desenvolvimento de Aplicação Web Front-End`
+`Desenvolvimento de Aplicação Web`
 
 `Eixo 1`
 
