@@ -84,15 +84,17 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 </figure> 
 
 ## Página de busca
+A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão, temos como componente, um botão de informações sobre a busca que permite que o usuário voluntário ao aperta-lo seja encaminhado até a página com a informação escolhida.
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
-    <figcaption>Página de busca com opições pré-definidas</figcaption>
+    <figcaption> Figura 8 - Página de busca com opições pré-definidas</figcaption>
 </figure> 
 
 ## Página de instruções de emergência
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe7.png"
-    <figcaption>Página de instruções para diversas situações de emergência</figcaption>
+    <figcaption> Figura 9 - Página de instruções para diversas situações de emergência</figcaption>
 </figure> 
 
 ## Página de visualização do perfil organizacional
