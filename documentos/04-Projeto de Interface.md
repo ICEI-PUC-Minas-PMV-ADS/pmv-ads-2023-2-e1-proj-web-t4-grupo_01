@@ -23,6 +23,14 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 
 ## Página de login
+A tela Página de login tem como objetivo possibilitar ao usuário a entrada na aplicação. Com base na estrutura padrão, ela mostra a logo do site, seu nome e temos os seguintes componentes:
+- Componente de **Usuário**, na qual permite ao usuário preencher a caixa de texto com seu email, para posteriormente consgeuir acesso ao site;
+- Componente de **Senha**, na qual permite ao usuário preencher a caixa de texto com sua senha, para juntamente com componente de **Usuário** e componente **Login**, conseguir entrar no site;
+- Componente de **Login**, consiste em um botão que permite o usuário ao aperta-lo entrar no site depois de preencher os componentes de **Usuário** e **Senha**;
+- Componente de **Registre-se**, consiste em um botão que permite o usuário ao aperta-lo ir para página de formulário de usuário voluntário para que possa efetuar seu cadastro no site;
+- Componente **Esqueci minha senha**, consiste em um botão que permite o usuário ao aperta-lo ir para página de recuperação de senha e recupera-la;
+- Componente **Sou empresa e quero me cadastrar**, consiste em um botão que permite o usuário ao aperta-lo ir para página de formulário de usuário organizacional  para que possa efetuar seu cadastro no site.
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe0.png"
     <figcaption>Página de login e registro dos usuários</figcaption>
