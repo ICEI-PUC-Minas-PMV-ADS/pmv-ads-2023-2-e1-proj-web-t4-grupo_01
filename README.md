@@ -6,8 +6,6 @@
 
 `Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
-
 Dada a dificuldade de encontrar ajuda, informação ou orientação quando encontrados animais (incluindo selvagens) abandonados, machucados ou em situação de rua, a proposta é desenvolver um site que possa oferecer suporte para pessoas, instituições e ONGs que cuidam dos animais encontrados nas condições descritas acima, e que necessitem de cuidado veterinário, seja para vacina, tratamentos ou castração, de abrigo permanente ou temporário e remoção em caso de animais selvagens.
 Objetivamente será um espaço de informações condensadas para o voluntario (aquele que acolhe ou encontra o animal) saber aonde buscar ajuda nessas situações e para ONGs e Clínicas um ambiente para incluir suas informações e possíveis suportes ao voluntário, como campanhas de castração grátis\doação, disponibilidade de abrigos ou valores de serviço, etc.
 
