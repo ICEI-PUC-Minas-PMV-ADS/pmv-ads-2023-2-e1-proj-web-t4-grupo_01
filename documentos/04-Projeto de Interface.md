@@ -23,7 +23,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 
 ## Página de login
-A tela Página de login tem como objetivo possibilitar ao usuário a entrada na aplicação. Com base na estrutura padrão, ela mostra a logo do site, seu nome e temos os seguintes componentes:
+A tela Página de login tem como objetivo possibilitar ao usuário a entrada na aplicação. Com base na estrutura padrão sem a Header, ela mostra a logo do site, seu nome e temos os seguintes componentes:
 - Componente de **Usuário**, na qual permite ao usuário preencher a caixa de texto com seu email, para posteriormente consgeuir acesso ao site;
 - Componente de **Senha**, na qual permite ao usuário preencher a caixa de texto com sua senha, para juntamente com componente de **Usuário** e componente **Login**, conseguir entrar no site;
 - Componente de **Login**, consiste em um botão que permite o usuário ao aperta-lo entrar no site depois de preencher os componentes de **Usuário** e **Senha**;
@@ -37,13 +37,13 @@ A tela Página de login tem como objetivo possibilitar ao usuário a entrada na 
 </figure> 
 
 ## Página de formulário de usuário voluntário
-A tela Página de formulário de usuário voluntário tem como objetivo possibilitar ao usuário voluntário preencher seus dados para que possa se cadastarar no site e efetuar seu login no mesmo, além disso permite a alteração de informações e desativamento do perfil. Com base na estrutura padrão, temos os seguintes componentes:
+A tela Página de formulário de usuário voluntário tem como objetivo possibilitar ao usuário voluntário preencher seus dados para que possa se cadastrar no site e efetuar seu login no mesmo, além disso permite a alteração de informações e desativamento do perfil. Com base na estrutura padrão sem a Header, temos os seguintes componentes:
 - Componente de **E-mail**, na qual permite que o usuário voluntário preencha a caixa de texto com seu email para cadastro no site;
 - Componente de **Senha**, na qual permite que o usuário voluntário preencha a caixa de texto com sua senha para cadastro no site;
 - Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário voluntário escolha uma foto para colocar em seu perfil;
 - Componente de **Preview**, permite ao usuário voluntário ver como sua foto ficará no perfil previamente;
-- Componente de **Caixa de texto**, permite que o usuário voluntário possa fazer alguma descrição sobre si mesmo;
-- Componente de **Enviar**, consiste em um botão que permite o usuário voluntário ao aperta-lo, enviar as informações do componente de **Caixa de texto**;
+- Componente de **Caixa imagem**, local de armazenamento da foto escolhida para perfil;
+- Componente de **Enviar**, consiste em um botão que permite o usuário voluntário ao aperta-lo, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
 - Componente de **Concluir**, consiste em um botão que permite o usuário voluntário ao aperta-lo, concluir seu cadastro no site e ir para Página de login;
 - Componente de **Descartar**, consiste em um botão que permite o usuário voluntário ao aperta-lo, descartar as informações do formulário;
 - Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao aperta-lo, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
@@ -53,9 +53,34 @@ A tela Página de formulário de usuário voluntário tem como objetivo possibil
 </figure> 
 
 ## Página de formulário de usuário organizacional
+A tela Página de formulário de usuário organizacional tem como objetivo possibilitar ao usuário organizacional preencher seus dados para que possa se cadastrar no site e efetuar seu login no mesmo, além disso permite a alteração de informações e desativamento do perfil. Com base na estrutura padrão sem a Header, temos os seguintes componentes:
+- Componente de **Nome**, na qual permite o usuário organizacional preencha a caixa de texto com seu nome;
+- Componente de **CNPJ**, na qual permite o usuário organizacional preencha a caixa de texto com seu CNPJ;
+- Componente de **Endereço**, a qual permite o usuário organizacional preencha a caixa de texto com seu endereço;
+  Componente de **Bairro**, na qual permite o usuário organizacional preencha a caixa de texto com seu bairro;
+- Componente de **E-mail**, na qual permite o usuário organizacional preencha a caixa de texto com seu E-mail;
+- Componente de **Senha**, na qual permite que o usuário organizacional preencha a caixa de texto com sua senha para cadastro no site;
+- Componente de **Telefone**, a qual permite o usuário organizacional preencha a caixa de texto com seu telefone;
+- Componente de **Nº**, na qual permite o usuário organizacional preencha a caixa de texto com seu Nº;
+- Componente de **CEP**, na qual permite o usuário organizacional preencha a caixa de texto com seu CEP;
+- Componente de **Complemento**, a qual permite o usuário organizacional preencha a caixa de texto com seu complemento;
+- Componente de **Endereço Html**, na qual permite o usuário organizacional preencha a caixa de texto com seu endereço Html;
+- Componente de **Cidado**, na qual permite o usuário organizacional escolher uma cidade a partir de uma caixa de seleção;
+- Componente de **Estado**, na qual permite o usuário organizacional escolher uma estado a partir de uma caixa de seleção;
+- Componente de **Horários**, consiste em textos de todos os dias da semana em sequência, seguidos pela linha de baixo contendo caixas de texto que permite que o usuário organizacional preencha colocando em cada dia da semana seu horário de inicio e temrino de atendimento;
+- Componente de **Conte-nos sobre você**, consiste em uma caixa de texto que permite o usuário organizacional escrever informações sobre seu estabelecimento;
+- Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário organizacional escolha uma foto para colocar em seu perfil;
+- Componente de **Preview**, permite ao usuário organizacional ver como sua foto ficará no perfil previamente;
+- Componente de **Caixa imagem**, local de armazenamento da foto escolhida para perfil;
+- Componente de **Enviar**, consiste em um botão que permite o usuário organizacional ao aperta-lo, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
+- Componente de **Concluir**, consiste em um botão que permite o usuário organizacional ao aperta-lo, concluir seu cadastro no site e ir para Página de login;
+- Componente de **Descartar**, consiste em um botão que permite o usuário organizacional ao aperta-lo, descartar as informações do formulário;
+- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário organizacional ao aperta-lo, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
+  
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe2.png"
-    <figcaption>Página com o fformulário de informações do usuário organizacional</figcaption>
+    <figcaption> Figura 7 - Página com o formulário de informações do usuário organizacional</figcaption>
 </figure> 
 
 ## Página de busca
