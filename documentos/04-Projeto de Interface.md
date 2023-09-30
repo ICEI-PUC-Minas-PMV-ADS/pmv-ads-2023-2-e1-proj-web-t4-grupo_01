@@ -85,7 +85,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 </figure> 
 
 ## Página de busca
-A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão, temos como componente, um botão de informações sobre a busca que permite que o usuário voluntário ao aperta-lo seja encaminhado até a página com a informação escolhida.
+A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão temos como componente, um botão de informações sobre a busca que permite que o usuário voluntário ao aperta-lo seja encaminhado até a página com a informação escolhida.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
@@ -93,6 +93,8 @@ A tela Página de busca tem como objetivo possibilitar ao usuário voluntário f
 </figure> 
 
 ## Página de instruções de emergência
+A tela Página de instruções de emergência tem como objetivo possibilitar ao usuário voluntário, ao clicar no botão emergência, na qual provem da estrutura básica header, encontrar informações que possam ser importantes e que possam ajudar o voluntário em situações dificeis com os animais encontrados. Com base na estrutura padrão, apenas com alteração na Header, trocando o botão de "emergência" por "pesquisa", temos como componentes uma caixa de seleção que indica motivos fixos das quais você possa estar precisando de ajuda e ao ser escolhida te mostra no corpo da página a informação selecionada.
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe7.png"
     <figcaption> Figura 9 - Página de instruções para diversas situações de emergência</figcaption>
