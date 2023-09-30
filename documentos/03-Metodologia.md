@@ -10,8 +10,6 @@ Relação de Ambientes de Trabalho
 Para desenvolver a ferramenta, é utilizado Trello para organização e divisão de tarefas, Microsoft 365 para documentação, GitHub para repositório e Figma para desenhos de interface. Os links de acesso podem ser visualizados na tabela de ferramentas. 
 
 
-
-
 ### Divisão de Papéis
 
 - Scrum Master: Pedro Rosas
@@ -30,7 +28,13 @@ As tarefas são organizadas e distribuídas através do Trello, seguindo as segu
 - Em testes: são todas as tarefas que foram executadas e estão em processo de validação. 
 - Concluído: os testes foram concluídos com sucesso, a tarefa é executada por completo promovendo a ferramenta para ação.
 
+Abaixo, disponibilizamos a tela principal com as listas e cards do nosso quadro kanban desenvolvido na ferramenta de gerenciamento de projetos, que poderá ser conferido na URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/trello.png
 
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/trello.png"
+    <figcaption>   Tela do esquema de cores e categorias </figcaption>
+</figure> 
+<figcaption>   Figura 1 - Tela do kanban utilizada pelo grupo </figcaption>
 
 
 ### Etiquetas
@@ -47,8 +51,8 @@ As tarefas são organizadas e distribuídas através do Trello, seguindo as segu
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/TelaDeCategorias.png"
+    <figcaption>  Figura 2 - Tela do esquema de cores e categorias </figcaption>
 </figure> 
   
 ### Ferramentas
