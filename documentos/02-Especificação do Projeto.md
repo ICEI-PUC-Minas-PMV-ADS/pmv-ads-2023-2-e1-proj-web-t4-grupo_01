@@ -24,7 +24,7 @@ Oferecer informações para atendimento de emergência, listagem de clínicas pr
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Organizacional (nome temporário)  </th>
+<th colspan="2">Perfil Organizacional</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
