@@ -64,14 +64,14 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 - Componente de **CEP**, na qual permite o usuário organizacional preencha a caixa de texto com seu CEP;
 - Componente de **Complemento**, a qual permite o usuário organizacional preencha a caixa de texto com seu complemento;
 - Componente de **Endereço Html**, na qual permite o usuário organizacional preencha a caixa de texto com seu endereço Html;
-- Componente de **Cidado**, na qual permite o usuário organizacional escolher uma cidade a partir de uma caixa de seleção;
+- Componente de **Cidade**, na qual permite o usuário organizacional escolher uma cidade a partir de uma caixa de seleção;
 - Componente de **Estado**, na qual permite o usuário organizacional escolher uma estado a partir de uma caixa de seleção;
-- Componente de **Estabelecimento**, na qual permite o usuário organizacional escolher que tipo de estabelecimento ele é a partir de uma caixa de seleção;
-- Componente de **Horários**, consiste em textos de todos os dias da semana em sequência, seguidos pela linha de baixo contendo caixas de texto que permite que o usuário organizacional preencha colocando em cada dia da semana seu horário de inicio e temrino de atendimento;
+- Componente de **Estabelecimento**, na qual o usuário organizacional pode escolher o tipo de estabelecimento (negócio) ao qual ele pertence a partir de uma caixa de seleção;
+- Componente de **Horários**, consiste em textos de todos os dias da semana em sequência, seguidos por uma linha abaixo contendo caixas de texto que permitem ao usuário organizacional preencher seu horário de início e término de atendimento para cada dia da semana;
 - Componente de **Conte-nos sobre você**, consiste em uma caixa de texto que permite o usuário organizacional escrever informações sobre seu estabelecimento;
 - Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário organizacional selecionar uma foto para colocar em seu perfil;
 - Componente de **Preview**, permite ao usuário organizacional ver como sua foto ficará no perfil previamente;
-- Componente de **Caixa imagem**, local de armazenamento da foto escolhida para perfil;
+- Componente de **Caixa imagem**, local de armazenamento da foto escolhida para o perfil;
 - Componente de **Enviar**, consiste em um botão que permite o usuário organizacional ao ser clicado, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
 - Componente de **Concluir**, consiste em um botão que permite o usuário organizacional ao ser clicado, concluir seu cadastro no site e ir para Página de login;
 - Componente de **Descartar**, consiste em um botão que permite o usuário organizacional ao ser clicado, descartar as informações do formulário;
