@@ -7,7 +7,7 @@ Foco inicial do projeto é atender a dois tipos de usuário, estes sendo o indiv
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil de voluntário (nome temporário)  </th>
+<th colspan="2">Perfil de voluntário</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
