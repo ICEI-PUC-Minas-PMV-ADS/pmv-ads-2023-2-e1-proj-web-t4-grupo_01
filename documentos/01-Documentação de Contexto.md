@@ -17,11 +17,6 @@ Desta forma, tendo em vista a dificuldade dos voluntários com as informações 
 
 Os fatos que determinam a resolução do problema presente, é apresentando a criação de suporte a pessoas sem orientações ao encontro de animais em condições desumanas e que precisam de cuidados, abrigo ou na remoção de casos de animais selvagens. Os fatores que determinam é a falta de apoio as instituições e voluntários. 
 
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
-
 ## Objetivos
 
 O objetivo geral deste projeto é a criação de um espaço que ofereça suporte para pessoas, instituições e ONGs que cuidam dos animais encontrados em condição de abandono, machucados ou não, e que necessitem de cuidado veterinário, de abrigo permanente ou temporário e remoção em caso de animais selvagens. 
