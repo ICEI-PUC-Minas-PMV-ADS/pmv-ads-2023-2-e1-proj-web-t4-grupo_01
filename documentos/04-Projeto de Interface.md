@@ -21,7 +21,6 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
     <figcaption>Figura 4 - Wireframe modelo apresentando os principais componente presentes no app</figcaption>
 </figure>
 
-
 ## Página de login
 A tela Página de login tem como objetivo possibilitar ao usuário a entrada na aplicação. Com base na estrutura padrão sem a Header, ela mostra a logo do site, seu nome e temos os seguintes componentes:
 - Componente de **Usuário**, na qual permite ao usuário preencher a caixa de texto com seu email, para posteriormente consgeuir acesso ao site;
@@ -78,7 +77,6 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 - Componente de **Descartar**, consiste em um botão que permite o usuário organizacional ao ser clicado, descartar as informações do formulário;
 - Componente de **Desativar Perfil**, consiste em um botão que permite o usuário organizacional ao ser clicado, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
   
-
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe2.png"
     <figcaption> Figura 7 - Página com o formulário de informações do usuário organizacional</figcaption>
@@ -132,14 +130,13 @@ A tela Página de edição de galeria provem da Página de visualização do per
   - Componente **Deletar imagem**, na qual consiste em um botão que permite o usuário organizacional ao ser clicado deletar imagem e legenda;
 - Componente de **Criar nova galeria**, consiste em um botão que permite o usuário organizacional ao ser clicado criar uma nova galeria.
   
-
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe6.png"
     <figcaption> Figura 12 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
 </figure> 
 
 ## Página de recuperação de senha
-A tela Página de recuperação de senha provém da tela Página de login, quando o usuário tanto voluntário quanto organizacional esquecer a senha ele pode acionar o componente **Esqueci minha senha** (botão de esqueci minha senha) na tela de Página de login e ele será redirecionado até essa página, na qual tem estrutura padrão, exceto que não possuir header e temos os seguintes componentes: 
+A tela Página de recuperação de senha provém da tela Página de login, quando o usuário tanto voluntário quanto organizacional esquecer a senha ele pode acionar o componente **Esqueci minha senha** (botão de esqueci minha senha) na tela de Página de login e ele será redirecionado até essa página, na qual tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
 - Componente de **E-mail**, o usuário deve digitar um e-mail na qual possa receber um código digitavel para efetuar a alteração de senha;
 - Componente de **Enviar**, consiste em um botão que permite o usuário ao ser clicado enviar o e-mail para receber o código digitavel;
 - Componente de **Código digitavel**, consiste em um código que será enviado para o e-mail digitado e irá  validar a troca de senhas do usuário;
@@ -154,13 +151,14 @@ A tela Página de recuperação de senha provém da tela Página de login, quand
 </figure> 
 
 ## Página de cancelamento de perfil
+A tela Página de cancelamento de perfil provém de duas telas Página de formulário de usuário voluntário e Página de formulário de usuário organizacional, ao acessar o botão Desativar Perfil, você será direcionado para essa tela, na qual tem como objetivo permitir que tanto usuário voluntário quanto o organizacional desative sua conta no site. Tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
+- Componentede **Motivo do cancelamento**, consiste em uma caixa de texto que pede ao usuário que nos fale o motivo da desativação;
+- Componente **Cancelar perfil**, consiste em um botão que permite o usuário ao ser clicado confirma o cancelamento da sua conta no site.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe8.png"
     <figcaption> Figura 14 - Página com formulário de cancelamento de perfil</figcaption>
 </figure> 
-
-
 
 ## Protótipo
 
