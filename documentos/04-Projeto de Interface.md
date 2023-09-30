@@ -70,10 +70,10 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 - Componente de **Estabelecimento**, na qual permite o usuário organizacional escolher que tipo de estabelecimento ele é a partir de uma caixa de seleção;
 - Componente de **Horários**, consiste em textos de todos os dias da semana em sequência, seguidos pela linha de baixo contendo caixas de texto que permite que o usuário organizacional preencha colocando em cada dia da semana seu horário de inicio e temrino de atendimento;
 - Componente de **Conte-nos sobre você**, consiste em uma caixa de texto que permite o usuário organizacional escrever informações sobre seu estabelecimento;
-- Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário organizacional escolha uma foto para colocar em seu perfil;
+- Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário organizacional selecionar uma foto para colocar em seu perfil;
 - Componente de **Preview**, permite ao usuário organizacional ver como sua foto ficará no perfil previamente;
 - Componente de **Caixa imagem**, local de armazenamento da foto escolhida para perfil;
-- Componente de **Enviar**, consiste em um botão que permite o usuário organizacional ao aperta-lo, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
+- Componente de **Enviar**, consiste em um botão que permite o usuário organizacional ao ser clicado, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
 - Componente de **Concluir**, consiste em um botão que permite o usuário organizacional ao ser clicado, concluir seu cadastro no site e ir para Página de login;
 - Componente de **Descartar**, consiste em um botão que permite o usuário organizacional ao ser clicado, descartar as informações do formulário;
 - Componente de **Desativar Perfil**, consiste em um botão que permite o usuário organizacional ao ser clicado, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
@@ -85,7 +85,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 </figure> 
 
 ## Página de busca
-A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão temos como componente, um **Botão de informações sobre a busca** que permite que o usuário voluntário ao aperta-lo seja encaminhado até a página com a informação escolhida.
+A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão temos como componente, um **Botão de informações sobre a busca**, na qual consiste em um botão ao ser clicado permite que o usuário voluntário seja encaminhado até a página com a informação escolhida.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
@@ -101,11 +101,11 @@ A tela Página de instruções de emergência tem como objetivo possibilitar ao 
 </figure> 
 
 ## Página de visualização do perfil organizacional
-A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário voluntário e botões de sair e editar, nessa pagina temos a seguinte divisão:
+A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, nessa pagina temos a seguinte divisão:
 
-Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possivel clicando no botão editar da header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional.
+-Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possivel clicando no botão editar da header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional.
 
-Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possivel através do componente **Editar galeria**, que consiste no botão editar localizado no corpo da página. Você será redirecionaod até a Página de edição de galeria.
+-Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possivel através do componente **Editar galeria**, que consiste no botão editar localizado no corpo da página. Você será redirecionaod até a Página de edição de galeria.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe5.png"
@@ -121,9 +121,21 @@ A tela Página de visualização do perfil organizacional, provem da Página de 
 </figure> 
 
 ## Página de edição de galeria
+A tela Página de edição de galeria provem da Página de visualização do perfil organizacional pelo usuário voluntário, quando acionado o componente **Editar galeria**, tem como objetivo possibilitar a edição de imagens e informações da galeria, além disso o usuário organizacional pode criar uma nova ou até mesmo deletar uma galeria. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, temos os seguintes componentes: 
+- Componente de **Editar nome**, consiste em um botão que permite o usuário organizacional ao ser clicado, editar o nome da galeria;
+- Componente de **Deletar galeria**, consiste em um botão que permite o usuário organizacional ao ser clicado deletar a galeria existente;
+- Componente de **Adicionar imagem**, consiste em um botão que permite o usuário organizacional ao ser clicado selecionar uma imagem para adicionar a galeria;
+- Componente de **Salvar**, consiste em um botão que permite o usuário organizacional ao ser clicado salvar a imagem selecionada no componente **Adicionar imagem**;
+- Componente de **Legenda**, consiste em uma caixa de texto que permite o usuário organizacional criar legendas para as imagens;
+- Componente **Imagem**, é a imagem escolhida pelo usuário organizacional e sua respectiva legenda; Dentro dela possuimos dois componentes:
+  - Componente **Editar imagem**, na qual consiste em um botão que permite o usuário organizacional ao ser clicado editar imagem e legenda;
+  - Componente **Deletar imagem**, na qual consiste em um botão que permite o usuário organizacional ao ser clicado deletar imagem e legenda;
+- Componente de **Criar nova galeria**, consiste em um botão que permite o usuário organizacional ao ser clicado criar uma nova galeria.
+  
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe6.png"
-    <figcaption>Página de edição da galeria de imagens do usuário organizacional</figcaption>
+    <figcaption> Figura 12 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
 </figure> 
 
 ## página de recuperação de senha
