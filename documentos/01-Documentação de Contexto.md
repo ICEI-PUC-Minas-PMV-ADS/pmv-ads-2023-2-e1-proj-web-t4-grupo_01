@@ -15,7 +15,8 @@ Desta forma, tendo em vista a dificuldade dos voluntários com as informações 
 
 ## Problema
 
-Os fatos que determinam a resolução do problema presente, é apresentando a criação de suporte a pessoas sem orientações ao encontro de animais em condições desumanas e que precisam de cuidados, abrigo ou na remoção de casos de animais selvagens. Os fatores que determinam é a falta de apoio as instituições e voluntários. 
+Os fatores que contribuem para a resolução do problema atual envolvem a criação de apoio para pessoas que, sem orientação, se deparam com animais em condições desumanas, necessitando de cuidados, abrigo ou remoção de animais selvagens em situações críticas. O problema em questão é a falta de informações nos procedimentos de socorro adotados por instituições e voluntários, o que resulta em maus-tratos e doenças tanto nos animais quanto nas pessoas que prestam socorro. 
+
 
 ## Objetivos
 
@@ -23,21 +24,21 @@ O objetivo geral deste projeto é a criação de um espaço que ofereça suporte
 
 Destaques fundamentais: 
 
- - Criar uma integração entre clínicas, abrigos e ONGs de animais abandonados e os usuários; 
+ **- Criar uma integração entre clínicas, abrigos e ONGs de animais abandonados e os usuários;** 
 
- - Disponibilizar link para o site da empresa/ONG/clínica que recebe doações em geral (dinheiro, medicamentos, etc.), para o público e empresas que desejam contribuir com o projeto e não sabe como fazer; 
+ **- Disponibilizar link para o site da empresa/ONG/clínica que recebe doações em geral (dinheiro, medicamentos, etc.), para o público e empresas que desejam contribuir com o projeto e não sabe como fazer;**
 
- - Criar um botão de emergência para fornecer informações de assistência em situações críticas ao usuário; 
+ **- Criar um botão de emergência para fornecer informações de assistência em situações críticas ao usuário;**
 
- - Instruções de resgate de animais selvagens; 
+ **- Instruções de resgate de animais selvagens;** 
 
- - Informações sobre vacinação, castração e/ou procedimentos cirúrgicos necessários para os animais em questão; 
+ **- Informações sobre vacinação, castração e/ou procedimentos cirúrgicos necessários para os animais em questão;**
 
- - Informações sobre abrigo temporário para os animais resgatados. 
+ **- Informações sobre abrigo temporário para os animais resgatados.**
 
- - Informações sobre animais disponíveis para adoção. 
+ **- Informações sobre animais disponíveis para adoção.**
 
- - Um, ou mais, meios de interação entre usuários e organizações de apoio. 
+ **- Um, ou mais, meios de interação entre usuários e organizações de apoio.**
 
 Desta forma, fornecer informações objetivas, práticas e concisas que permitam ao usuário prestar atendimento de emergência que não ponha em risco a sua segurança, a segurança das ONGs, abrigos ou clínicas em caso de animais selvagens ou de grande porte. 
 
