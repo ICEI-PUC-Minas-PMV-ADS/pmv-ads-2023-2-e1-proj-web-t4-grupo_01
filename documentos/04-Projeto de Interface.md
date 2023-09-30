@@ -26,10 +26,10 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 A tela Página de login tem como objetivo possibilitar ao usuário a entrada na aplicação. Com base na estrutura padrão sem a Header, ela mostra a logo do site, seu nome e temos os seguintes componentes:
 - Componente de **Usuário**, na qual permite ao usuário preencher a caixa de texto com seu email, para posteriormente consgeuir acesso ao site;
 - Componente de **Senha**, na qual permite ao usuário preencher a caixa de texto com sua senha, para juntamente com componente de **Usuário** e componente **Login**, conseguir entrar no site;
-- Componente de **Login**, consiste em um botão que permite o usuário ao aperta-lo entrar no site depois de preencher os componentes de **Usuário** e **Senha**;
-- Componente de **Registre-se**, consiste em um botão que permite o usuário ao aperta-lo ir para página de formulário de usuário voluntário para que possa efetuar seu cadastro no site;
-- Componente **Esqueci minha senha**, consiste em um botão que permite o usuário ao aperta-lo ir para página de recuperação de senha e recupera-la;
-- Componente **Sou empresa e quero me cadastrar**, consiste em um botão que permite o usuário ao aperta-lo ir para página de formulário de usuário organizacional  para que possa efetuar seu cadastro no site.
+- Componente de **Login**, consiste em um botão que permite o usuário ao ser clicado entrar no site depois de preencher os componentes de **Usuário** e **Senha**;
+- Componente de **Registre-se**, consiste em um botão que permite o usuário ao ser clicado ir para página de formulário de usuário voluntário para que possa efetuar seu cadastro no site;
+- Componente **Esqueci minha senha**, consiste em um botão que permite o usuário ao ser clicado ir para página de recuperação de senha e recupera-la;
+- Componente **Sou empresa e quero me cadastrar**, consiste em um botão que permite o usuário ao ser clicado ir para página de formulário de usuário organizacional  para que possa efetuar seu cadastro no site.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe0.png"
@@ -43,10 +43,10 @@ A tela Página de formulário de usuário voluntário tem como objetivo possibil
 - Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário voluntário escolha uma foto para colocar em seu perfil;
 - Componente de **Preview**, permite ao usuário voluntário ver como sua foto ficará no perfil previamente;
 - Componente de **Caixa imagem**, local de armazenamento da foto escolhida para perfil;
-- Componente de **Enviar**, consiste em um botão que permite o usuário voluntário ao aperta-lo, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
-- Componente de **Concluir**, consiste em um botão que permite o usuário voluntário ao aperta-lo, concluir seu cadastro no site e ir para Página de login;
-- Componente de **Descartar**, consiste em um botão que permite o usuário voluntário ao aperta-lo, descartar as informações do formulário;
-- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao aperta-lo, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
+- Componente de **Enviar**, consiste em um botão que permite o usuário voluntário ao ser clicado, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
+- Componente de **Concluir**, consiste em um botão que permite o usuário voluntário ao ser clicado, concluir seu cadastro no site e ir para Página de login;
+- Componente de **Descartar**, consiste em um botão que permite o usuário voluntário ao ser clicado, descartar as informações do formulário;
+- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe1.png"
     <figcaption>Figura 6 - Página com o formulário de informações do usuário voluntário</figcaption>
@@ -74,9 +74,9 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 - Componente de **Preview**, permite ao usuário organizacional ver como sua foto ficará no perfil previamente;
 - Componente de **Caixa imagem**, local de armazenamento da foto escolhida para perfil;
 - Componente de **Enviar**, consiste em um botão que permite o usuário organizacional ao aperta-lo, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
-- Componente de **Concluir**, consiste em um botão que permite o usuário organizacional ao aperta-lo, concluir seu cadastro no site e ir para Página de login;
-- Componente de **Descartar**, consiste em um botão que permite o usuário organizacional ao aperta-lo, descartar as informações do formulário;
-- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário organizacional ao aperta-lo, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
+- Componente de **Concluir**, consiste em um botão que permite o usuário organizacional ao ser clicado, concluir seu cadastro no site e ir para Página de login;
+- Componente de **Descartar**, consiste em um botão que permite o usuário organizacional ao ser clicado, descartar as informações do formulário;
+- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário organizacional ao ser clicado, desativar sua conta. Este componente só ficará visivel se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
   
 
 <figure> 
@@ -85,7 +85,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 </figure> 
 
 ## Página de busca
-A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão temos como componente, um botão de informações sobre a busca que permite que o usuário voluntário ao aperta-lo seja encaminhado até a página com a informação escolhida.
+A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clinicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão temos como componente, um **Botão de informações sobre a busca** que permite que o usuário voluntário ao aperta-lo seja encaminhado até a página com a informação escolhida.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
@@ -101,15 +101,23 @@ A tela Página de instruções de emergência tem como objetivo possibilitar ao 
 </figure> 
 
 ## Página de visualização do perfil organizacional
+A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário voluntário e botões de sair e editar, nessa pagina temos a seguinte divisão:
+
+Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possivel clicando no botão editar da header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional.
+
+Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possivel através do componente **Editar galeria**, que consiste no botão editar localizado no corpo da página. Você será redirecionaod até a Página de edição de galeria.
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe5.png"
-    <figcaption>Página de visualização do perfil organizacional pelo próprio</figcaption>
+    <figcaption> Figura 10 - Página de visualização do perfil organizacional pelo próprio</figcaption>
 </figure> 
 
 ## Página de visualização do perfil organizacional pelo usuário voluntário
+A tela Página de visualização do perfil organizacional, provem da Página de busca, ou seja quando pesquisado alguma Ong ou clinica e clicado no componente **Botão de informações sobre a busca** você será redirecionado até essa tela, na qual tem como objetivo fornecer informações completas ao usuário voluntário sobre o estabelecimento selecionado. No corpo da tela temos a foto do estabelecimento, biografia, horário de funcionamento, telefone, site, endereço, galeria de fotos e avaliação. Com base na estrutura padrão, temos como componente um botão de like, na qual ao ser clicado será favoritado pelo usuário voluntário.
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe4.png"
-    <figcaption>Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
+    <figcaption> Figura 11 - Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
 </figure> 
 
 ## Página de edição de galeria
