@@ -1,14 +1,26 @@
 
 # Projeto de Interface
 
-## User Flow
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+## Fluxo de usuário
+O diagrama apresentado na Figura 3 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o edereço o repositório Github do projeto.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/userflow.png"
-    <figcaption>User flow mostrando as interções do app</figcaption>
+    <figcaption>Figura 3 - Fluxo de usuário mostrando as interções internas app</figcaption>
 </figure> 
+
+## Wireframe
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 4. Nesta estrutura, existem 3 grandes componente, descritos a seguir. São eles:
+
+- Cabeçalho: Contendo os botões de navegação direta mais relevantes para a navegação do usuário.
+- Corpo de conteúdo: Contendo as informações e alguns botões de navegação para o usuário.
+- Rodapé: Contendo as  informações sobre a equipe que desenvolveu o app.
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/WireframeModelo.png"
+    <figcaption>Figura 4 - Wireframe modelo apresentando os principais componente presentes no app</figcaption>
+</figure>
+
 
 ## Página de login
 <figure> 
