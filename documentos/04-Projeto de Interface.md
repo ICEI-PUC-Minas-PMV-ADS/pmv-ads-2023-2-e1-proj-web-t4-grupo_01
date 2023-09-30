@@ -111,7 +111,9 @@ A tela Página de visualização do perfil organizacional, tem como objetivo mos
 </figure> 
 
 ## Página de visualização do perfil organizacional pelo usuário voluntário
-A tela Página de visualização do perfil organizacional, provem da Página de busca, ou seja quando pesquisado alguma Ong ou clinica e clicado no componente **Botão de informações sobre a busca** você será redirecionado até essa tela, na qual tem como objetivo fornecer informações completas ao usuário voluntário sobre o estabelecimento selecionado. No corpo da tela temos a foto do estabelecimento, biografia, horário de funcionamento, telefone, site, endereço, galeria de fotos e avaliação. Com base na estrutura padrão, temos como componente um botão de like, na qual ao ser clicado será favoritado pelo usuário voluntário.
+A tela Página de visualização do perfil organizacional, provem da Página de busca, ou seja quando pesquisado alguma Ong ou clinica e clicado no componente **Botão de informações sobre a busca** você será redirecionado até essa tela, na qual tem como objetivo fornecer informações completas ao usuário voluntário sobre o estabelecimento selecionado. No corpo da tela temos a foto do estabelecimento, biografia, horário de funcionamento, telefone, site, endereço, galeria de fotos e avaliação. Com base na estrutura padrão, temos como componentes:
+- Componente de **botão de like**, na qual consiste no botão like e ao ser clicado irá favoritar o estabelecimento; 
+- Componente de **avalie** que consiste em um botão que permite a avaliação do estabelecimento pelo usuário voluntário de 0 a 5 patinhas.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe4.png"
