@@ -67,6 +67,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 - Componente de **Endereço Html**, na qual permite o usuário organizacional preencha a caixa de texto com seu endereço Html;
 - Componente de **Cidado**, na qual permite o usuário organizacional escolher uma cidade a partir de uma caixa de seleção;
 - Componente de **Estado**, na qual permite o usuário organizacional escolher uma estado a partir de uma caixa de seleção;
+- Componente de **Estabelecimento**, na qual permite o usuário organizacional escolher que tipo de estabelecimento ele é a partir de uma caixa de seleção;
 - Componente de **Horários**, consiste em textos de todos os dias da semana em sequência, seguidos pela linha de baixo contendo caixas de texto que permite que o usuário organizacional preencha colocando em cada dia da semana seu horário de inicio e temrino de atendimento;
 - Componente de **Conte-nos sobre você**, consiste em uma caixa de texto que permite o usuário organizacional escrever informações sobre seu estabelecimento;
 - Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário organizacional escolha uma foto para colocar em seu perfil;
