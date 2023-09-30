@@ -155,7 +155,7 @@ A tela Página de recuperação de senha provém da tela Página de login, quand
 ## Página de cancelamento de perfil
 A tela Página de cancelamento de perfil provém de duas telas Página de formulário de usuário voluntário e Página de formulário de usuário organizacional, ao acessar o botão Desativar Perfil, você será direcionado para essa tela, na qual tem como objetivo permitir que tanto usuário voluntário quanto o organizacional desative sua conta no site. Tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
 - Componentede **Motivo do cancelamento**, consiste em uma caixa de texto que pede ao usuário que nos fale o motivo da desativação;
-- Componente **Cancelar perfil**, consiste em um botão que permite o usuário ao ser clicado confirma o cancelamento da sua conta no site.
+- Componente **Cancelar perfil**, consiste em um botão que, quando clicado pelo usuário, confirma o cancelamento de sua conta no site.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe8.png"
