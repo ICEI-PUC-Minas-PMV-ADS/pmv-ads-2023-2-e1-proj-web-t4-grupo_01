@@ -72,12 +72,12 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-00  | Página de login universal solicitando e-mail cadastrado e senha para permitir acesso, além de botão que leva para a página formulário de registro de novos usuários.                    | Alta   | 
-| RF- 01   |  Página formulário de cadastro de usuário, solicitando as seguintes informações: Nome, endereço de e-mail, cidade de residência, foto de perfil e autobiografia para usuários ‘voluntários’ e nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia                    | Alta   |
-| RF- 02   |  Página de perfil usuário ‘voluntário’ com a foto de perfil no topo, nome, endereço de e-mail, descrição estilo autobiografia, cidade de residência, botão busca, botão emergência                     | Alta   |
-| RF- 03   |  Página de perfil usuário organizacional com nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia                    | Alta   |
+| RF- 01   |  Página formulário de cadastro de usuário, solicitando as seguintes informações: Nome, endereço de e-mail, cidade de residência, foto de perfil e autobiografia para usuários ‘voluntários’ e nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia.                   | Alta   |
+| RF- 02   |  Página de perfil usuário ‘voluntário’ com a foto de perfil no topo, nome, endereço de e-mail, descrição estilo autobiografia, cidade de residência, botão busca, botão emergência.                    | Alta   |
+| RF- 03   |  Página de perfil usuário organizacional com nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia.                   | Alta   |
 | RF- 04   |  Botão que leva para página com informações de resgate/cuidados dos animais, mostrar como ajudar de formas básicas o animal necessitado                     | Média   |
-| RF- 05   |  Página com informações sobre cuidados em situações de emergência, presente em todas as páginas exceto login, formulários e a página de informações de emergência facilitando o acesso ao mesmo                     | Média   |
-| RF- 06   |  Botão que leva para página com ferramenta de busca, permitindo busca selecionando opções de uma lista pré-definida, acessível de todas as páginas exceto página de login e formulários de cadastro                    | Alta   |
+| RF- 05   |  Página com informações sobre cuidados em situações de emergência, presente em todas as páginas exceto login, formulários e a página de informações de emergência facilitando o acesso ao mesmo.                     | Média   |
+| RF- 06   |  Botão que leva para página com ferramenta de busca, permitindo busca selecionando opções de uma lista pré-definida, acessível de todas as páginas exceto página de login e formulários de cadastro.                  | Alta   |
 | RF- 07   |  Botão para logout                    | Média   |
 
 
