@@ -176,7 +176,7 @@ A tela Página de login tem como objetivo possibilitar ao usuário a entrada na 
 - Componente **Sou empresa e quero me cadastrar**, consiste em um botão que permite o usuário ao ser clicado ir para página de formulário de usuário organizacional para que possa efetuar seu cadastro no site.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe0.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe0.png"
     <figcaption>Figura 5 - Página de login e registro dos usuários</figcaption>
 </figure> 
 
@@ -192,7 +192,7 @@ A tela Página de formulário de usuário voluntário tem como objetivo possibil
 - Componente de **Descartar**, consiste em um botão que permite o usuário voluntário ao ser clicado, descartar as informações do formulário;
 - Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe1.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe1.png"
     <figcaption>Figura 6 - Página com o formulário de informações do usuário voluntário</figcaption>
 </figure> 
 
@@ -223,7 +223,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 - Componente de **Desativar Perfil**, consiste em um botão que permite o usuário organizacional ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
   
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe2.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe2.png"
     <figcaption> Figura 7 - Página com o formulário de informações do usuário organizacional</figcaption>
 </figure> 
 
@@ -231,7 +231,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
 A tela Página de busca tem como objetivo possibilitar ao usuário voluntário fazer buscas fixas através de uma caixa de seleção com temas de assuntos do site. No corpo da tela podemos verificar tais informações solicitadas, como na imagem abaixo, por exemplo, podemos ver a listagem de ONGs ou clínicas veterinárias, contendo nome do perfil organizacional, endereço físico, horário de funcionamento e sua avaliação. Com base na estrutura padrão temos como componente, um **Botão de informações sobre a busca**, na qual consiste em um botão ao ser clicado permite que o usuário voluntário seja encaminhado até a página com a informação escolhida.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe3.png"
     <figcaption> Figura 8 - Página de busca com opições pré-definidas</figcaption>
 </figure> 
 
@@ -239,7 +239,7 @@ A tela Página de busca tem como objetivo possibilitar ao usuário voluntário f
 A tela Página de instruções de emergência tem como objetivo possibilitar ao usuário voluntário, ao clicar no botão emergência, na qual provem da estrutura básica header, encontrar informações que possam ser importantes e que possam ajudar o voluntário em situações dificeis com os animais encontrados. Com base na estrutura padrão, apenas com alteração na Header, trocando o botão de "emergência" por "pesquisa", temos como componentes uma caixa de seleção que indica motivos fixos das quais você possa estar precisando de ajuda e ao ser escolhida te mostra no corpo da página a informação selecionada.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe7.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe8.png"
     <figcaption> Figura 9 - Página de instruções para diversas situações de emergência</figcaption>
 </figure> 
 
@@ -251,7 +251,7 @@ A tela Página de visualização do perfil organizacional, tem como objetivo mos
 -Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possivel através do componente **Editar galeria**, que consiste no botão editar localizado no corpo da página. Você será redirecionaod até a Página de edição de galeria.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe5.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe6.png"
     <figcaption> Figura 10 - Página de visualização do perfil organizacional pelo próprio</figcaption>
 </figure> 
 
@@ -261,7 +261,7 @@ A tela Página de visualização do perfil organizacional, provem da Página de 
 - Componente de **avalie** que consiste em um botão que permite a avaliação do estabelecimento pelo usuário voluntário de 0 a 5 patinhas.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe4.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe5.png"
     <figcaption> Figura 11 - Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
 </figure> 
 
@@ -278,7 +278,7 @@ A tela Página de edição de galeria provem da Página de visualização do per
 - Componente de **Criar nova galeria**, consiste em um botão que permite o usuário organizacional ao ser clicado criar uma nova galeria.
   
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe6.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe7.png"
     <figcaption> Figura 12 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
 </figure> 
 
@@ -293,7 +293,7 @@ A tela Página de recuperação de senha provém da tela Página de login, quand
 - Componentede **Descartar**, consiste em um botão que permite o usuário ao ser clicado descartar a alteração de senha.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe9.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe10.png"
     <figcaption> Figura 13 - Página de recuperação de senha</figcaption>
 </figure> 
 
@@ -303,6 +303,6 @@ A tela Página de cancelamento de perfil provém de duas telas Página de formul
 - Componente **Cancelar perfil**, consiste em um botão que, quando clicado pelo usuário, confirma o cancelamento de sua conta no site.
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe8.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe9.png"
     <figcaption> Figura 14 - Página com formulário de cancelamento de perfil</figcaption>
 </figure> 
