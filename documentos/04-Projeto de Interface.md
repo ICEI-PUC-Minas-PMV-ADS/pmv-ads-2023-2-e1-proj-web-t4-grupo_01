@@ -177,7 +177,7 @@ A tela Página de login tem como objetivo possibilitar ao usuário a entrada na 
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe0.png"
-    <figcaption>Figura 5 - Página de login e registro dos usuários</figcaption>
+    <figcaption>Figura 15 - Página de login e registro dos usuários</figcaption>
 </figure> 
 
 ## Página de formulário de usuário voluntário
@@ -193,7 +193,7 @@ A tela Página de formulário de usuário voluntário tem como objetivo possibil
 - Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe1.png"
-    <figcaption>Figura 6 - Página com o formulário de informações do usuário voluntário</figcaption>
+    <figcaption>Figura 16 - Página com o formulário de informações do usuário voluntário</figcaption>
 </figure> 
 
 ## Página de formulário de usuário organizacional
@@ -224,7 +224,7 @@ A tela Página de formulário de usuário organizacional tem como objetivo possi
   
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe2.png"
-    <figcaption> Figura 7 - Página com o formulário de informações do usuário organizacional</figcaption>
+    <figcaption> Figura 17 - Página com o formulário de informações do usuário organizacional</figcaption>
 </figure> 
 
 ## Página de busca
@@ -232,7 +232,7 @@ A tela Página de busca tem como objetivo possibilitar ao usuário voluntário f
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe3.png"
-    <figcaption> Figura 8 - Página de busca com opições pré-definidas</figcaption>
+    <figcaption> Figura 18 - Página de busca com opições pré-definidas</figcaption>
 </figure> 
 
 ## Página de instruções de emergência
@@ -240,7 +240,7 @@ A tela Página de instruções de emergência tem como objetivo possibilitar ao 
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe8.png"
-    <figcaption> Figura 9 - Página de instruções para diversas situações de emergência</figcaption>
+    <figcaption> Figura 19 - Página de instruções para diversas situações de emergência</figcaption>
 </figure> 
 
 ## Página de visualização do perfil organizacional
@@ -252,7 +252,7 @@ A tela Página de visualização do perfil organizacional, tem como objetivo mos
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe6.png"
-    <figcaption> Figura 10 - Página de visualização do perfil organizacional pelo próprio</figcaption>
+    <figcaption> Figura 20 - Página de visualização do perfil organizacional pelo próprio</figcaption>
 </figure> 
 
 ## Página de visualização do perfil organizacional pelo usuário voluntário
@@ -262,7 +262,7 @@ A tela Página de visualização do perfil organizacional, provem da Página de 
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe5.png"
-    <figcaption> Figura 11 - Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
+    <figcaption> Figura 21 - Página de visualização do perfil organizacional pelo usuário voluntário</figcaption>
 </figure> 
 
 ## Página de edição de galeria
@@ -279,7 +279,7 @@ A tela Página de edição de galeria provem da Página de visualização do per
   
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe7.png"
-    <figcaption> Figura 12 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
+    <figcaption> Figura 22 - Página de edição da galeria de imagens do usuário organizacional</figcaption>
 </figure> 
 
 ## Página de recuperação de senha
@@ -294,7 +294,7 @@ A tela Página de recuperação de senha provém da tela Página de login, quand
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe10.png"
-    <figcaption> Figura 13 - Página de recuperação de senha</figcaption>
+    <figcaption> Figura 23 - Página de recuperação de senha</figcaption>
 </figure> 
 
 ## Página de cancelamento de perfil
@@ -304,5 +304,5 @@ A tela Página de cancelamento de perfil provém de duas telas Página de formul
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe9.png"
-    <figcaption> Figura 14 - Página com formulário de cancelamento de perfil</figcaption>
+    <figcaption> Figura 24 - Página com formulário de cancelamento de perfil</figcaption>
 </figure> 
