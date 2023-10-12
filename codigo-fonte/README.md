@@ -7,6 +7,11 @@ Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organiz
 - Pasta src\clientes: clientes.html, clientes.css, clientes.js - Desenvolvedor responsável: Aluno Y.
 - Pasta src\funcionarios: funcionarios.html, funcionarios.css, funcionarios.js  - Desenvolvedora responsável: Aluna Z.
 
+## Recomendações para uso do repositório
+
+O site do github permite o download e utilização do GitHub Desktop app que facilita a vida de todos os participantes do projeto por já confirmar suas credenciais e permitir visualizar as informações do repositorio apartir de um terminal próprio.
+A instalação é facil e simples, o app é bastante intuitivo e tem suporte para português.
+
 ## Instalação do Site
 
 O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um servidor web de sua preferência. Existem diversos servidores web gratuitos que podem ser utilizados, tal como GitHub Pages (GitHub.IO), Vercel, Render, Netlify, Surge.sh, entre outros. Nesse primeiro eixo, recomenda-se inclusive a utilização do GitHub Pages. [Insira o endereço eletrônico público para acessá-lo.] 
