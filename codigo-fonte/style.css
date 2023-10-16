@@ -1,12 +1,99 @@
-head{
-    background-color: white;
-    color: black;
-    font-family: Laila;
-    font-size: 96px;
+/* Para organizar melhor o documento as partes devem ficar separadas por ordem de posição
+header no topo, body no meio e footer no final do doc.
+ Configurações extras como a adção de fontes ou customisação de partes que podem pertencer a 
+ mais de um componente devem ficar antes do header, assim mantemos a legibilidade do documento.  */
+
+ /* Essa parte diz respeito a configuração de partes que podem pertencer a mais de um componente e
+ deve ficar aqui, no cabeçalho do documento */
+ 
+ @font-face {
+    font-family: Kalam;
+    src: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Kalam.ttf);
 }
-body{
-    background-color: white;
-    color:black;
+
+@font-face {
     font-family: Laila;
-    font-size: 24px;
+    src: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Laila.ttf);
+}
+
+/* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
+
+/* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
+
+body {
+    background: #BBF0F1;
+    margin: 0;
+    background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+}
+
+main {
+    font-family: Laila;
+}
+
+.logo-pet-190 {
+    display: block;
+    margin: auto;
+    width: 250px;
+
+}
+
+.logo-pet-190-titulo {
+    margin: auto;
+    width: 300px;
+    display: block;
+    font-family: kalam;
+    font-size: 70pt;
+    color: #FF9494;
+    text-shadow: 0px 8px 4px darkgray;
+    letter-spacing: -4pt;
+    line-height: 60%;
+}
+
+.catch-frase {
+    font-size: 20pt;
+    text-align: center;
+}
+
+/* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
+
+.footer-box {
+    width: 400px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-contents {
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 18px;
+}
+
+.footer-contents:last-child {
+    justify-content: right;
+}
+
+.footer-text {
+    width: 320px;
+    font-size: 8px;
+    justify-content: left;
+}
+
+.black-line {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border-radius: 2px;
+    height: 2px;
 }
