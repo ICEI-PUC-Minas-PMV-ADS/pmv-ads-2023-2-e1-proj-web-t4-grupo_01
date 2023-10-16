@@ -8,12 +8,12 @@ header no topo, body no meio e footer no final do doc.
  
  @font-face {
     font-family: Kalam;
-    src: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Kalam.ttf);
+    src: url(img/Kalam.ttf);
 }
 
 @font-face {
     font-family: Laila;
-    src: url(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Laila.ttf);
+    src: url(img/Laila.ttf);
 }
 
 /* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
