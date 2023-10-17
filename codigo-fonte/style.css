@@ -20,7 +20,7 @@ header no topo, body no meio e footer no final do doc.
 
 /* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
 
-body {
+.body {
     background: #BBF0F1;
     margin: 0;
     background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
