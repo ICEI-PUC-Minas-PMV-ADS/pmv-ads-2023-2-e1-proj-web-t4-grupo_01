@@ -147,6 +147,5 @@ main {
     display: flex;
     justify-content: center;
     width: 700px;
-    border-radius: 2px;
-    height: 2px;
+    height: 1px;
 }
