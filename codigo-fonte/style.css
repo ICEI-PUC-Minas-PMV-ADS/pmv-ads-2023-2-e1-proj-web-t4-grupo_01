@@ -33,12 +33,14 @@ body {
 
 main {
     font-family: Laila;
+    text-shadow: 0px 4px 4px darkgray;
 }
 
 .logo-pet-190 {
     display: block;
     margin: auto;
     width: 250px;
+    filter: drop-shadow(0px 8px 4px darkgray);
 
 }
 
@@ -62,7 +64,7 @@ main {
 /* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
 
 .footer-box {
-    width: 400px;
+    width: 700px;
     display: block;
     position: absolute;
     bottom: 0;
@@ -84,16 +86,17 @@ main {
 }
 
 .footer-text {
-    width: 320px;
+    width: 520px;
     font-size: 8px;
     justify-content: left;
+    padding-left: 50px;
 }
 
 .black-line {
     background-color: black;
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: 700px;
     border-radius: 2px;
     height: 2px;
 }
