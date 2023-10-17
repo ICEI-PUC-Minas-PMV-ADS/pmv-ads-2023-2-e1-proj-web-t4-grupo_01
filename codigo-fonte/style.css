@@ -3,10 +3,10 @@ header no topo, body no meio e footer no final do doc.
  Configurações extras como a adção de fontes ou customisação de partes que podem pertencer a 
  mais de um componente devem ficar antes do header, assim mantemos a legibilidade do documento.  */
 
- /* Essa parte diz respeito a configuração de partes que podem pertencer a mais de um componente e
+/* Essa parte diz respeito a configuração de partes que podem pertencer a mais de um componente e
  deve ficar aqui, no cabeçalho do documento */
- 
- @font-face {
+
+@font-face {
     font-family: Kalam;
     src: url(img/Kalam.ttf);
 }
@@ -16,7 +16,26 @@ header no topo, body no meio e footer no final do doc.
     src: url(img/Laila.ttf);
 }
 
+
+button {
+    border: 1px;
+    font-family: Laila;
+    color: black;
+    border-radius: 20px;
+    border-color: darkgrey;
+    transition-duration: 0.4s;
+    box-shadow: 0px 4px 8px lightgray;
+    margin: 8px;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+
 /* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
+
 
 /* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
 
@@ -29,6 +48,11 @@ header no topo, body no meio e footer no final do doc.
     color: rgb(0, 0, 0);
     display: block;
     width: 100%;
+}
+
+.menu-login-box{
+    display: flex;
+    justify-self: center;
 }
 
 main {
