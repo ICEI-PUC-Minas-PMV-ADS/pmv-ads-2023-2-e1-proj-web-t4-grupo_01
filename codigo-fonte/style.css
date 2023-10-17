@@ -16,7 +16,6 @@ header no topo, body no meio e footer no final do doc.
     src: url(img/Laila.ttf);
 }
 
-
 button {
     border: 1px;
     font-family: Laila;
@@ -33,6 +32,13 @@ button:hover {
     color: black;
 }
 
+input{
+    border: 1px;
+    border-radius: 20px;
+    border-color: lightgrey;
+    padding: 2px 8px;
+    box-shadow: 0px 4px 8px lightgray;
+}
 
 /* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
 
@@ -50,9 +56,15 @@ button:hover {
     width: 100%;
 }
 
-.menu-login-box{
+.login-box {
     display: flex;
-    justify-self: center;
+    margin: auto;
+    width: 250px;
+}
+.login-box-menu {
+    display: flex;
+    margin: auto;
+    width: 120px;
 }
 
 main {
