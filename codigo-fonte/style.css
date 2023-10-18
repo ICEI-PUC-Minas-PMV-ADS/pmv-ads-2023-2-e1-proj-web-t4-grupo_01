@@ -32,7 +32,7 @@ button:hover {
     color: black;
 }
 
-input{
+input {
     border: 1px;
     border-radius: 20px;
     border-color: lightgrey;
@@ -86,7 +86,14 @@ main {
     margin: auto;
     width: 200px;
     filter: drop-shadow(0px 8px 4px darkgray);
+}
 
+.logo-pet-190-mini {
+    display: inline-flex;
+    margin: auto;
+    padding: 4px 0px 4px 18px;
+    filter: drop-shadow(0px 8px 4px darkgray);
+    width: 40px;
 }
 
 .logo-pet-190-titulo {
@@ -105,47 +112,72 @@ main {
     width: 200px;
 }
 
+.logo-pet-190-titulo-mini {
+    display: inline-flex;
+    font-family: kalam;
+    font-size: 18pt;
+    color: #FF9494;
+    text-shadow: 0px 8px 4px darkgray;
+    letter-spacing: -4pt;
+    width: 60px;
+    margin: 4px 4px 4px 0px;
+    position: absolute;
+    top: 0px;
+    justify-content: space-around;
+}
+
 .catch-frase {
     font-size: 14pt;
     text-align: center;
 }
 
+.cabecalho {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(211, 211, 211, 0.4);
+    height: 50px;
+}
+
 /* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
 
 .footer-box {
-    width: 700px;
-    display: block;
+    width: 100%;
+    display: grid;
+    background-color: rgb(211, 211, 211, 0.4);
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    height: 63px;
 }
 
 .footer-contents {
-    display: inline-flex;
+    display: grid;
     justify-content: center;
     height: 63px;
     padding-top: 10px;
     gap: 18px;
-}
-
-.footer-contents:last-child {
-    justify-content: right;
+    width: 700px;
+    margin: 0px auto 0px auto;    
 }
 
 .footer-text {
+    display: grid;
     width: 520px;
     font-size: 8px;
-    justify-content: left;
-    padding-left: 50px;
 }
 
 .black-line {
     background-color: black;
     display: flex;
     justify-content: center;
+    margin: 0px auto 0px auto;
     width: 700px;
     height: 1px;
+}
+.logo-puc-footer{
+    display: grid;
+
 }
