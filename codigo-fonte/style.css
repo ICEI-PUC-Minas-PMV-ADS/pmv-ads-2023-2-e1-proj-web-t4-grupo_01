@@ -1,10 +1,10 @@
 /* Para organizar melhor o documento as partes devem ficar separadas por ordem de posição
 header no topo, body no meio e footer no final do doc.
- Configurações extras como a adção de fontes ou customisação de partes que podem pertencer a 
- mais de um componente devem ficar antes do header, assim mantemos a legibilidade do documento.  */
+Configurações extras como a adção de fontes ou customisação de partes que podem pertencer a 
+mais de um componente devem ficar antes do header, assim mantemos a legibilidade do documento.  */
 
-/* Essa parte diz respeito a configuração de partes que podem pertencer a mais de um componente e
- deve ficar aqui, no cabeçalho do documento */
+/* Essa parte diz respeito a estilização de partes que podem pertencer a mais de um componente e
+deve ficar aqui, no cabeçalho do documento */
 
 @font-face {
     font-family: Kalam;
@@ -38,34 +38,6 @@ input {
     border-color: lightgrey;
     padding: 2px 8px;
     box-shadow: 0px 4px 8px lightgray;
-}
-
-/* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
-
-
-/* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
-
-.body {
-    background: #BBF0F1;
-    background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    color: rgb(0, 0, 0);
-    display: block;
-    width: 100%;
-}
-
-.login-box {
-    display: flex;
-    margin: auto;
-    width: 240px;
-}
-
-.login-box-menu {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    width: 240px;
 }
 
 main {
@@ -126,16 +98,43 @@ main {
     justify-content: space-around;
 }
 
-.catch-frase {
-    font-size: 14pt;
-    text-align: center;
+.body {
+    background: #BBF0F1;
+    background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
+    color: rgb(0, 0, 0);
+    display: grid;
+    width: 100%;
 }
+
+/* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
 
 .cabecalho {
     display: inline-block;
     width: 100%;
     background-color: rgb(211, 211, 211, 0.4);
     height: 50px;
+}
+
+/* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
+
+.login-box {
+    display: flex;
+    margin: auto;
+    width: 240px;
+}
+
+.login-box-menu {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 240px;
+}
+
+.catch-frase {
+    font-size: 14pt;
+    text-align: center;
 }
 
 /* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
@@ -177,6 +176,7 @@ main {
     width: 700px;
     height: 1px;
 }
+
 .logo-puc-footer{
     display: grid;
 
