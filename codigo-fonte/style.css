@@ -152,7 +152,17 @@ main {
 }
 
 /* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
+.btn-emergencia {
+    background-color: lightcoral;
+    position: absolute;
+    top: 0;
+    width: 90px;
+}
 
+.btn-emergencia:hover {
+    color: black;
+    background-color: red;
+}
 
 /* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
 
