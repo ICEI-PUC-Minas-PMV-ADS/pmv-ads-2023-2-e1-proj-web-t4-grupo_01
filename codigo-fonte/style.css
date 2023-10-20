@@ -153,19 +153,21 @@ main {
 }
 
 .footer-contents {
-    display: grid;
+    display: flex;
+    align-items: flex-start;
     justify-content: center;
-    height: 63px;
-    padding-top: 10px;
+    height: 53px;
     gap: 18px;
     width: 700px;
-    margin: 0px auto 0px auto;    
+    margin: 0px auto 0px auto;
 }
 
 .footer-text {
     display: grid;
     width: 520px;
     font-size: 8px;
+    margin: 0px 0px 0px auto;
+    padding-top: 10px;
 }
 
 .black-line {
@@ -177,7 +179,7 @@ main {
     height: 1px;
 }
 
-.logo-puc-footer{
+.logo-puc-footer {
     display: grid;
-
+    margin: 0px auto 0px 0px;
 }
