@@ -178,8 +178,16 @@ main {
 .login-box-menu {
     display: flex;
     margin: auto;
-    justify-content: center;
     width: 240px;
+    flex-wrap: wrap;
+}
+
+.esqueci-senha {
+    font-size: 12px;
+}
+
+.login-box-menu:last-child {
+    justify-content: center;
 }
 
 .catch-frase {
