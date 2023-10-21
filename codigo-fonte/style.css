@@ -175,17 +175,24 @@ main {
 /* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
 
 /* Página index*/
+.box-header{
+    display: flex;
+    flex-direction: column;
+}
 
 .login-box {
     display: flex;
     margin: auto;
     min-width: 240px;
+    min-height: 90px;
 }
 
 .login-box-menu {
     display: flex;
     margin: auto;
-    min-width: 240px;
+    min-width: 130px;
+    max-width: 240px;
+    min-height: 40px;
     flex-wrap: wrap;
 }
 
