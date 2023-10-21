@@ -117,7 +117,6 @@ main {
     height: 40px;
 }
 
-
 .menu-header-perfil {
     display: flex;
     align-items: center;
@@ -155,6 +154,7 @@ main {
 }
 
 /* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
+
 .btn-emergencia {
     background-color: lightcoral;
     position: absolute;
@@ -168,6 +168,8 @@ main {
 }
 
 /* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
+
+/* Página index*/
 
 .login-box {
     display: flex;
@@ -193,6 +195,37 @@ main {
 .catch-frase {
     font-size: 14pt;
     text-align: center;
+}
+
+/* Página perfil1 */
+.perfil-display{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.perfil-top{
+    display: flex;
+}
+
+.perfil-top-logo-box {
+    display: flex;
+}
+
+.perfil-top-rating-box {
+    display: flex;
+}
+
+.perfil-top-contato-box {
+    display: flex;
+}
+
+.perfil-top-url-box {
+    display: flex;
+}
+
+.perfil-body{
+    display: flex;
 }
 
 /* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
