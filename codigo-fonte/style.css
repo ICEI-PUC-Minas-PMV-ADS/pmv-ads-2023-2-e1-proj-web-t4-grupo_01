@@ -18,6 +18,8 @@ deve ficar aqui, no cabeçalho do documento */
 
 header {
     display: flex;
+    max-width: none;
+    max-height: none;
 }
 
 footer {
@@ -55,15 +57,14 @@ main {
     font-family: Laila;
     text-shadow: 0px 4px 4px darkgray;
     display: flex;
-    position: relative;
+    min-height: 540px;
+    max-height: none;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 480px;
+    max-width: none;
+    width: 100%;
     flex-direction: column;
+    align-items: center;
 
 }
 
@@ -92,10 +93,17 @@ main {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: rgb(211, 211, 211, 0.4);
     min-height: 50px;
     min-width: 480px;
+    max-width: none;
     justify-content: space-between;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(211, 211, 211, 0.4);
 }
 
 .logo-pet-190-mini {
@@ -155,7 +163,7 @@ main {
     background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
     background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
     color: rgb(0, 0, 0);
-    display: grid;
+    display: flex;
     width: 100%;
     height: 100%;
 }
@@ -218,11 +226,11 @@ main {
 /* Página perfil1 */
 
 .perfil-display {
-    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .perfil-top {
@@ -236,6 +244,21 @@ main {
 
 .perfil-top-logo-box {
     display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.foto-perfil-view{
+    display: flex;
+    width: 80px; 
+    height: 80px;
+}
+
+.nome-perfil-text-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80px;
 }
 
 .perfil-top-rating-box {
@@ -258,7 +281,7 @@ main {
 
 &::before {
     content: '';
-    position: absolute;
+    position: relative;
     background-image: url('img/pawprint.png');
     background-repeat: no-repeat;
     background-size: cover;
