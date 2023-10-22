@@ -25,7 +25,7 @@ deve ficar aqui, no cabeçalho do documento */
     display: flex;
     width: 100%;
     height: 100%;
-    
+
 }
 
 main {
@@ -259,24 +259,28 @@ input {
     display: flex;
     width: 100%;
     background-color: rgb(211, 211, 211, 0.4);
-    height: 400px;
+    height: auto;
     border-radius: 0px 0px 20px 20px;
     filter: drop-shadow(0px 4px 4px darkgray);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .perfil-top-logo-box {
     display: flex;
-    height: 100px;
+    height: 80px;
     align-items: center;
 }
 
-.foto-perfil-view{
+.foto-perfil-view {
     display: flex;
-    width: 80px; 
+    width: 80px;
     height: 80px;
 }
 
-.nome-perfil-text-box{
+.nome-perfil-text-box {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -285,14 +289,75 @@ input {
 
 .perfil-top-rating-box {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    height: 80px;
+    margin: 0px 0px 0px auto;
+}
+
+.rating-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 20px 0px auto;
+}
+
+.rating-box-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.like-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px 20px 0px 0px;
+    align-items: center;
+}
+
+.like-box-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
 }
 
 .perfil-top-contato-box {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: auto;
+    margin: 0px auto 0px 40px;
+}
+
+.contato-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .perfil-top-url-box {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 72px;
 }
 
 .perfil-body {
