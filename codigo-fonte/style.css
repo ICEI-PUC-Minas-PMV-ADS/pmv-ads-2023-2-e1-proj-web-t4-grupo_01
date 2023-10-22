@@ -16,6 +16,14 @@ deve ficar aqui, no cabeçalho do documento */
     src: url(img/Laila.ttf);
 }
 
+header {
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+
 button {
     border: 1px;
     font-family: Laila;
@@ -261,31 +269,35 @@ main {
 /* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
 
 .footer-box {
-    min-width: 440px;
-    max-width: 100%;
-    display: grid;
+    min-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
     background-color: rgb(211, 211, 211, 0.4);
-    margin-left: auto;
-    margin-right: auto;
     min-height: 63px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-contents {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
     height: 53px;
     gap: 18px;
-    width: 700px;
-    margin: 0px auto 0px auto;
+    min-width: 380px;
+    width: 80%;
+    margin: 0px 18px;
 }
 
 .footer-text {
-    display: grid;
+    display: flex;
     min-width: 380px;
-    max-width: 520px;
+    width: 100%;
     font-size: 8px;
-    margin: 0px 0px 0px auto;
+    margin: 0px 8px 0px auto;
     padding-top: 10px;
 }
 
@@ -293,13 +305,12 @@ main {
     background-color: black;
     display: flex;
     justify-content: center;
-    margin: 0px auto 0px auto;
-    min-width: 400px;
-    max-width: 900px;
+    margin: 0px 10% 0px 10%;
+    width: 80%;
     height: 1px;
 }
 
 .logo-puc-footer {
-    display: grid;
+    display: flex;
     margin: 0px auto 0px 0px;
 }
