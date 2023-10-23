@@ -1,5 +1,6 @@
 /* Para organizar melhor o documento as partes devem ficar separadas por ordem de posição
 header no topo, body no meio e footer no final do doc.
+
 Configurações extras como a adção de fontes ou customisação de partes que podem pertencer a 
 mais de um componente devem ficar antes do header, assim mantemos a legibilidade do documento.  */
 
@@ -96,6 +97,8 @@ input {
     box-shadow: 0px 4px 8px lightgray;
 }
 
+/* Estilizações do cabeçalho */
+
 .logo-pet-190 {
     display: block;
     margin: auto;
@@ -170,23 +173,18 @@ input {
     min-width: 250px;
 }
 
-.foto-perfil {
-    display: inline-flex;
-    filter: drop-shadow(0px 8px 4px darkgray);
-    width: 40px;
-    height: 40px;
-    margin: 4px 0px 0px 0px;
-}
-
 .foto-voluntario-mini {
-    display: inline-flex;
+    display: flex;
     width: 40px;
     height: 40px;
     margin: 0px 0px 0px 0px;
+    filter: drop-shadow(0px 8px 4px darkgray);
 }
 
 
-/* Essa parte diz respeito a configuração do header e deve ser mantida no topo do documento*/
+/* Essa parte diz respeito a configuração especifica de cada pagina para o header e deve ser mantida aqui*/
+
+/* Estilizações do botão emergência */
 
 .btn-emergencia {
     background-color: lightcoral;
@@ -204,9 +202,11 @@ input {
     background-color: red;
 }
 
-/* Essa parte diz respeito a configuração do body e deve ser mantida no meio do documento*/
+/* Essa parte diz respeito a configuração especifica de cada pagina para o body e deve ser mantida no
+meio do documento*/
 
 /* Página index*/
+
 .box-header {
     display: flex;
     flex-direction: column;
@@ -377,7 +377,8 @@ input {
     opacity: 0.1;
 }
 
-/* Essa parte diz respeito a configuração do footer e deve ser mantida aqui no final do documento*/
+/* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
+no final do documento*/
 
 .footer-box {
     min-width: 480px;
