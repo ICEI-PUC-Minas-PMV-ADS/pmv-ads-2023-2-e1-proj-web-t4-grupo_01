@@ -11,7 +11,6 @@ Objetivamente será um espaço de informações condensadas para o voluntario (a
 
 ## Integrantes
 
-* Geraldo Augusto
 * Letícia Mateus
 * Marcus Vinicius
 * Pedro Rosas
