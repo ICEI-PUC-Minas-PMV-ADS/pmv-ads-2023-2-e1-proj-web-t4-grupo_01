@@ -15,4 +15,12 @@ a seguinte organização:
  /* -Código da pagina formulário de usuário vonluntário- */
 
  /* -Código da pagina formulário de usuário organizacional- */
+
+ /* mudar nome do imput da foto para formulario de informações*/
+ document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById("btn").addEventListener("click",function() { 
+        document.getElementById("myfile").click();
+      }, false);
+  });
  
+  

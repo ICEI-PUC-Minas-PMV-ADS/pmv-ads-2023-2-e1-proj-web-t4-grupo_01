@@ -8,198 +8,200 @@ mais de um componente devem ficar antes do header, assim mantemos a legibilidade
 deve ficar aqui, no cabeçalho do documento */
 
 @font-face {
-    font-family: Kalam;
-    src: url(img/Kalam.ttf);
+  font-family: Kalam;
+  src: url(img/Kalam.ttf);
 }
 
 @font-face {
-    font-family: Laila;
-    src: url(img/Laila.ttf);
+  font-family: Laila;
+  src: url(img/Laila.ttf);
 }
 
 .body {
-    background: #BBF0F1;
-    background: -moz-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    background: -webkit-linear-gradient(left, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    background: linear-gradient(to right, #BBF0F1 0%, #E4E4E4 61%, #F3D7A0 100%);
-    color: rgb(0, 0, 0);
-    display: flex;
-    height: 100%;
-    justify-content: center;
-
+  background: #bbf0f1;
+  background: -moz-linear-gradient(left, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #bbf0f1 0%,
+    #e4e4e4 61%,
+    #f3d7a0 100%
+  );
+  background: linear-gradient(to right, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
+  color: rgb(0, 0, 0);
+  display: flex;
+  height: 100%;
+  justify-content: center;
 }
 
 main {
-    font-family: Laila;
-    text-shadow: 0px 4px 4px darkgray;
-    display: flex;
-    min-height: 540px;
-    max-height: none;
-    height: 100%;
-/*    min-width: 650px;
+  font-family: Laila;
+  text-shadow: 0px 4px 4px darkgray;
+  display: flex;
+  min-height: 540px;
+  max-height: none;
+  height: 100%;
+  /*    min-width: 650px;
     max-width: 650px; */
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 header {
-    display: flex;
-    max-width: none;
-    max-height: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    flex-direction: column;
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
 }
 
 footer {
-    display: flex;
-    max-width: none;
-    max-height: 63px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  display: flex;
+  max-width: none;
+  max-height: 63px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 button {
-    border: 1px;
-    font-family: Laila;
-    color: black;
-    border-radius: 20px;
-    border-color: darkgrey;
-    transition-duration: 0.4s;
-    box-shadow: 0px 4px 8px lightgray;
-    margin: 8px;
-    height: 20px;
-    padding: auto 8px auto 8px;
-
+  border: 1px;
+  font-family: Laila;
+  color: black;
+  border-radius: 20px;
+  border-color: darkgrey;
+  transition-duration: 0.4s;
+  box-shadow: 0px 4px 8px lightgray;
+  margin: 8px;
+  height: 20px;
+  padding: auto 8px auto 8px;
 }
 
 button:hover {
-    background-color: lightgray;
-    color: black;
+  background-color: lightgray;
+  color: black;
 }
 
 input {
-    border: 1px;
-    border-radius: 20px;
-    border-color: lightgrey;
-    padding: 2px 8px;
-    box-shadow: 0px 4px 8px lightgray;
+  border: 1px;
+  border-radius: 20px;
+  border-color: lightgrey;
+  padding: 2px 8px;
+  box-shadow: 0px 4px 8px lightgray;
 }
 
 /* Estilizações do cabeçalho */
 
 .logo-pet-190 {
-    display: block;
-    margin: auto;
-    width: 200px;
-    filter: drop-shadow(0px 8px 4px darkgray);
+  display: block;
+  margin: auto;
+  width: 200px;
+  filter: drop-shadow(0px 8px 4px darkgray);
 }
 
 .logo-pet-190-titulo {
-    display: flex;
-    font-family: kalam;
-    font-size: 47pt;
-    color: #FF9494;
-    text-shadow: 0px 8px 4px darkgray;
-    letter-spacing: -4pt;
-    line-height: 40%;
-    width: 170px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
+  display: flex;
+  font-family: kalam;
+  font-size: 47pt;
+  color: #ff9494;
+  text-shadow: 0px 8px 4px darkgray;
+  letter-spacing: -4pt;
+  line-height: 40%;
+  width: 170px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
 }
 
 .cabecalho {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    min-height: 50px;
-    min-width: 480px;
-    max-width: none;
-    justify-content: space-between;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(211, 211, 211, 0.4);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  min-width: 480px;
+  max-width: none;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(211, 211, 211, 0.4);
 }
 
 .logo-pet-190-mini {
-    display: flex;
-    filter: drop-shadow(0px 8px 4px darkgray);
-    width: 40px;
-    height: 40px;
-    margin: 2px 0px 0px 0px;
+  display: flex;
+  filter: drop-shadow(0px 8px 4px darkgray);
+  width: 40px;
+  height: 40px;
+  margin: 2px 0px 0px 0px;
 }
 
 .logo-pet-190-titulo-mini {
-    display: inline-flex;
-    font-family: kalam;
-    font-size: 18pt;
-    color: #FF9494;
-    text-shadow: 0px 8px 4px darkgray;
-    letter-spacing: -4pt;
-    width: 60px;
-    margin: 4px 4px 4px 0px;
-    justify-content: space-around;
-    align-content: center;
+  display: inline-flex;
+  font-family: kalam;
+  font-size: 18pt;
+  color: #ff9494;
+  text-shadow: 0px 8px 4px darkgray;
+  letter-spacing: -4pt;
+  width: 60px;
+  margin: 4px 4px 4px 0px;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .logo-header {
-    display: flex;
-    min-width: 140px;
-    justify-content: space-around;
-    align-content: center;
-    height: 40px;
+  display: flex;
+  min-width: 140px;
+  justify-content: space-around;
+  align-content: center;
+  height: 40px;
 }
 
 .menu-header-perfil {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 250px;
 }
 
 .foto-voluntario-mini {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    margin: 0px 0px 0px 0px;
-    filter: drop-shadow(0px 8px 4px darkgray);
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 0px 0px 0px 0px;
+  filter: drop-shadow(0px 8px 4px darkgray);
 }
-
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o header e deve ser mantida aqui*/
 
 /* Estilizações do botão emergência */
 
 .btn-emergencia {
-    background-color: lightcoral;
-    width: 90px;
-    display: flex;
-    min-width: 90px;
-    box-shadow: 0px 4px 8px lightgray;
-    margin: 8px;
-    height: 20px;
-    padding: auto 8px auto 8px;
+  background-color: lightcoral;
+  width: 90px;
+  display: flex;
+  min-width: 90px;
+  box-shadow: 0px 4px 8px lightgray;
+  margin: 8px;
+  height: 20px;
+  padding: auto 8px auto 8px;
 }
 
 .btn-emergencia:hover {
-    color: black;
-    background-color: red;
+  color: black;
+  background-color: red;
 }
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o body e deve ser mantida no
@@ -208,221 +210,324 @@ meio do documento*/
 /* Página index*/
 
 .box-header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .login-box {
-    display: flex;
-    margin: auto;
-    min-width: 240px;
-    min-height: 90px;
+  display: flex;
+  margin: auto;
+  min-width: 240px;
+  min-height: 90px;
 }
 
 .login-box-menu {
-    display: flex;
-    margin: auto;
-    min-width: 130px;
-    max-width: 240px;
-    min-height: 40px;
-    flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+  min-width: 130px;
+  max-width: 240px;
+  min-height: 40px;
+  flex-wrap: wrap;
 }
 
 .esqueci-senha {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .login-box-menu:last-child {
-    justify-content: center;
+  justify-content: center;
 }
 
 .catch-frase {
-    font-size: 14pt;
-    text-align: center;
+  font-size: 14pt;
+  text-align: center;
 }
 
 /* Página perfil1 */
 
 .perfil-display {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 63px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 63px;
 }
 
 .perfil-top {
-    display: flex;
-    width: 100%;
-    background-color: rgb(211, 211, 211, 0.4);
-    height: auto;
-    border-radius: 0px 0px 20px 20px;
-    filter: drop-shadow(0px 4px 4px darkgray);
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  background-color: rgb(211, 211, 211, 0.4);
+  height: auto;
+  border-radius: 0px 0px 20px 20px;
+  filter: drop-shadow(0px 4px 4px darkgray);
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .perfil-top-logo-box {
-    display: flex;
-    height: 80px;
-    align-items: center;
+  display: flex;
+  height: 80px;
+  align-items: center;
 }
 
 .foto-perfil-view {
-    display: flex;
-    width: 80px;
-    height: 80px;
+  display: flex;
+  width: 80px;
+  height: 80px;
 }
 
 .nome-perfil-text-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 80px;
 }
 
 .perfil-top-rating-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
-    height: 80px;
-    margin: 0px 0px 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  height: 80px;
+  margin: 0px 0px 0px auto;
 }
 
 .rating-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0px 20px 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 20px 0px auto;
 }
 
 .rating-box-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
 
 .like-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    margin: 0px 20px 0px 0px;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: 0px 20px 0px 0px;
+  align-items: center;
 }
 
 .like-box-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
 
 .perfil-top-contato-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    width: auto;
-    margin: 0px auto 0px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: auto;
+  margin: 0px auto 0px 40px;
 }
 
-.contato-box{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+.contato-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .perfil-top-url-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 72px;
 }
 
 .perfil-body {
-    position: relative;
-    display: flex;
-    min-height: 200px;
+  position: relative;
+  display: flex;
+  min-height: 200px;
 }
 
 &::before {
-    content: '';
-    position: relative;
-    background-image: url('img/pawprint.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.1;
+  content: "";
+  position: relative;
+  background-image: url("img/pawprint.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
 }
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
 no final do documento*/
 
 .footer-box {
-    min-width: 480px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-start;
-    background-color: rgb(211, 211, 211, 0.4);
-    min-height: 63px;
-    justify-content: center;
-    align-items: center;
+  min-width: 480px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  background-color: rgb(211, 211, 211, 0.4);
+  min-height: 63px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-contents {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    height: 53px;
-    gap: 18px;
-    min-width: 380px;
-    width: 80%;
-    margin: 0px 18px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 53px;
+  gap: 18px;
+  min-width: 380px;
+  width: 80%;
+  margin: 0px 18px;
 }
 
 .footer-text {
-    display: flex;
-    min-width: 380px;
-    width: 100%;
-    font-size: 8px;
-    margin: 0px 8px 0px auto;
-    padding-top: 10px;
+  display: flex;
+  min-width: 380px;
+  width: 100%;
+  font-size: 8px;
+  margin: 0px 8px 0px auto;
+  padding-top: 10px;
 }
 
 .black-line {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    margin: 0px 10% 0px 10%;
-    width: 80%;
-    height: 1px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0px 10% 0px 10%;
+  width: 80%;
+  height: 1px;
 }
 
 .logo-puc-footer {
-    display: flex;
-    margin: 0px auto 0px 0px;
+  display: flex;
+  margin: 0px auto 0px 0px;
+}
+.fomulario-usuario {
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  flex-direction: column;
+}
+.dados-solicitado {
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 90%;
+  left: 10%;
+  right: 0%;
+  flex-direction: column;
+  margin: 20px 0px 0px 0px;
+}
+
+.foto-formulario-informacoes {
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0%;
+  left: 22%;
+  right: 0%;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  border: 1px;
+  border-color: lightgrey;
+}
+.legenda-preview {
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 100%;
+  left: 40%;
+  right: 0%;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  font-size: 10px;
+}
+.botao-escolher-foto {
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 180%;
+  left: 5%;
+  right: 0%;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+}
+.botao-enviar-foto {
+  display: flex;
+  max-width: none;
+  max-height: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0%;
+  left: 60%;
+  right: 0%;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  width: 50px;
+  height: 20px;
+}
+
+.fileStyle::file-selector-button {
+  display: none;
+  margin-right: 20px;
+  border: none;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  position: absolute;
+  top: 150%;
+}
+.select-perfil-foto {
+  background: none;
+  border: none;
 }
