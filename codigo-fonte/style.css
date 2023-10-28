@@ -21,15 +21,14 @@ deve ficar aqui, no cabeçalho do documento */
   height: 100%;
   width: 100%;
 }
+
 .body {
   background: #bbf0f1;
   background: -moz-linear-gradient(left, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
-  background: -webkit-linear-gradient(
-    left,
-    #bbf0f1 0%,
-    #e4e4e4 61%,
-    #f3d7a0 100%
-  );
+  background: -webkit-linear-gradient(left,
+      #bbf0f1 0%,
+      #e4e4e4 61%,
+      #f3d7a0 100%);
   background: linear-gradient(to right, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
   color: rgb(0, 0, 0);
   display: flex;
@@ -387,12 +386,12 @@ meio do documento*/
 
 .container-fomulario-usuario {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: auto 696px auto;
   grid-template-rows: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  min-height: 696px;
+  height: 100%;
   align-items: center;
-
   font-family: Laila;
   text-shadow: 0px 4px 4px darkgray;
   position: absolute;
@@ -401,10 +400,11 @@ meio do documento*/
   right: 0;
   bottom: 0;
 }
+
 .fomulario-usuario {
   display: grid;
-  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
-  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-columns: 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px;
+  grid-template-rows: 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px;
   max-width: 100%;
   max-height: 100%;
   align-items: center;
@@ -413,17 +413,22 @@ meio do documento*/
   grid-row-start: 1;
   grid-row-end: 1;
   position: absolute;
-
   top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
 }
+
 .titulo {
   display: flex;
-  grid-column-start: 4;
-  grid-column-end: 11;
+  grid-column-start: 1;
+  grid-column-end: 12;
   grid-row-start: 1;
   grid-row-end: 3;
+  justify-content: center;
+  justify-items: center;
 }
+
 .dados-solicitado {
   display: grid;
   max-width: 100%;
@@ -444,10 +449,12 @@ meio do documento*/
   border-color: lightgrey;
   display: flex;
 }
+
 .legenda-preview {
   font-size: 10px;
   text-align: center;
 }
+
 .botao-escolher-foto {
   display: flex;
   grid-column-start: 5;
@@ -455,28 +462,13 @@ meio do documento*/
   grid-row-start: 7;
   grid-row-end: 12;
 }
-.alinhamento-texto {
-  display: flex;
-  grid-column-start: 5;
-  grid-column-end: 13;
-  grid-row-start: 2;
-  grid-row-end: 2;
-}
-.select-perfil-foto {
-  background: none;
-  border: none;
-  grid-column-start: 1;
-  grid-column-end: 11;
-  grid-row-start: 5;
-  grid-row-end: 12;
-  text-align: left;
-  padding-left: 8px;
-}
+
 .formulario-layout {
   display: grid;
   grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
   grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
 }
+
 .botao-enviar-foto {
   grid-column-start: 10;
   grid-column-end: 12;
@@ -491,12 +483,23 @@ meio do documento*/
   box-shadow: 0px 4px 8px lightgray;
 }
 
+.select-perfil-foto {
+  background: none;
+  border: none;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 5;
+  grid-row-end: 12;
+  text-align: left;
+}
+
 .fileStyle {
   grid-column-start: 1;
   grid-column-end: 10;
   grid-row-start: 1;
   grid-row-end: 5;
 }
+
 .fileStyle::file-selector-button {
   display: none;
   margin-right: 20px;
@@ -508,6 +511,14 @@ meio do documento*/
   transition: background 0.2s ease-in-out;
 }
 
+.alinhamento-texto {
+  display: flex;
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
 .alinhamento-foto {
   display: flex;
   grid-column-start: 1;
@@ -517,6 +528,7 @@ meio do documento*/
   max-width: 100%;
   max-height: 100%;
 }
+
 .dados-form-info {
   display: grid;
   max-width: 100%;
@@ -527,22 +539,37 @@ meio do documento*/
   grid-row-end: 12;
   grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
   grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
-  padding-left: 50px;
 }
+
 .alinhamento-texto-form-info {
   display: flex;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 4;
 }
+
 .alinhamento-dados-form-info {
   display: flex;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 12;
   grid-row-start: 6;
   grid-row-end: 10;
 }
+
+.botao-carac {
+  border: 1px solid lightgray;
+  font-family: Laila;
+  color: black;
+  border-radius: 20px;
+  border-color: darkgrey;
+  transition-duration: 0.4s;
+  box-shadow: 0px 4px 8px lightgray;
+  margin: 8px;
+  height: 20px;
+  line-height: 18px;
+}
+
 .position-bnt {
   display: flex;
   grid-column-start: 5;
@@ -550,6 +577,7 @@ meio do documento*/
   grid-row-start: 12;
   grid-row-end: 12;
 }
+
 .transp-bnt {
   background: transparent;
   border: transparent;
