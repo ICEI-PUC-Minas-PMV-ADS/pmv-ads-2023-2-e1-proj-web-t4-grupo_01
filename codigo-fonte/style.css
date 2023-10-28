@@ -17,6 +17,10 @@ deve ficar aqui, no cabeçalho do documento */
   src: url(img/Laila.ttf);
 }
 
+.html {
+  height: 100%;
+  width: 100%;
+}
 .body {
   background: #bbf0f1;
   background: -moz-linear-gradient(left, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
@@ -74,7 +78,7 @@ footer {
   right: 0;
 }
 
-button {
+/*button {
   border: 1px;
   font-family: Laila;
   color: black;
@@ -85,7 +89,7 @@ button {
   margin: 8px;
   height: 20px;
   padding: auto 8px auto 8px;
-}
+}*/
 
 button:hover {
   background-color: lightgray;
@@ -379,6 +383,196 @@ meio do documento*/
   opacity: 0.1;
 }
 
+/* Pagina FormularioUsuario */
+
+.container-fomulario-usuario {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+
+  font-family: Laila;
+  text-shadow: 0px 4px 4px darkgray;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.fomulario-usuario {
+  display: grid;
+  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.titulo {
+  display: flex;
+  grid-column-start: 4;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.dados-solicitado {
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+}
+
+.foto-formulario-informacoes {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px;
+  border-color: lightgrey;
+  display: flex;
+
+}
+.legenda-preview {
+  font-size: 10px;
+  text-align:center;
+
+}
+.botao-escolher-foto {
+  display: flex;
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-row-start: 7;
+  grid-row-end: 12;
+}
+.formulario-layout {
+  display: grid;
+  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+}
+.botao-enviar-foto {
+  grid-column-start: 10;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  border: 1px;
+  font-family: Laila;
+  color: black;
+  border-radius: 20px;
+  border-color: darkgrey;
+  transition-duration: 0.4s;
+  box-shadow: 0px 4px 8px lightgray;
+
+}
+.select-perfil-foto {
+  background: none;
+  border: none;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 5;
+  grid-row-end: 12;
+  text-align: left;
+}
+.fileStyle {
+  grid-column-start: 1;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.fileStyle::file-selector-button {
+  display: none;
+  margin-right: 20px;
+  border: none;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.alinhamento-texto {
+  display: flex;
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.alinhamento-foto{
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 12;
+
+  max-width: 100%;
+  max-height: 100%;
+}
+.dados-form-info{
+  display: grid;
+  max-width: 100%;
+  max-height: 100%;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 12;
+  grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+}
+.alinhamento-texto-form-info{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.alinhamento-dados-form-info{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 6;
+  grid-row-end: 10;
+}
+.botao-carac{
+  border: 1px solid lightgray;
+  font-family: Laila;
+  color: black;
+  border-radius: 20px;
+  border-color: darkgrey;
+  transition-duration: 0.4s;
+  box-shadow: 0px 4px 8px lightgray;
+  margin: 8px;
+  height: 20px;
+  line-height: 18px; 
+
+}
+.position-bnt{
+  display: flex;
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-row-start: 12;
+  grid-row-end: 12;
+  
+}
+.transp-bnt{
+  background: transparent;
+  border: transparent;
+}
+
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
 no final do documento*/
 
@@ -427,107 +621,4 @@ no final do documento*/
 .logo-puc-footer {
   display: flex;
   margin: 0px auto 0px 0px;
-}
-.fomulario-usuario {
-  display: flex;
-  max-width: none;
-  max-height: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  flex-direction: column;
-}
-.dados-solicitado {
-  display: flex;
-  max-width: none;
-  max-height: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 90%;
-  left: 10%;
-  right: 0%;
-  flex-direction: column;
-  margin: 20px 0px 0px 0px;
-}
-
-.foto-formulario-informacoes {
-  display: flex;
-  max-width: none;
-  max-height: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 0%;
-  left: 22%;
-  right: 0%;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-  width: 140px;
-  height: 140px;
-  border-radius: 15px;
-  border: 1px;
-  border-color: lightgrey;
-}
-.legenda-preview {
-  display: flex;
-  max-width: none;
-  max-height: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 100%;
-  left: 40%;
-  right: 0%;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-  font-size: 10px;
-}
-.botao-escolher-foto {
-  display: flex;
-  max-width: none;
-  max-height: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 180%;
-  left: 5%;
-  right: 0%;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-}
-.botao-enviar-foto {
-  display: flex;
-  max-width: none;
-  max-height: none;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  top: 0%;
-  left: 60%;
-  right: 0%;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-  width: 50px;
-  height: 20px;
-}
-
-.fileStyle::file-selector-button {
-  display: none;
-  margin-right: 20px;
-  border: none;
-  background: transparent;
-  padding: 10px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.2s ease-in-out;
-  position: absolute;
-  top: 150%;
-}
-.select-perfil-foto {
-  background: none;
-  border: none;
 }

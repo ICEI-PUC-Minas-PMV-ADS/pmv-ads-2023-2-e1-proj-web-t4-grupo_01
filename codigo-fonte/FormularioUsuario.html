@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html class="html" lang="pt">
   <head>
     <meta charset="utf-8" />
     <title>PET 190</title>
@@ -11,53 +11,77 @@
   </head>
 
   <body class="body">
-    <main>
+    <div class="container-fomulario-usuario">
       <div class="fomulario-usuario">
-        <h1>Formulàrio com suas informações</h1>
+        <div class="titulo"><h1>Formulàrio com suas informações</h1></div>
         <div class="dados-solicitado">
-          Preencha os dados abaixo conforme solicitado
-          <figure class="foto-formulario-informacoes">
-            <img
-              class="foto-formulario-informacoes"
-              src="img/fotovoluntario.jpg"
-              alt="foto-fomulario-informacoes"
-            />
-            <figcaption class="legenda-preview">Preview</figcaption>
-          </figure>
-        </div>
-        <div>
-          <form class="botao-escolher-foto">
-            <input class="fileStyle" type="file" id="myfile" name="myfile" />
-            <button class="select-perfil-foto" id="btn">
-              Selecione uma foto para ilustrar seu perfil
-            </button>
-            <input class="botao-enviar-foto" type="submit" />
-          </form>
-        </div>
-      </div>
-
-      <!-- Footer já completo, NÃO EDITAR!!! -->
-      <footer>
-        <div class="footer-box">
-          <div class="black-line"></div>
-          <div class="footer-contents">
-            <h1 class="footer-text">
-              PET190 foi desenvolvido pelo grupo 1 da turma 4 como parte do
-              curso de Análise e Desenvolvimento de sistemas no 2 semestre de
-              2023 da PUC MG com a orientação da professora Nathália Assis
-              Valentim
-            </h1>
-            <h1 class="logo-puc-footer">
+          <div class="alinhamento-texto">
+            Preencha os dados abaixo conforme solicitado
+          </div>
+          <div class="alinhamento-foto">
+            <figure>
               <img
-                src="img/Logo-PUC-Minas.png"
-                width="50"
-                height="50"
-                alt="logo-puc-mg"
+                class="foto-formulario-informacoes"
+                src="img/fotovoluntario.jpg"
+                alt="foto-fomulario-informacoes"
               />
-            </h1>
+              <figcaption class="legenda-preview">Preview</figcaption>
+            </figure>
+          </div>
+          <div class="botao-escolher-foto">
+            <form class="formulario-layout">
+              <input class="fileStyle" type="file" id="myfile" name="myfile" />
+              <button class="select-perfil-foto" id="btn">
+                Selecione uma foto para ilustrar seu perfil
+              </button>
+              <input class="botao-enviar-foto" type="submit" />
+            </form>
+          </div>
+          
+        </div>
+        <div class="dados-form-info">
+          <div class="alinhamento-texto-form-info">
+            <h2>
+            <p style="font-size: 16px;">Preencha com seus dados:</p>
+          </h2>
+          </div>
+          <div class="alinhamento-dados-form-info">
+            <form name="form-dados-informacao" method="post">
+              <label for="email-form-usuario">E-mail : </label>
+              <input class="transp-bnt" type="email" id="email-form-usuario">
+              <br>
+              <label for="password-form-usuario">Senha : </label>
+              <input class="transp-bnt" type="password" id="password-form-usuario">
+          </div>
+          <div class="position-bnt">
+            <button type="button" class="botao-carac">Concluir</button>
+            <button type="button" class="botao-carac">Descartar</button>
+            <button type="button" class="botao-carac">Desativar Perfil</button>
           </div>
         </div>
-      </footer>
-    </main>
+      </div>
+    </div>
+
+    <!-- Footer já completo, NÃO EDITAR!!! -->
+    <footer>
+      <div class="footer-box">
+        <div class="black-line"></div>
+        <div class="footer-contents">
+          <h1 class="footer-text">
+            PET190 foi desenvolvido pelo grupo 1 da turma 4 como parte do curso
+            de Análise e Desenvolvimento de sistemas no 2 semestre de 2023 da
+            PUC MG com a orientação da professora Nathália Assis Valentim
+          </h1>
+          <h1 class="logo-puc-footer">
+            <img
+              src="img/Logo-PUC-Minas.png"
+              width="50"
+              height="50"
+              alt="logo-puc-mg"
+            />
+          </h1>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
