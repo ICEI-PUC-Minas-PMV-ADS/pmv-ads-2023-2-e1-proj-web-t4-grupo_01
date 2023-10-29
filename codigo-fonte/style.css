@@ -392,9 +392,6 @@ textarea::placeholder {
   font-style: italic;
 }
 
-h1 {
-  top: 80px;
-}
 
 /* Pagina FormularioUsuario */
 
@@ -591,6 +588,11 @@ h1 {
   grid-column-end: 12;
   grid-row-start: 12;
   grid-row-end: 12;
+}
+
+.transp-bnt {
+  background: transparent;
+  border: transparent;
 }
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 

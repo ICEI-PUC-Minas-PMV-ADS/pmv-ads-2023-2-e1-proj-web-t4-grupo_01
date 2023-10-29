@@ -12,32 +12,36 @@
 </head>
 
 <body class="body">
-    <main>
+    <main style="justify-content: flex-start;">
         <header>
-            <!-- Cabeçalho base já completo -->
-            <div class="cabecalho">
-                <div class="logo-header">
-                    <figure class="logo-pet-190-mini">
-                        <img src="img/logobranco.png" width="40px" height="40px" alt="logo-pet-190">
-                    </figure>
-                    <figcaption class="logo-pet-190-titulo-mini" style="order: 2;">
-                        <span style="color:#736262">PET </span> 190
-                    </figcaption>
-                </div>
-                <div class="menu-header-perfil">
-                    <button class="btn-editar" type="button">
-                        Editar</button>
-                    <div class="foto-perfil">
-                        <figure class="foto-voluntario-mini">
-                            <img src="img/fotovoluntario.jpg" width="40px" height="40px" alt="foto-voluntario"
-                                style="border-radius: 15px; border: 1px; border-color: lightgrey;">
-                        </figure>
-                    </div>
-                    <button class="btn-sair" type="button">
-                        Sair</button>
-                </div>
-            </div>
         </header>
+        <div class="recuperar-senha-body">
+            <p>
+                Enforme o E-mail cadastrado em seu perfil para que possamos enviar um còdigo de confirmação
+            </p>
+            <form name="codigo-email-form" method="post">
+                <label for="email-envia-codigo">E-mail : </label><input type="email" id="email-envia-codigo">
+                <button class="btn-email-codigo" type="button">Enviar</button>
+            </form>
+            <p>
+                Aguarde enquanto o E-mail com o còdigo de confirmaçãoè enviado.<br>
+                Este deve chegar em alguns segundos.<br><br>
+                Assim que tiver recebido o còdigo confime as informações
+                solicitadas abaixo.
+            </p>
+            <div class="recupera-senha-box">
+                <form class="recuperacao-senha-form" name="recuperacao-senha-form" method="post">
+                    <label for="confirma-codigo">Còdigo : </label><input type="text" id="confirma-codigo"
+                        pattern="0,1,2,3,4,5,6,7,8,9">
+                    <label for="nova-senha">Nova senha : </label><input type="text" id="nova-senha">
+                    <label for="confirma-senha">Confirmar senha : </label><input type="text" id="confirma-senha"><br>
+                    <div class="Menu-recupera-senha">
+                        <button class="btn-recupera-concluir" type="button">Confirmar</button>
+                        <button class="btn-recupera-cancelar" type="button">Descartar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         <!-- Footer já completo, NÃO EDITAR!!! -->
         <footer>
             <div class="footer-box">

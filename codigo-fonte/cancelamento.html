@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt">
 
-<head>
-    <meta charset="utf-8">
-    <title>Página de cancelamento</title>
-    <meta http-equiv="X-UA-compatible" content="IE=edge">
-    <meta name="author" content="grupo1">
-    <meta name="viewpoint" content="width = 100%, initial-scale = 1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Página de cancelamento</title>
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="author" content="grupo1">
+        <meta name="viewpoint" content="width = 100%, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
 
-<body class="body">
-    <main>
-        <header>
-            <!-- Cabeçalho base já completo -->
+    <body class="body">
+        <main>
+            <div>
+                <main>
+                    <h1 id="cabecalho">Cancelamento de perfil</h1>
+                    <p>
+                        Entendemos que as preferências e necessidades dos
+                        assinantes podem mudar com o tempo, e estamos aqui para <br>
+                        garantir que sua experiência conosco seja sempre a mais 
+                        positiva possível. Se, por algum motivo, você decidir <br>
+                        reconsiderar sua inscrição no futuro, saiba que será
+                        sempre bem-vindo(a) de volta.
+                    </p>
+                    <br>
 
-        </header>
-        <div>
-            <h1>Cancelamento de perfil</h1>
-            <p>
-                Entendemos que as preferências e necessidades dos assinantes podem mudar com o tempo, e estamos aqui
-                para garantir que sua experiência conosco seja sempre a mais positiva possível. Se, por algum motivo,
-                você decidir reconsiderar sua inscrição no futuro, saiba que será sempre bem-vindo(a) de volta.
-            </p>
-            <br>
+                    <form>
 
-            <form>
+                        <label for="comment">Conte-nos o que levou ao seu
+                            cancelamento:</label> <br>
+                        <textarea placeholder="Digite sua justificativa"
+                            minlength maxlength="500"></textarea>
 
-                <label for="comment">Conte-nos o que levou ao seu cancelamento:</label>
-                <!-- Textarea é a formação de caixas, podendo aumentá-las. Placeholder é um atributo que escreve uma mensagem dentro da caixa 
-            Os atributos "minlength" e "maxlength" especificam o comprimento mínimo e máximo, respectivamente, que o texto pode ter. -->
-                <textarea placeholder="Digite sua justificativa" minlength="" maxlength="300"></textarea>
+                        <p>Tem certeza que quer cancelar o perfil?</p>
+                        <button type="submit">Sim, cancelar</button>
+                    </form>
+                
 
-                <p>Tem certeza que quer cancelar o perfil?</p>
-                <button type="submit">Sim, cancelar </button>
-            </form>
-        </div>
-        <!-- Footer já completo, NÃO EDITAR!!! -->
-        <footer>
-            <div class="footer-box">
-                <div class="black-line"></div>
-                <div class="footer-contents">
-                    <h1 class="footer-text">
-                        PET190 foi desenvolvido pelo grupo 1 da turma 4 como parte do curso de Análise e Desenvolvimento
-                        de sistemas no 2 semestre de 2023 da PUC MG com a orientação da professora Nathália Assis
-                        Valentim
-                    </h1>
-                    <h1 class="logo-puc-footer">
-                        <img src="img/Logo-PUC-Minas.png" width="50" height="50" alt="logo-puc-mg">
-                    </h1>
                 </div>
-            </div>
-        </footer>
-    </main>
-</body>
+                <!-- Footer já completo, NÃO EDITAR!!! -->
+                <footer>
+                    <div class="footer-box">
+                        <div class="black-line"></div>
+                        <div class="footer-contents">
+                            <h1 class="footer-text">
+                                PET190 foi desenvolvido pelo grupo 1 da turma 4
+                                como parte do curso de Análise e Desenvolvimento
+                                de sistemas no 2 semestre de 2023 da PUC MG com
+                                a orientação da professora Nathália Assis
+                                Valentim
+                            </h1>
+                            <h1 class="logo-puc-footer">
+                                <img src="img/Logo-PUC-Minas.png" width="50"
+                                    height="50" alt="logo-puc-mg">
+                            </h1>
+                        </div>
+                    </div>
+                </footer>
+            </main>
+        </body>
 
-</html>
+    </html>
