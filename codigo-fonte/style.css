@@ -376,6 +376,22 @@ meio do documento*/
   opacity: 0.1;
 }
 
+/* Cancelamento de pefil */
+
+form {
+  text-align: center;
+}
+
+textarea::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+h1 {
+  top: 80px;
+}
+
+
 /* Pagina FormularioUsuario */
 
 .container-fomulario-usuario {
