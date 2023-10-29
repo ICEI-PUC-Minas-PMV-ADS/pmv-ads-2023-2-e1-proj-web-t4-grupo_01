@@ -393,7 +393,7 @@ textarea::placeholder {
 }
 
 
-/* Pagina FormularioUsuario */
+/* Pagina Formulario de Usuario voluntário */
 
 .container-fomulario-usuario {
   display: grid;
@@ -588,6 +588,32 @@ textarea::placeholder {
   grid-column-end: 12;
   grid-row-start: 12;
   grid-row-end: 12;
+}
+
+/* Pagina recuperação de senha */
+
+.recuperar-senha-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 68px;
+  background-color: rgb(211, 211, 211, 0.4);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.recuperacao-senha-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Menu-recupera-senha {
+  display: flex;
+  align-items: flex-start;
 }
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
