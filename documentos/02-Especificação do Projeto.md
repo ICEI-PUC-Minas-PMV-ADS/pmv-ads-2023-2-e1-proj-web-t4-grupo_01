@@ -87,7 +87,10 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 | RF- 14 |  Ferramenta para mudar o idioma padrão de interação com o app.                                                        | Baixo  | 
 | RF- 15 |  Ferramenta para mudar as cores de fundo/texto do app entre modo luminoso e modo escuro.                              | Baixo  | 
 | RF- 16 |  Definir uma barra Header com os botões: Home (levando para o perfil), busca, emergência e logout                     | Alta   | 
-
+| RF- 17 | Página que permita arecuperação de senha         | ALTA  |
+| RF- 18 | Botão que leve para a página de recuperação de senha | ALTA  |
+| RF- 19 | Página que permita cancelamento de cadastro         | ALTA  |
+| RF- 20 | Botão que leve para a página de cancelamento de cadastro | ALTA  |
 
 **Prioridade: Alta / Média / Baixa. 
 

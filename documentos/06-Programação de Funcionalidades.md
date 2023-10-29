@@ -2,12 +2,11 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
+### Página de login
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/index1.png"
+    <figcaption>Figura 26 - Página de login</figcaption>
+</figure>
 
 #### Requisito atendido
 
@@ -31,14 +30,97 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Pedro de Oliveira Rosas
+
+### Página de formulário de usuário voluntário
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/formusuario.png"
+    <figcaption>Figura 27 - Página de formulário de usuário volutário</figcaption>
+</figure>
+
+#### Requisito atendido
+
+[RF-X: adicione a descrição do requisito atendido]
 
 
+#### Artefatos da funcionalidade
+
+[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
 
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
+
+#### Responsável
+
+Letícia Mateus
+
+### Página de recuperação de senha
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/recuperasenha1.png"
+    <figcaption>Figura 28 - Página de recuperação de senha</figcaption>
+</figure>
+
+#### Requisito atendido
+
+[RF-X: adicione a descrição do requisito atendido]
+
+
+#### Artefatos da funcionalidade
+
+[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
+
+#### Responsável
+
+Marcus Vinicius
+
+### Página de cancelamento de cadastro
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/cancela1.png"
+    <figcaption>Figura 29 - Página de cancelamento de cadastro</figcaption>
+</figure>
+
+#### Requisito atendido
+
+[RF-X: adicione a descrição do requisito atendido]
+
+
+#### Artefatos da funcionalidade
+
+[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
+
+#### Responsável
+
+Quezia Emilly
+
+
 
