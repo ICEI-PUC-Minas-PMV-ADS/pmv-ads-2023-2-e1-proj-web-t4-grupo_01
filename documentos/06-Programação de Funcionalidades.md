@@ -115,7 +115,7 @@ Página composta por um arquivo HTML (Recuperasenha.html) e um arquivo Style.CSS
 #### Instruções de acesso
 
 Pode ser encontrada em no repositório Github no diretório:
-<a href="https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Recupersenha.html">codigo-fonte/Recuperasenha.HTML</a>
+<a href="https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Recuperasenha.html">codigo-fonte/Recuperasenha.HTML</a>
 
 #### Responsável
 
