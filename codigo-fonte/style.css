@@ -25,10 +25,7 @@ deve ficar aqui, no cabeçalho do documento */
 .body {
   background: #bbf0f1;
   background: -moz-linear-gradient(left, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
-  background: -webkit-linear-gradient(left,
-      #bbf0f1 0%,
-      #e4e4e4 61%,
-      #f3d7a0 100%);
+  background: -webkit-linear-gradient(left,#bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
   background: linear-gradient(to right, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
   color: rgb(0, 0, 0);
   display: flex;
@@ -41,10 +38,7 @@ main {
   text-shadow: 0px 4px 4px darkgray;
   display: flex;
   min-height: 540px;
-  max-height: none;
   height: 100%;
-  /*    min-width: 650px;
-    max-width: 650px; */
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -161,7 +155,6 @@ input {
   width: 60px;
   margin: 4px 4px 4px 0px;
   justify-content: space-around;
-  align-content: center;
 }
 
 .logo-header {
@@ -170,6 +163,7 @@ input {
   justify-content: space-around;
   align-content: center;
   height: 40px;
+  flex-wrap: wrap;
 }
 
 .menu-header-perfil {
@@ -434,7 +428,7 @@ textarea::placeholder {
 .titulo {
   display: flex;
   grid-column-start: 1;
-  grid-column-end: 12;
+  grid-column-end: 13;
   grid-row-start: 1;
   grid-row-end: 3;
   justify-content: center;
