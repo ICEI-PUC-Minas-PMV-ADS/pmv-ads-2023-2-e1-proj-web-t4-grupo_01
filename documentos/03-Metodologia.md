@@ -14,8 +14,8 @@ Para desenvolver a ferramenta, é utilizado Trello para organização e divisão
 
 - Scrum Master: Pedro Rosas
 - Product Owner: Leticia Mateus.
-- Equipe de Desenvolvimento: Pedro Rosas, Leticia Mateus, Quezia Emilly, Marcus Vinícius e Geraldo Augusto.
-- Equipe de Design: Quezia Emilly, Marcus Vinícius e Geraldo Augusto.
+- Equipe de Desenvolvimento: Pedro Rosas, Leticia Mateus, Quezia Emilly e Marcus Vinícius.
+- Equipe de Design: Quezia Emilly, Leticia Mateus, Pedro Rosas e Marcus Vinícius.
 
 
 ### Processo
