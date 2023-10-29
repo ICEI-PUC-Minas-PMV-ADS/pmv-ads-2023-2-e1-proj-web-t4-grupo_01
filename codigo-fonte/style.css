@@ -25,7 +25,12 @@ deve ficar aqui, no cabeçalho do documento */
 .body {
   background: #bbf0f1;
   background: -moz-linear-gradient(left, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
-  background: -webkit-linear-gradient(left,#bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #bbf0f1 0%,
+    #e4e4e4 61%,
+    #f3d7a0 100%
+  );
   background: linear-gradient(to right, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
   color: rgb(0, 0, 0);
   display: flex;
@@ -391,7 +396,6 @@ h1 {
   top: 80px;
 }
 
-
 /* Pagina FormularioUsuario */
 
 .container-fomulario-usuario {
@@ -452,8 +456,8 @@ h1 {
 }
 
 .foto-formulario-informacoes {
-  width: 100%;
-  height: 100%;
+  width: 120px;
+  height: 120px;
   border-radius: 15px;
   border: 1px;
   border-color: lightgrey;
@@ -498,9 +502,10 @@ h1 {
   border: none;
   grid-column-start: 1;
   grid-column-end: 11;
-  grid-row-start: 5;
+  grid-row-start: 2;
   grid-row-end: 12;
   text-align: left;
+  padding: 8px;
 }
 
 .fileStyle {
@@ -512,9 +517,9 @@ h1 {
 
 .fileStyle::file-selector-button {
   display: none;
-  margin-right: 20px;
-  border: none;
-  background: transparent;
+  background: none;
+  padding: none;
+  margin-right: 30px;
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -586,11 +591,6 @@ h1 {
   grid-column-end: 12;
   grid-row-start: 12;
   grid-row-end: 12;
-}
-
-.transp-bnt {
-  background: transparent;
-  border: transparent;
 }
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
