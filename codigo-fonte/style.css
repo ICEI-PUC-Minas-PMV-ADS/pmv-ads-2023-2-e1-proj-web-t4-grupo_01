@@ -94,7 +94,7 @@ button:hover {
   color: black;
 }
 
-input {
+input, textarea,  select{
   border: 1px;
   border-radius: 20px;
   border-color: lightgrey;
@@ -392,10 +392,9 @@ textarea::placeholder {
   font-style: italic;
 }
 
-
 /* Pagina Formulario de Usuario voluntário */
 
-.container-fomulario-usuario {
+.container-fomulario {
   display: grid;
   grid-template-columns: auto 696px auto;
   grid-template-rows: 100%;
@@ -412,7 +411,7 @@ textarea::placeholder {
   bottom: 0;
 }
 
-.fomulario-usuario {
+.fomulario-inicial {
   display: grid;
   grid-template-columns: 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px;
   grid-template-rows: 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px;
@@ -590,6 +589,138 @@ textarea::placeholder {
   grid-row-end: 12;
 }
 
+/* Pagina Formulario de Usuario Organizacional */
+.alinhamento-dados-form-organiza {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 9;
+  width: 100%;
+
+}
+.alinhamento-titulo-form-organiza {
+  display: flex;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  width: 100%;
+}
+.grid-form-informacao{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  width: 100%;
+}
+.coluna-um{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+}
+.formulario-info-dados-organiza{
+  display: flex;
+  width: 100%;
+}
+
+.coluna-dois{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+}
+.alinhamento-form-hora-organiza{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 7;
+  grid-row-end: 12;
+  width: 100%;
+}
+.grid-form-hora{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  width: 100%;
+}
+.formulario-hora-organiza{
+  display: flex;
+  width: 100%;
+}
+.coluna-hora-um{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+}
+.coluna-hora-dois{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+ 
+} 
+.coluna-hora-tres{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 100%;
+  margin-left: 16px;
+  
+}
+.coluna-hora-quatro{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  width: 100%;
+  margin-left: 32px;
+  
+}
+.coluna-hora-cinco{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  width: 100%;
+  margin-left: 48px;
+ 
+}
+.coluna-hora-seis{
+  grid-column-start: 7;
+  grid-column-end: 8;
+  width: 100%;
+  margin-left: 6px;
+  
+}
+.coluna-hora-sete{
+  grid-column-start: 8;
+  grid-column-end: 9;
+  width: 100%;
+  margin-left: 16px;
+ 
+}
+.coluna-hora-oito{
+  grid-column-start:9;
+  grid-column-end: 10;
+  width: 100%;
+  margin-left: 32px;
+  
+}
+.horario-input{
+  font-size: 8px;
+  margin-bottom: 8px;
+}
+.conte-sobre-form{
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 11;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  width: 100%;
+
+}
+.position-bnt-organiza{
+  display: flex;
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-row-start: 12;
+  grid-row-end: 12;
+  margin-bottom: 50px;
+}
+
 /* Pagina recuperação de senha */
 
 .recuperar-senha-body {
@@ -665,3 +796,4 @@ no final do documento*/
   display: flex;
   margin: 0px auto 0px 0px;
 }
+
