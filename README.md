@@ -36,7 +36,7 @@ Objetivamente será um espaço de informações condensadas para o voluntario (a
 
 # Hospedagem
 
-* <a href="https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Index.html">Endereço de acesso</a> 
+* <a href="https://pet190.vercel.app">Endereço de acesso</a> 
 
 # Código-Fonte
 
