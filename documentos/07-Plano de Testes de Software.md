@@ -1,20 +1,68 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+Os testes funcionais a serem realizados na aplicação são descritos a seguir:
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Verificar o cadastramento e os links da página de Login</td>
+  <td>
+   <ul>
+    <li>RF-00:	O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-00:	O site deve permitir ao usuário cadastrar uma conta e assim ele será direcionado a página de busca.</li>
+   <li>RF-00:	O site deve permitir apertar um botão que leva para a página formulário de novos registros.</li>
+   </ul>
+  </td>
+  <td>Verificar se os links e o botão de cadastramento está levando a outra página</td>
+  <td>
+   <ol>
+    <li>Acessar o link em qualqer navegador.</li>
+    <li>Colocar o endereço do site.</li>
+    <li>Será visualizado a página de Login.</li>
+    <li>Clicar nas funções para ver se funciona.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página de Login devem encaminhar os usuários para as páginas como informado.</td>
+  <td>Pedro</td>
+ </tr>
+</table>
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-02: Verificar para onde vai o recadastramento do usuário que esqueceu a senha</td>
+  <td>
+   <ul>
+    <li>RF-00:	O site deve permitir ao usuário cadastrar uma conta.</li>
+    <li>RF-00:	O site deve permitir ao usuário confirmar e assim ir pra página de busca.</li>
+   <li>RF-00:	O site deve fazer com que receba um código</li>
+   </ul>
+  </td>
+  <td>Verificar se os links e o botão de cadastramento está levando a outra página</td>
+  <td>
+   <ol>
+    <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
+    <li>Colocar o endereço nesses navegadores descritos</li>
+    <li>Será visualizado a página de Recuperar Senha.</li>
+    <li>Clicar nas funções para ver se funciona.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página de Login devem encaminhar os usuários para as páginas como informado.</td>
+  <td>Pedro</td>
+ </tr>
+</table>
+
