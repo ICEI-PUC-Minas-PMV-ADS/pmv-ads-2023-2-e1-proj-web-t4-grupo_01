@@ -252,44 +252,50 @@ meio do documento*/
   width: 100%;
   height: 100%;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   position: absolute;
   top: 50px;
   left: 0;
   right: 0;
   bottom: 63px;
+  overflow-y: auto;
 }
 
 .perfil-top {
-  display: flex;
-  width: 100%;
+  display: grid;
+  min-width: 520px;
+  max-width: 1040px;
+  margin: 0 auto 0px auto;
+  grid-template-columns: 50% 50%;
   background-color: rgb(211, 211, 211, 0.4);
   height: auto;
   border-radius: 0px 0px 20px 20px;
   filter: drop-shadow(0px 4px 4px darkgray);
-  flex-wrap: wrap;
-  flex-direction: row;
   align-content: center;
   justify-content: space-between;
+  justify-items: center;
 }
 
 .perfil-top-logo-box {
   display: flex;
-  height: 80px;
+  height: 120px;
   align-items: center;
+  margin: 0px auto 0px 10px;
 }
 
 .foto-perfil-view {
   display: flex;
-  width: 80px;
-  height: 80px;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 20px 0 auto;
+  height: 100px;
 }
 
 .nome-perfil-text-box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 80px;
+  width: 200px;
 }
 
 .perfil-top-rating-box {
@@ -298,8 +304,9 @@ meio do documento*/
   flex-direction: row;
   align-content: center;
   justify-content: space-around;
-  height: 80px;
-  margin: 0px 0px 0px auto;
+  height: 120px;
+  width: 300px;
+  margin: 0px 10px 0px auto;
 }
 
 .rating-box {
@@ -324,7 +331,6 @@ meio do documento*/
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  margin: 0px 20px 0px 0px;
   align-items: center;
 }
 
@@ -344,7 +350,7 @@ meio do documento*/
   justify-content: center;
   height: 80px;
   width: auto;
-  margin: 0px auto 0px 40px;
+  margin: 0px auto 0px 10px;
 }
 
 .contato-box {
@@ -363,12 +369,44 @@ meio do documento*/
   align-items: center;
   justify-content: space-evenly;
   height: 72px;
+  margin: 0px 10px 0px auto;
+}
+
+.perfil-bio{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 130px;
+  margin: 0 10px 10px 10px;
 }
 
 .perfil-body {
+  display: grid;
+  grid-template-rows: 600px;
   position: relative;
+  height: 200px;
+  min-width: 600px;
+  max-width: 1200px;
+  margin: 0px auto 0px auto;
+}
+
+.perfil-body-galeria{
+  display: grid;
+  height: 200px;
+ grid-template-columns: 25% 25% 25% 25%;
+}
+
+.foto-galeria{
   display: flex;
-  min-height: 200px;
+  flex-wrap: nowrap;
+  justify-items:center;
+  align-items:center;
+  margin: 0px auto 0px auto;
+
 }
 
 &::before {
@@ -393,10 +431,11 @@ textarea::placeholder {
 }
 
 /* Pagina Formulario de Usuario voluntário */
-.container-fomulario-usuario{
+.container-fomulario-usuario {
   font-family: Laila;
   text-shadow: 0px 4px 4px darkgray;
 }
+
 .container-fomulario {
   display: grid;
   grid-template-columns: auto 696px auto;
@@ -782,6 +821,8 @@ no final do documento*/
   min-height: 63px;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-contents {
