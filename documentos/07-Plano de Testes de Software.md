@@ -34,6 +34,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
  </tr>
 </table>
 
+
 <table>
  <tr>
   <th>Caso de teste</th>
@@ -44,7 +45,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar para onde vai o recadastramento do usuário que esqueceu a senha</td>
+  <td>CT-02: Verificar para onde vai o recadastramento do usuário que esqueceu a senha vai</td>
   <td>
    <ul>
     <li>RF-00:	O site deve permitir ao usuário cadastrar uma conta.</li>
@@ -61,8 +62,44 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>Clicar nas funções para ver se funciona.</li>
    </ol>
    </td>
-  <td>Todos os links da página de Login devem encaminhar os usuários para as páginas como informado.</td>
+  <td>Todos os links da página de "Recuperar senha" devem encaminhar os usuários para as páginas como informado.</td>
   <td>Pedro</td>
  </tr>
 </table>
+
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar as funcionalidades da página de "formulário de usuário"</td>
+  <td>
+   <ul>
+    <li>RF-00:	O site deve permitir ao usuário cadastrar uma conta no botão "confirmar".</li>
+    <li>RF-00:	O site deve permitir ao usuário colocar email, senha e confirmar e assim ir pra página de usuário.</li>
+   <li>RF-00:	O site deve fazer com que ele poste uma foto dele e enviar (o botão enviar não está funcionando, mas redireciona a uma página de error)</li>
+   </ul>
+  </td>
+  <td>Verificar se os links e o botão de cadastramento está levando a outra página</td>
+  <td>
+   <ol>
+    <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
+    <li>Colocar o endereço nesses navegadores descritos</li>
+    <li>Será visualizado a página de Recuperar Senha.</li>
+    <li>Clicar nas funções para ver se funciona.</li>
+   </ol>
+   </td>
+  <td>Todos os links da página de "formulário de usuário" devem encaminhar os usuários para as páginas como informado.</td>
+  <td>Leticia</td>
+ </tr>
+</table>
+
+
+
 
