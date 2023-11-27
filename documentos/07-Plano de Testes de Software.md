@@ -56,14 +56,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
    <li>RF-00:	O site deve fazer com que receba um código</li>
    </ul>
   </td>
-  <td>Verificar se os links e o botão de cadastramento está levando a outra página</td>
+  <td>Verificar o recebimento do código, as novas senhas, e os botões de "Confirmar" e "Descartar" (Ambos não estão funcionando, nem o recebimento do código)</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
     <li>Colocar o endereço nesses navegadores descritos</li>
    </ol>
    </td>
-  <td>Todos os links da página de "Recuperar senha" devem encaminhar os usuários para as páginas como informado.</td>
+  <td>Todos os botôes devem direcionar as páginas (Não criadas ainda).</td>
   <td>Pedro</td>
  </tr>
 </table>
@@ -88,7 +88,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>RF-02:	O site deve fazer com que o usuário clique em "concluir" e seja redirecionado a página de buscas (QUE A MESMA NÃO ESTÁ FEITA)</li>
    </ul>
   </td>
-  <td>Verificar se os links e o botão de cadastramento está levando a outra página</td>
+  <td>Verificar se as caixas de preenchimento estão funcionado, e os botões (ainda sem funcionalidade)</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
@@ -116,7 +116,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
   <td>CT-04: Verificar as funcionalidades da página de "formulário organizacional"</td>
   <td>
    <ul>
-    <li>RF-03: Ao clicar no botão: sou empresa (QUE SERÁ FEITO EM JAVASCRITP, ELE É REDIREIONADO A PÁGINA DE FORMULÁRIO ORGNANIZACIONAL</li>
+    <li>RF-03: Ao clicar no botão: sou empresa (QUE SERÁ FEITO EM JAVASCRITP, ELE É REDIRECIONADO A PÁGINA DE FORMULÁRIO ORGNANIZACIONAL</li>
     <li>RF-03:	O site deve permitir ao usuário cadastrar uma conta no botão "confirmar".</li>
     <li>RF-03:	O site deve permitir ao usuário colocar Nome, endereço de e-mail, cidade de residência, foto de perfil e autobiografia para usuários ‘voluntários’ e nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia e confirmar e assim ir pra página de usuário.</li>
     <li>RNF-03: Solicitar das organizações/clínicas o CNPJ durante o preenchimento das informações no app</li>
@@ -124,12 +124,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
    <li>RF-02:	O site deve fazer com que ele poste uma foto dele e enviar (o botão enviar não está funcionando, mas redireciona a uma página de error)</li>
    </ul>
   </td>
-  <td>Verificar se os links e o botão de cadastramento está levando a outra página</td>
+  <td>Verificar se os botões e as caixas estão funcionando corretamente (estão sem funcionalidade, mas estão na página)</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
     <li>Colocar o endereço nesses navegadores descritos</li>
-    <li>Será visualizado a página de Recuperar Senha.</li>
+    <li>Será visualizado na primeira pág de Login para cadastrar, a partir de lá, da para ir a esta página</li>
     <li>Clicar nas funções para ver se funciona.</li>
    </ol>
    </td>
@@ -156,7 +156,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>RF-07:	O site deve permitir ao usuário </li>
    </ul>
   </td>
-  <td>Verificar se os links e o botão de cancelar está levando a outra página</td>
+  <td>Verificar se a caixa de preenchimento está funcionando e está, e o botão</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador.</li>
