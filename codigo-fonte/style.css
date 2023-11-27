@@ -32,7 +32,6 @@ deve ficar aqui, no cabeçalho do documento */
   background: linear-gradient(to right, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
   color: rgb(0, 0, 0);
   display: flex;
-  height: 100%;
   justify-content: center;
 }
 
@@ -46,18 +45,15 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header {
   display: flex;
   max-width: none;
   max-height: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -68,7 +64,7 @@ footer {
   display: flex;
   max-width: none;
   max-height: 63px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -253,11 +249,8 @@ meio do documento*/
   height: 100%;
   flex-direction: column;
   flex-wrap: nowrap;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  right: 0;
-  bottom: 63px;
+  margin-top: 0;
+  margin-bottom: 0;
   overflow-y: auto;
 }
 
@@ -388,25 +381,14 @@ meio do documento*/
   display: grid;
   grid-template-rows: 600px;
   position: relative;
-  height: 200px;
+  height:  200px;
   min-width: 600px;
   max-width: 1200px;
   margin: 0px auto 0px auto;
 }
 
-.perfil-body-galeria{
-  display: grid;
-  height: 200px;
- grid-template-columns: 25% 25% 25% 25%;
-}
-
-.foto-galeria{
-  display: flex;
-  flex-wrap: nowrap;
-  justify-items:center;
-  align-items:center;
-  margin: 0px auto 0px auto;
-
+.perfil-bio::first-line{
+  height: 28px;
 }
 
 &::before {
@@ -418,6 +400,31 @@ meio do documento*/
   background-position: center;
   opacity: 0.1;
 }
+.perfil-body-galeria{
+  display: grid;
+  height: 200px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.intro-galeria{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 24px;
+}
+
+.foto-galeria{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-items:center;
+  align-items:center;
+  margin: 0px auto 0px auto;
+
+}
+
 
 /* Cancelamento de pefil */
 
