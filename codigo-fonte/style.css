@@ -393,7 +393,10 @@ textarea::placeholder {
 }
 
 /* Pagina Formulario de Usuario voluntário */
-
+.container-fomulario-usuario{
+  font-family: Laila;
+  text-shadow: 0px 4px 4px darkgray;
+}
 .container-fomulario {
   display: grid;
   grid-template-columns: auto 696px auto;
