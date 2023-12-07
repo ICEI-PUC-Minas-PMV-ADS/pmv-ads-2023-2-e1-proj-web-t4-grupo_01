@@ -99,11 +99,11 @@ A tela Página de instruções de emergência tem como objetivo possibilitar ao 
 </figure> 
 
 ## Página de visualização do perfil organizacional
-A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, nessa pagina temos a seguinte divisão:
+A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, nessa página temos a seguinte divisão: 
 
--Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possível clicando no botão editar da header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional.
+-Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possível clicando no botão editar do header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional. 
 
--Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possivel através do componente **Editar galeria**, que consiste no botão editar localizado no corpo da página. Você será redirecionaod até a Página de edição de galeria.
+-Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possível através do componente Editar galeria, que consiste no botão editar localizado no corpo da página. Você será redirecionado até a Página de edição de galeria. 
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe5.png"
