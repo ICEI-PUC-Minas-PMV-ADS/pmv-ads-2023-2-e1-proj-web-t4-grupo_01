@@ -139,13 +139,13 @@ A tela Página de edição de galeria provem da Página de visualização do per
 
 ## Página de recuperação de senha
 A tela Página de recuperação de senha provém da tela Página de login, quando o usuário tanto voluntário quanto organizacional esquecer a senha ele pode acionar o componente **Esqueci minha senha** (botão de esqueci minha senha) na tela de Página de login e ele será redirecionado até essa página, na qual tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
-- Componente de **E-mail**, o usuário deve digitar um e-mail na qual possa receber um código digitavel para efetuar a alteração de senha;
-- Componente de **Enviar**, consiste em um botão que permite o usuário ao ser clicado enviar o e-mail para receber o código digitavel;
+- Componente de **E-mail**, o usuário deve digitar um e-mail na qual possa receber um código digitável para efetuar a alteração de senha;
+- Componente de **Enviar**, consiste em um botão que permite o usuário ao ser clicado enviar o e-mail para receber o código digitável;
 - Componente de **Código digitavel**, consiste em um código que será enviado para o e-mail digitado e irá  validar a troca de senhas do usuário;
 - Componente de **Nova senha**, o usuário deve digitar a nova senha desejada conforme os padrões estabelecidos pelo site;
 - Componente de **Confirmar senha**, o usuário deve digitar novamente a senha para que possa confirmar e verificar se a senha desejada está correta;
 - Componente de **Concluir**, consiste em um botão que permite o usuário ao ser clicado concluir sua redefinição de senha;
-- Componentede **Descartar**, consiste em um botão que permite o usuário ao ser clicado descartar a alteração de senha.
+- Componente de **Descartar**, consiste em um botão que permite o usuário ao ser clicado descartar a alteração de senha.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe9.png"
