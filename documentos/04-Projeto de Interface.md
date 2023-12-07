@@ -187,7 +187,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 ## Página de busca
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe3.png"
-    <figcaption> Figura 18 - Página de busca com opições pré-definidas</figcaption>
+    <figcaption> Figura 18 - Página de busca com opções pré-definidas</figcaption>
 </figure> 
 
 ## Página de instruções de emergência
