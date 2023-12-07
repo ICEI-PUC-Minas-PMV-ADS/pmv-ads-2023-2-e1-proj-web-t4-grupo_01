@@ -87,7 +87,7 @@ A tela Página de busca tem como objetivo possibilitar ao usuário voluntário f
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
-    <figcaption> Figura 8 - Página de busca com opições pré-definidas</figcaption>
+    <figcaption> Figura 8 - Página de busca com opções pré-definidas</figcaption>
 </figure> 
 
 ## Página de instruções de emergência
