@@ -37,7 +37,7 @@ A tela Página de login tem como objetivo possibilitar ao usuário a entrada na 
 
 ## Página de formulário de usuário voluntário
 A tela Página de formulário de usuário voluntário tem como objetivo possibilitar ao usuário voluntário preencher seus dados para que possa se cadastrar no site e efetuar seu login no mesmo, além disso permite a alteração de informações e desativamento do perfil. Com base na estrutura padrão sem a Header, temos os seguintes componentes:
-- Componente de **E-mail**, na qual permite que o usuário voluntário preencha a caixa de texto com seu email para cadastro no site;
+- Componente de **E-mail**, na qual permite que o usuário voluntário preencha a caixa de texto com seu e-mail para cadastro no site;
 - Componente de **Senha**, na qual permite que o usuário voluntário preencha a caixa de texto com sua senha para cadastro no site;
 - Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário voluntário escolha uma foto para colocar em seu perfil;
 - Componente de **Preview**, permite ao usuário voluntário ver como sua foto ficará no perfil previamente;
@@ -45,7 +45,7 @@ A tela Página de formulário de usuário voluntário tem como objetivo possibil
 - Componente de **Enviar**, consiste em um botão que permite o usuário voluntário ao ser clicado, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
 - Componente de **Concluir**, consiste em um botão que permite o usuário voluntário ao ser clicado, concluir seu cadastro no site e ir para Página de login;
 - Componente de **Descartar**, consiste em um botão que permite o usuário voluntário ao ser clicado, descartar as informações do formulário;
-- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
+- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja, já possuir cadastro. 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe1.png"
     <figcaption>Figura 6 - Página com o formulário de informações do usuário voluntário</figcaption>
