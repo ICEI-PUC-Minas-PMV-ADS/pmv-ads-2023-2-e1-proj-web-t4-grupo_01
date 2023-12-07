@@ -10,7 +10,7 @@ O diagrama apresentado na Figura 3 mostra o fluxo de interação do usuário pel
 </figure> 
 
 ## Wireframe
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam estruturas comuns que são apresentadas na Figura 4. Nesta estrutura, existem 3 grandes componente, descritos a seguir. São eles:
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam estruturas comuns que são apresentadas na Figura 4. Nesta estrutura, existem 3 grandes componentes, descritos a seguir. São eles:
 
 - Cabeçalho: Contendo os botões de navegação direta mais relevantes para a navegação do usuário.
 - Corpo de conteúdo: Contendo as informações e alguns botões de navegação para o usuário.
@@ -18,7 +18,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/WireframeModelo.png"
-    <figcaption>Figura 4 - Wireframe modelo apresentando os principais componente presentes no app</figcaption>
+    <figcaption>Figura 4 - Wireframe modelo apresentando os principais componentes presentes no app</figcaption>
 </figure>
 
 ## Página de login
