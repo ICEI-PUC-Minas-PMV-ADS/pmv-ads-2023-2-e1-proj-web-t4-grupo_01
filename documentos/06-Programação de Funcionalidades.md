@@ -42,7 +42,7 @@ Pedro de Oliveira Rosas
 ### Página de formulário de usuário voluntário
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/formusuario1.png"
-    <figcaption>Figura 27 - Página de formulário de usuário volutário</figcaption>
+    <figcaption>Figura 27 - Página de formulário de usuário voluntário</figcaption>
 </figure>
 
 #### Requisito atendido
