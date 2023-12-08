@@ -136,7 +136,7 @@ RF- 19
 #### Artefatos da funcionalidade
 
 A tela Página de cancelamento de perfil provém de duas telas Página de formulário de usuário voluntário e Página de formulário de usuário organizacional, ao acessar o botão Desativar Perfil, você será direcionado para essa tela, na qual tem como objetivo permitir que tanto usuário voluntário quanto o organizacional desative sua conta no site. Tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
-- Componentede **Motivo do cancelamento**, consiste em uma caixa de texto que pede ao usuário que nos fale o motivo da desativação;
+- Componente de **Motivo do cancelamento**, consiste em uma caixa de texto que pede ao usuário que nos fale o motivo da desativação;
 - Componente **Cancelar perfil**, consiste em um botão que, quando clicado pelo usuário, confirma o cancelamento de sua conta no site.
 
 #### Estrutura de Dados
