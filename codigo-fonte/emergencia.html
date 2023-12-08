@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Página de emergência</title>
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="author" content="grupo1">
+        <meta name="viewpoint" content="width = 100%, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+
+    <body class="body">
+        <header>
+            <div class="cabecalho">
+                <div class="logo-header">
+                    <figure class="logo-pet-190-mini">
+                        <img src="img/logobranco.png" width="40px" height="40px"
+                            alt="logo-pet-190">
+                    </figure>
+                    <figcaption class="logo-pet-190-titulo-mini"
+                        style="order: 2;">
+                        <span style="color:#736262">PET </span> 190
+                    </figcaption>
+                </div>
+                <button type="button">
+                    Pesquisa</button>
+                <div class="menu-header-perfil">
+                    <button class="btn-header-perfil-editar" type="button">
+                        Editar</button>
+                    <figure class="foto-voluntario-mini">
+                        <img src="img/fotovoluntario.jpg" width="40px"
+                            height="40px" alt="foto-voluntario"
+                            style="border-radius: 15px; border: 1px; border-color: lightgrey;">
+                    </figure>
+                    <button class="btn-sair" type="button">
+                        Sair</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="opcoes">
+            <h4>Qual sua emergência?</h4>
+            <form method="post" action="cadastrar-enquete.js">
+                <select name="time">
+                    <option value="bota">Acidente grave</option>
+                    <option value="fla">Animal selvagem</option>
+                    <option value="flu">Suspeita de envenenamento</option>
+                    <option value="flu">Animal para ser resgatado</option>
+                    <option value="flu">Animais doentes</option>
+                </select>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Cancelar" />
+            </form>
+
+            <div id="situ-emerg">
+                <h4>Situações de emergência</h4>
+                <div>
+                    <p class="parag">Como agir:
+                        Na barra de busca acima temos uma lista das
+                        situações de emergêngia mais comuns, escolha uma
+                        que mais se adequa a sua situação atual.
+                        Abaixo temos algumas das clìnicas veterinàrias
+                        mais bem avaliadas do nosso aplicativo, elas podem
+                        ajudar na maioria dos casos.
+                    </p>
+
+                    <div>
+                        <p class="parag">Como é feito o resgate de animais?
+                            Para o resgate, geralmente formam-se equipes que
+                            percorrem a área, dotados dos instrumentos
+                            necessários para a captura de animais. O
+                            afugentamento passivo da fauna geralmente ocorre com
+                            animais com maior capacidade de deslocamento para as
+                            áreas do entorno:
+                        </p>
+                        <img src="img/wildlife3.jpeg">
+                        <img src="img/wildlife2.png" width="259" height="194">
+
+                        <br>
+                        <p class="espaca-paragra">Abaixo temos algumas das
+                            clìnicas veterinàrias
+                            mais bem avaliadas do nosso aplicativo, elas podem
+                            ajudar na maioria dos casos:</p>
+                    </div>
+
+                    <!--inicio das avaliações-->
+                    <div class="espacamento-avali">
+                        <div class="perfil-top">
+                            <div class="perfil-top-logo-box">
+                                <figure class="foto-perfil-view">
+                                    <img src="img/pet-shop1.png" width="80px"
+                                        height="80px" alt="foto-voluntario"
+                                        style="border-radius: 15px; border: 1px; border-color: lightgrey;">
+                                </figure>
+
+                                <div class="nome-perfil-text-box">
+                                    Pet Shop<br>
+                                    Endereço completo com N°<br>
+                                    <div class="perfil-aberto-horario">
+                                        <a style="font-size: small;"> Segunda:
+                                            08:00 - 20:00 Aberto </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--encerramento das avaliações-->
+
+                    <div class="espacamento-avali"> <!--inicio-->
+                        <div class="perfil-top">
+                            <div class="perfil-top-logo-box">
+                                <figure class="foto-perfil-view">
+                                    <img src="img/pet-shop1.png" width="80px"
+                                        height="80px" alt="foto-voluntario"
+                                        style="border-radius: 15px; border: 1px; border-color: lightgrey;">
+                                </figure>
+
+                                <div class="nome-perfil-text-box">
+                                    Pet Shop<br>
+                                    Endereço completo com N°<br>
+                                    <div class="perfil-aberto-horario">
+                                        <a style="font-size: small;"> Segunda:
+                                            08:00 - 20:00 Aberto </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--fim da 2 avaliacao-->
+
+                    <div class="espacamento-avali"> <!--inicio-->
+                        <div class="perfil-top">
+                            <div class="perfil-top-logo-box">
+                                <figure class="foto-perfil-view">
+                                    <img src="img/pet-shop1.png" width="80px"
+                                        height="80px" alt="foto-voluntario"
+                                        style="border-radius: 15px; border: 1px; border-color: lightgrey;">
+                                </figure>
+
+                                <div class="nome-perfil-text-box">
+                                    Pet Shop<br>
+                                    Endereço completo com N°<br>
+                                    <div class="perfil-aberto-horario">
+                                        <a style="font-size: small;"> Segunda:
+                                            08:00 - 20:00 Aberto </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png"
+                                            width="30px" height="30px"
+                                            alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--fim da 2 avaliacao-->
+
+                </div>
+            </div>
+        </body>
+    </html>
