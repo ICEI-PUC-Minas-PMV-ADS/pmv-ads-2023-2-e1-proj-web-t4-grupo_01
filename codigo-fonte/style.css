@@ -25,16 +25,13 @@ deve ficar aqui, no cabeçalho do documento */
 .body {
   background: #bbf0f1;
   background: -moz-linear-gradient(left, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
-  background: -webkit-linear-gradient(
-    left,
-    #bbf0f1 0%,
-    #e4e4e4 61%,
-    #f3d7a0 100%
-  );
+  background: -webkit-linear-gradient(left,
+      #bbf0f1 0%,
+      #e4e4e4 61%,
+      #f3d7a0 100%);
   background: linear-gradient(to right, #bbf0f1 0%, #e4e4e4 61%, #f3d7a0 100%);
   color: rgb(0, 0, 0);
   display: flex;
-  height: 100%;
   justify-content: center;
 }
 
@@ -48,18 +45,15 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header {
   display: flex;
   max-width: none;
   max-height: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -70,7 +64,7 @@ footer {
   display: flex;
   max-width: none;
   max-height: 63px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -94,7 +88,9 @@ button:hover {
   color: black;
 }
 
-input {
+input,
+textarea,
+select {
   border: 1px;
   border-radius: 20px;
   border-color: lightgrey;
@@ -252,44 +248,47 @@ meio do documento*/
   width: 100%;
   height: 100%;
   flex-direction: column;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  right: 0;
-  bottom: 63px;
+  flex-wrap: nowrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-y: auto;
 }
 
 .perfil-top {
-  display: flex;
-  width: 100%;
+  display: grid;
+  min-width: 520px;
+  max-width: 1040px;
+  margin: 0 auto 0px auto;
+  grid-template-columns: 50% 50%;
   background-color: rgb(211, 211, 211, 0.4);
   height: auto;
   border-radius: 0px 0px 20px 20px;
   filter: drop-shadow(0px 4px 4px darkgray);
-  flex-wrap: wrap;
-  flex-direction: row;
   align-content: center;
   justify-content: space-between;
+  justify-items: center;
 }
 
 .perfil-top-logo-box {
   display: flex;
-  height: 80px;
+  height: 120px;
   align-items: center;
+  margin: 0px auto 0px 10px;
 }
 
 .foto-perfil-view {
   display: flex;
-  width: 80px;
-  height: 80px;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 20px 0 auto;
+  height: 100px;
 }
 
 .nome-perfil-text-box {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 80px;
+  width: 200px;
 }
 
 .perfil-top-rating-box {
@@ -298,8 +297,9 @@ meio do documento*/
   flex-direction: row;
   align-content: center;
   justify-content: space-around;
-  height: 80px;
-  margin: 0px 0px 0px auto;
+  height: 120px;
+  width: 300px;
+  margin: 0px 10px 0px auto;
 }
 
 .rating-box {
@@ -324,7 +324,6 @@ meio do documento*/
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  margin: 0px 20px 0px 0px;
   align-items: center;
 }
 
@@ -344,7 +343,7 @@ meio do documento*/
   justify-content: center;
   height: 80px;
   width: auto;
-  margin: 0px auto 0px 40px;
+  margin: 0px auto 0px 10px;
 }
 
 .contato-box {
@@ -363,12 +362,33 @@ meio do documento*/
   align-items: center;
   justify-content: space-evenly;
   height: 72px;
+  margin: 0px 10px 0px auto;
+}
+
+.perfil-bio{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 130px;
+  margin: 0 10px 10px 10px;
 }
 
 .perfil-body {
+  display: grid;
+  grid-template-rows: 600px;
   position: relative;
-  display: flex;
-  min-height: 200px;
+  height:  200px;
+  min-width: 600px;
+  max-width: 1200px;
+  margin: 0px auto 0px auto;
+}
+
+.perfil-bio::first-line{
+  height: 28px;
 }
 
 &::before {
@@ -380,6 +400,31 @@ meio do documento*/
   background-position: center;
   opacity: 0.1;
 }
+.perfil-body-galeria{
+  display: grid;
+  height: 200px;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.intro-galeria{
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 24px;
+}
+
+.foto-galeria{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-items:center;
+  align-items:center;
+  margin: 0px auto 0px auto;
+
+}
+
 
 /* Cancelamento de pefil */
 
@@ -392,10 +437,13 @@ textarea::placeholder {
   font-style: italic;
 }
 
-
-/* Pagina FormularioUsuario */
-
+/* Pagina Formulario de Usuario voluntário */
 .container-fomulario-usuario {
+  font-family: Laila;
+  text-shadow: 0px 4px 4px darkgray;
+}
+
+.container-fomulario {
   display: grid;
   grid-template-columns: auto 696px auto;
   grid-template-rows: 100%;
@@ -412,7 +460,7 @@ textarea::placeholder {
   bottom: 0;
 }
 
-.fomulario-usuario {
+.fomulario-inicial {
   display: grid;
   grid-template-columns: 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px;
   grid-template-rows: 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px 58px;
@@ -590,6 +638,182 @@ textarea::placeholder {
   grid-row-end: 12;
 }
 
+/* Pagina Formulario de Usuario Organizacional */
+.alinhamento-dados-form-organiza {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 12;
+  grid-row-start: 5;
+  grid-row-end: 9;
+  width: 100%;
+
+}
+
+.alinhamento-titulo-form-organiza {
+  display: flex;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  width: 100%;
+}
+
+.grid-form-informacao {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+  width: 100%;
+}
+
+.coluna-um {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+}
+
+.formulario-info-dados-organiza {
+  display: flex;
+  width: 100%;
+}
+
+.coluna-dois {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+}
+
+.alinhamento-form-hora-organiza {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 12;
+  grid-row-start: 7;
+  grid-row-end: 12;
+  width: 100%;
+}
+
+.grid-form-hora {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  width: 100%;
+}
+
+.formulario-hora-organiza {
+  display: flex;
+  width: 100%;
+}
+
+.coluna-hora-um {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+}
+
+.coluna-hora-dois {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+
+}
+
+.coluna-hora-tres {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 100%;
+  margin-left: 16px;
+
+}
+
+.coluna-hora-quatro {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  width: 100%;
+  margin-left: 32px;
+
+}
+
+.coluna-hora-cinco {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  width: 100%;
+  margin-left: 48px;
+
+}
+
+.coluna-hora-seis {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  width: 100%;
+  margin-left: 6px;
+
+}
+
+.coluna-hora-sete {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  width: 100%;
+  margin-left: 16px;
+
+}
+
+.coluna-hora-oito {
+  grid-column-start: 9;
+  grid-column-end: 10;
+  width: 100%;
+  margin-left: 32px;
+
+}
+
+.horario-input {
+  font-size: 8px;
+  margin-bottom: 8px;
+}
+
+.conte-sobre-form {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 11;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  width: 100%;
+
+}
+
+.position-bnt-organiza {
+  display: flex;
+  grid-column-start: 5;
+  grid-column-end: 12;
+  grid-row-start: 12;
+  grid-row-end: 12;
+  margin-bottom: 50px;
+}
+
+/* Pagina recuperação de senha */
+
+.recuperar-senha-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 68px;
+  background-color: rgb(211, 211, 211, 0.4);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.recuperacao-senha-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Menu-recupera-senha {
+  display: flex;
+  align-items: flex-start;
+}
+
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
 no final do documento*/
 
@@ -604,6 +828,8 @@ no final do documento*/
   min-height: 63px;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-contents {
@@ -640,65 +866,4 @@ no final do documento*/
   margin: 0px auto 0px 0px;
 }
 
-/*Página emergencia*/
-.opcoes {
-  display: flex;
-  flex-direction: column;
-  /* Altera a direção para coluna */
-  align-items: center;
-  margin-top: 90px;
-  width: 900px;
-  font-family: 'Laila', sans-serif;
-}
 
-.opcoes p {
-  margin: 0;
-}
-
-.opcoes form {
-  margin: 0;
-}
-
-#situ-emerg {
-  display: flex;
-  flex-direction: column;
-  /* Altera a direção para coluna */
-  align-items: flex-start;
-  /* Alinha os itens à esquerda */
-  margin-top: 10px;
-  margin-right: 50px;
-  width: 700px;
-  font-family: 'Laila', sans-serif;
-}
-
-.parag {
-  padding: 5px;
-  margin: 5px;
-}
-
-.espaca-paragra {
-  float: left;
-  padding: 10px;
-  margin-right: 20px;
-  padding-bottom: 50px;
-}
-
-.resultado-1-toa {
-  align-items: center;
-  background-color: rgba(239, 239, 239, 0.6999999881);
-  border: solid 0.1rem rgba(0, 0, 0, 0.200000003);
-  border-radius: 2rem;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  display: flex;
-  height: 12rem;
-  left: 0;
-  padding: 0.8rem 2.8rem 1rem 2rem;
-  position: absolute;
-  top: 59.2rem;
-  width: 82rem;
-}
-
-.espacamento-avali {
-  padding: 10px;
-}

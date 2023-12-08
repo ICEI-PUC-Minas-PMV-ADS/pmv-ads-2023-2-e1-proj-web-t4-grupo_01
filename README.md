@@ -35,8 +35,9 @@ Objetivamente será um espaço de informações condensadas para o voluntario (a
 </ol>
 
 # Hospedagem
+Endereço da hospedagem na Vercel:
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://pet190.vercel.app">Endereço de acesso</a> 
 
 # Código-Fonte
 

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class="html" lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <title>PET 190</title>
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="author" content="grupo1" />
+    <meta name="viewpoint" content="width = 100%, initial-scale = 1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body class="body">
+    <div class="container-fomulario">
+      <div class="fomulario-inicial">
+        <div class="titulo">
+          <h1>Formulàrio com suas informações</h1>
+        </div>
+        <div class="dados-solicitado">
+          <div class="alinhamento-texto">
+            Preencha os dados abaixo conforme solicitado
+          </div>
+          <div class="alinhamento-foto">
+            <figure>
+              <img
+                class="foto-formulario-informacoes"
+                src="img/pet-shop1.png"
+                alt="foto-fomulario-informacoes"
+              />
+              <figcaption class="legenda-preview">Preview</figcaption>
+            </figure>
+          </div>
+          <div class="botao-escolher-foto">
+            <form class="formulario-layout" method="post">
+              <label for="formulario-layout-myfile"></label
+              ><input
+                class="fileStyle"
+                type="file"
+                id="formulario-layout-myfile"
+              />
+              <div class="select-perfil-foto">
+                <p style="font-size: small">
+                  Selecione uma foto para ilustrar seu perfil
+                </p>
+              </div>
+              <input class="botao-enviar-foto" type="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="alinhamento-titulo-form-organiza">
+          <p style="font-size: 16px">Preencha com seus dados:</p>
+        </div>
+        <div class="alinhamento-dados-form-organiza">
+          <form class="formulario-info-dados-organiza" method="post">
+            <div class="grid-form-informacao">
+              <div class="coluna-um">
+                <label for="nome-form-organiza">Nome : </label>
+                <input
+                  type="nome"
+                  id="nome-form-organiza"
+                  size="15"
+                  maxlength="50"
+                />
+                <br />
+                <label for="cnpj-form-organiza">CNPJ : </label>
+                <input
+                  type="cnpj"
+                  id="cnpj-form-organiza"
+                  size="16"
+                  maxlength="50"
+                />
+                <br />
+                <label for="endereco-form-organiza">Endereço : </label>
+                <input
+                  type="endereco"
+                  id="endereco-form-organiza"
+                  size="11"
+                  maxlength="50"
+                />
+                <br />
+                <label for="bairro-form-organiza">Bairro : </label>
+                <input
+                  type="bairro"
+                  id="bairro-form-organiza"
+                  size="14"
+                  maxlength="50"
+                />
+                <br />
+                <label for="cidades">Cidade:</label>
+                <select name="cidade" id="cidade-organiza">
+                  <option value="SP">São Paulo</option>
+                  <option value="BH">Belo Horizonte</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                </select>
+                <br />
+                <label for="email-form-organiza">E-mail : </label>
+                <input
+                  type="email"
+                  id="email-form-organiza"
+                  size="13"
+                  maxlength="50"
+                />
+                <br />
+                <label for="password-form-organiza">Senha : </label>
+                <input
+                  type="password"
+                  id="password-form-organiza"
+                  size="14"
+                  maxlength="50"
+                />
+              </div>
+              <div class="coluna-dois">
+                <label for="telefone-form-organiza">Telefone : </label>
+                <input
+                  type="telefone"
+                  id="telefone-form-organiza"
+                  size="16"
+                  maxlength="50"
+                />
+                <br />
+                <label for="estabelecimentos">Estabelecimento:</label>
+                <select name="estabelecimento" id="estabelecimento-organiza">
+                  <option value="PetShop">Pet Shop</option>
+                  <option value="Clinica">Clinica</option>
+                  <option value="ONG">ONG</option>
+                </select>
+                <br />
+                <label for="numero-form-organiza">Nº : </label>
+                <input
+                  type="numero"
+                  id="numero-form-organiza"
+                  size="1"
+                  maxlength="50"
+                />
+                <label for="cep-form-organiza">CEP : </label>
+                <input
+                  type="cep"
+                  id="cep-form-organiza"
+                  size="7"
+                  maxlength="50"
+                />
+                <br />
+                <label for="complemento-form-organiza">Complemento : </label>
+                <input
+                  type="complemento"
+                  id="complemento-form-organiza"
+                  size="10"
+                  maxlength="50"
+                />
+                <br />
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado-organiza">
+                  <option value="SP">São Paulo</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                </select>
+                <br />
+                <label for="endereçoHtml-form-organiza">Endereço HTML : </label>
+                <input
+                  type="endereçoHtml"
+                  id="endereçoHtml-form-organiza"
+                  size="7"
+                  maxlength="50"
+                />
+                <br />
+                <label for="password-form-organiza">Senha : </label>
+                <input
+                  type="password"
+                  id="password-form-organiza"
+                  size="18"
+                  maxlength="50"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="alinhamento-form-hora-organiza">
+          <form class="formulario-hora-organiza" method="post">
+            <div class="grid-form-hora">
+              <div class="coluna-hora-um">
+                <p style="font-size: small">Horários:</p>
+                <p style="font-size: small">Abre:</p>
+                <p style="font-size: small">Fecha:</p>
+              </div>
+
+              <div class="coluna-hora-dois">
+                <p style="font-size: small">DOMINGO:</p>
+                <label for="horaAbreDois"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreDois"
+                  name="horaAbreDois"
+                />
+                <br />
+                <label for="horaFechaDois"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaDois"
+                  name="horaFechaDois"
+                />
+              </div>
+
+              <div class="coluna-hora-tres">
+                <p style="font-size: small">SEGUNDA:</p>
+                <label for="horaAbreTres"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreTres"
+                  name="horaAbreTres"
+                />
+                <br />
+                <label for="horaFechaTres"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaTres"
+                  name="horaFechaTres"
+                />
+              </div>
+
+              <div class="coluna-hora-quatro">
+                <p style="font-size: small">TERÇA:</p>
+                <label for="horaAbreQuatro"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreQuatro"
+                  name="horaAbreQuatro"
+                />
+                <br />
+                <label for="horaFechaQuatro"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaQuatro"
+                  name="horaFechaQuatro"
+                />
+              </div>
+              <div class="coluna-hora-cinco">
+                <p style="font-size: small">QUARTA:</p>
+                <label for="horaAbreCinco"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreCinco"
+                  name="horaAbreCinco"
+                />
+                <br />
+                <label for="horaFechaCinco"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaCinco"
+                  name="horaFechaCinco"
+                />
+              </div>
+              <div class="coluna-hora-seis">
+                <p style="font-size: small">QUINTA:</p>
+                <label for="horaAbreSeis"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreSeis"
+                  name="horaAbreSeis"
+                />
+                <br />
+                <label for="horaFechaSeis"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaSeis"
+                  name="horaFechaSeis"
+                />
+              </div>
+              <div class="coluna-hora-sete">
+                <p style="font-size: small">SEXTA:</p>
+                <label for="horaAbreSete"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreSete"
+                  name="horaAbreSete"
+                />
+                <br />
+                <label for="horaFechaSete"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaSete"
+                  name="horaFechaSete"
+                />
+              </div>
+              <div class="coluna-hora-oito">
+                <p style="font-size: small">SABADO:</p>
+                <label for="horaAbreOito"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaAbreOito"
+                  name="horaAbreOito"
+                />
+                <br />
+                <label for="horaFechaOito"></label>
+                <input
+                  class="horario-input"
+                  type="time"
+                  id="horaFechaOito"
+                  name="horaFechaOito"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="conte-sobre-form">
+          <div>
+            <p>Conte-nos sobre você :</p>
+          </div>
+          <form name="conte-sobre-voce" method="post">
+            <label for="comment"></label> <br />
+            <textarea
+              id="comment"
+              placeholder="Digite aqui"
+              maxlength="1000"
+              style="width: 400px; height: 50px"
+            >
+            </textarea>
+          </form>
+        </div>
+        <div class="position-bnt-organiza">
+          <button type="button">Concluir</button>
+          <button type="button">Descartar</button>
+          <button type="button">Desativar</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-box">
+        <div class="black-line"></div>
+        <div class="footer-contents">
+          <h1 class="footer-text" style="justify-content: center">
+            PET190 foi desenvolvido pelo grupo 1 da turma 4 como parte do curso
+            de Análise e Desenvolvimento de sistemas no 2 semestre de 2023 da
+            PUC MG com a orientação da professora Nathália Assis Valentim
+          </h1>
+          <h1 class="logo-puc-footer">
+            <img
+              src="img/Logo-PUC-Minas.png"
+              width="50"
+              height="50"
+              alt="logo-puc-mg"
+            />
+          </h1>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

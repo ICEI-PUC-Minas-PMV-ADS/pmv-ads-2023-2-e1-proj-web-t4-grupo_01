@@ -10,7 +10,7 @@ O diagrama apresentado na Figura 3 mostra o fluxo de interação do usuário pel
 </figure> 
 
 ## Wireframe
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam estruturas comuns que são apresentadas na Figura 4. Nesta estrutura, existem 3 grandes componente, descritos a seguir. São eles:
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam estruturas comuns que são apresentadas na Figura 4. Nesta estrutura, existem 3 grandes componentes, descritos a seguir. São eles:
 
 - Cabeçalho: Contendo os botões de navegação direta mais relevantes para a navegação do usuário.
 - Corpo de conteúdo: Contendo as informações e alguns botões de navegação para o usuário.
@@ -18,7 +18,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/WireframeModelo.png"
-    <figcaption>Figura 4 - Wireframe modelo apresentando os principais componente presentes no app</figcaption>
+    <figcaption>Figura 4 - Wireframe modelo apresentando os principais componentes presentes no app</figcaption>
 </figure>
 
 ## Página de login
@@ -37,7 +37,7 @@ A tela Página de login tem como objetivo possibilitar ao usuário a entrada na 
 
 ## Página de formulário de usuário voluntário
 A tela Página de formulário de usuário voluntário tem como objetivo possibilitar ao usuário voluntário preencher seus dados para que possa se cadastrar no site e efetuar seu login no mesmo, além disso permite a alteração de informações e desativamento do perfil. Com base na estrutura padrão sem a Header, temos os seguintes componentes:
-- Componente de **E-mail**, na qual permite que o usuário voluntário preencha a caixa de texto com seu email para cadastro no site;
+- Componente de **E-mail**, na qual permite que o usuário voluntário preencha a caixa de texto com seu e-mail para cadastro no site;
 - Componente de **Senha**, na qual permite que o usuário voluntário preencha a caixa de texto com sua senha para cadastro no site;
 - Componente de **Selecione uma foto para ilustrar seu perfil**, na qual permite que o usuário voluntário escolha uma foto para colocar em seu perfil;
 - Componente de **Preview**, permite ao usuário voluntário ver como sua foto ficará no perfil previamente;
@@ -45,7 +45,7 @@ A tela Página de formulário de usuário voluntário tem como objetivo possibil
 - Componente de **Enviar**, consiste em um botão que permite o usuário voluntário ao ser clicado, enviar a imagem escolhida para colocar no componente **Caixa imagem**;
 - Componente de **Concluir**, consiste em um botão que permite o usuário voluntário ao ser clicado, concluir seu cadastro no site e ir para Página de login;
 - Componente de **Descartar**, consiste em um botão que permite o usuário voluntário ao ser clicado, descartar as informações do formulário;
-- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja já possuir cadastro. 
+- Componente de **Desativar Perfil**, consiste em um botão que permite o usuário voluntário ao ser clicado, desativar sua conta. Este componente só ficará visível se já houver sido realizado um login a aplicação previamente, ou seja, já possuir cadastro. 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe1.png"
     <figcaption>Figura 6 - Página com o formulário de informações do usuário voluntário</figcaption>
@@ -87,11 +87,11 @@ A tela Página de busca tem como objetivo possibilitar ao usuário voluntário f
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe3.png"
-    <figcaption> Figura 8 - Página de busca com opições pré-definidas</figcaption>
+    <figcaption> Figura 8 - Página de busca com opções pré-definidas</figcaption>
 </figure> 
 
 ## Página de instruções de emergência
-A tela Página de instruções de emergência tem como objetivo possibilitar ao usuário voluntário, ao clicar no botão emergência, na qual provem da estrutura básica header, encontrar informações que possam ser importantes e que possam ajudar o voluntário em situações dificeis com os animais encontrados. Com base na estrutura padrão, apenas com alteração na Header, trocando o botão de "emergência" por "pesquisa", temos como componentes uma caixa de seleção que indica motivos fixos das quais você possa estar precisando de ajuda e ao ser escolhida te mostra no corpo da página a informação selecionada.
+A tela Página de instruções de emergência tem como objetivo possibilitar ao usuário voluntário, ao clicar no botão emergência, na qual provém da estrutura básica header, encontrar informações que possam ser importantes e que possam ajudar o voluntário em situações difíceis com os animais encontrados. Com base na estrutura padrão, apenas com alteração na Header, trocando o botão de "emergência" por "pesquisa", temos como componentes uma caixa de seleção que indica motivos fixos das quais você possa estar precisando de ajuda e ao ser escolhida te mostra no corpo da página a informação selecionada. 
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe7.png"
@@ -99,11 +99,11 @@ A tela Página de instruções de emergência tem como objetivo possibilitar ao 
 </figure> 
 
 ## Página de visualização do perfil organizacional
-A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, nessa pagina temos a seguinte divisão:
+A tela Página de visualização do perfil organizacional, tem como objetivo mostrar ao usuário organizacional as respectivas informações do seu estabelecimento. Possui estrutura padrão com alteração na Header, contendo apenas logo do site, foto do usuário organizacional e botões de sair e editar, nessa página temos a seguinte divisão: 
 
--Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possível clicando no botão editar da header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional.
+-Caso o usuário organizacional queira editar suas informações de texto e imagem de perfil, será possível clicando no botão editar do header, localizado ao lado da foto de perfil e do botão sair. Nesse caso ele será direcionado para Página de formulário de usuário organizacional. 
 
--Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possivel através do componente **Editar galeria**, que consiste no botão editar localizado no corpo da página. Você será redirecionaod até a Página de edição de galeria.
+-Caso o usuário organizacional queira editar suas fotos e informações da galeria, será possível através do componente Editar galeria, que consiste no botão editar localizado no corpo da página. Você será redirecionado até a Página de edição de galeria. 
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe5.png"
@@ -139,13 +139,13 @@ A tela Página de edição de galeria provem da Página de visualização do per
 
 ## Página de recuperação de senha
 A tela Página de recuperação de senha provém da tela Página de login, quando o usuário tanto voluntário quanto organizacional esquecer a senha ele pode acionar o componente **Esqueci minha senha** (botão de esqueci minha senha) na tela de Página de login e ele será redirecionado até essa página, na qual tem estrutura padrão, exceto não possuir header e temos os seguintes componentes: 
-- Componente de **E-mail**, o usuário deve digitar um e-mail na qual possa receber um código digitavel para efetuar a alteração de senha;
-- Componente de **Enviar**, consiste em um botão que permite o usuário ao ser clicado enviar o e-mail para receber o código digitavel;
+- Componente de **E-mail**, o usuário deve digitar um e-mail na qual possa receber um código digitável para efetuar a alteração de senha;
+- Componente de **Enviar**, consiste em um botão que permite o usuário ao ser clicado enviar o e-mail para receber o código digitável;
 - Componente de **Código digitavel**, consiste em um código que será enviado para o e-mail digitado e irá  validar a troca de senhas do usuário;
 - Componente de **Nova senha**, o usuário deve digitar a nova senha desejada conforme os padrões estabelecidos pelo site;
 - Componente de **Confirmar senha**, o usuário deve digitar novamente a senha para que possa confirmar e verificar se a senha desejada está correta;
 - Componente de **Concluir**, consiste em um botão que permite o usuário ao ser clicado concluir sua redefinição de senha;
-- Componentede **Descartar**, consiste em um botão que permite o usuário ao ser clicado descartar a alteração de senha.
+- Componente de **Descartar**, consiste em um botão que permite o usuário ao ser clicado descartar a alteração de senha.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/Wireframe9.png"
@@ -187,7 +187,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 ## Página de busca
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/PrototipoWireframe3.png"
-    <figcaption> Figura 18 - Página de busca com opições pré-definidas</figcaption>
+    <figcaption> Figura 18 - Página de busca com opções pré-definidas</figcaption>
 </figure> 
 
 ## Página de instruções de emergência
