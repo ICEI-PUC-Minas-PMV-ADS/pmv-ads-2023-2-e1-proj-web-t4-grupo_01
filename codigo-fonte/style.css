@@ -928,3 +928,13 @@ no final do documento*/
 .espacamento-avali {
   padding: 10px;
 }
+
+/* Página de resgate que está junto com a pág de emergencia */
+
+.texto-topo {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0; 
+}
