@@ -865,3 +865,76 @@ no final do documento*/
   display: flex;
   margin: 0px auto 0px 0px;
 }
+
+/*Página emergencia*/
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  /* Altera a direção para coluna */
+  align-items: center;
+  margin-top: 90px;
+  width: 900px;
+  font-family: 'Laila', sans-serif;
+}
+
+.opcoes p {
+  margin: 0;
+}
+
+.opcoes form {
+  margin: 0;
+}
+
+#situ-emerg {
+  display: flex;
+  flex-direction: column;
+  /* Altera a direção para coluna */
+  align-items: flex-start;
+  /* Alinha os itens à esquerda */
+  margin-top: 10px;
+  margin-right: 50px;
+  width: 700px;
+  font-family: 'Laila', sans-serif;
+}
+
+.parag {
+  padding: 5px;
+  margin: 5px;
+}
+
+.espaca-paragra {
+  float: left;
+  padding: 10px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+
+.resultado-1-toa {
+  align-items: center;
+  background-color: rgba(239, 239, 239, 0.6999999881);
+  border: solid 0.1rem rgba(0, 0, 0, 0.200000003);
+  border-radius: 2rem;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  display: flex;
+  height: 12rem;
+  left: 0;
+  padding: 0.8rem 2.8rem 1rem 2rem;
+  position: absolute;
+  top: 59.2rem;
+  width: 82rem;
+}
+
+.espacamento-avali {
+  padding: 10px;
+}
+
+/* Página de resgate que está junto com a pág de emergencia */
+
+.texto-topo {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0; 
+}
