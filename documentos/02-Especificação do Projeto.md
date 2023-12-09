@@ -82,15 +82,15 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 | RF- 08 |  Permitir postagem de fotos dos serviços/animais/campanhas prestados pelo usuário organizacional.                     | Alta   | 
 | RF- 09 |  Permitir adicionar ou favoritar os perfis organizacionais que prestaram/prestam serviços de boa qualidade.           | Média  | 
 | RF- 10 |  Permitir avaliar a qualidade do serviço prestado pelos perfis organizacionais.                                       | Média  | 
-| RF- 12 |  Solicitar das organizações/clínicas o CNPJ durante o preenchimento das informações no app.                           | Baixo  | 
-| RF- 13 |  Solicitar das organizações/clínicas o link para o site delas no preenchimento das informações no app.                | Baixo  | 
-| RF- 14 |  Ferramenta para mudar o idioma padrão de interação com o app.                                                        | Baixo  | 
-| RF- 15 |  Ferramenta para mudar as cores de fundo/texto do app entre modo luminoso e modo escuro.                              | Baixo  | 
-| RF- 16 |  Definir uma barra Header com os botões: Home (levando para o perfil), busca, emergência e logout                     | Alta   | 
-| RF- 17 | Página que permita a recuperação de senha         | Alta  |
-| RF- 18 | Botão que leve para a página de recuperação de senha | Alta  |
-| RF- 19 | Página que permita cancelamento de cadastro         | Alta  |
-| RF- 20 | Botão que leve para a página de cancelamento de cadastro | Alta  |
+| RF- 11 |  Solicitar das organizações/clínicas o CNPJ durante o preenchimento das informações no app.                           | Baixo  | 
+| RF- 12 |  Solicitar das organizações/clínicas o link para o site delas no preenchimento das informações no app.                | Baixo  | 
+| RF- 13 |  Ferramenta para mudar o idioma padrão de interação com o app.                                                        | Baixo  | 
+| RF- 14 |  Ferramenta para mudar as cores de fundo/texto do app entre modo luminoso e modo escuro.                              | Baixo  | 
+| RF- 15 |  Definir uma barra Header com os botões: Home (levando para o perfil), busca, emergência e logout                     | Alta   | 
+| RF- 16 | Página que permita a recuperação de senha         | Alta  |
+| RF- 17 | Botão que leve para a página de recuperação de senha | Alta  |
+| RF- 18 | Página que permita cancelamento de cadastro         | Alta  |
+| RF- 19 | Botão que leve para a página de cancelamento de cadastro | Alta  |
 
 **Prioridade: Alta / Média / Baixa. 
 
