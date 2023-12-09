@@ -87,10 +87,10 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 | RF- 14 |  Ferramenta para mudar o idioma padrão de interação com o app.                                                        | Baixo  | 
 | RF- 15 |  Ferramenta para mudar as cores de fundo/texto do app entre modo luminoso e modo escuro.                              | Baixo  | 
 | RF- 16 |  Definir uma barra Header com os botões: Home (levando para o perfil), busca, emergência e logout                     | Alta   | 
-| RF- 17 | Página que permita arecuperação de senha         | ALTA  |
-| RF- 18 | Botão que leve para a página de recuperação de senha | ALTA  |
-| RF- 19 | Página que permita cancelamento de cadastro         | ALTA  |
-| RF- 20 | Botão que leve para a página de cancelamento de cadastro | ALTA  |
+| RF- 17 | Página que permita a recuperação de senha         | Alta  |
+| RF- 18 | Botão que leve para a página de recuperação de senha | Alta  |
+| RF- 19 | Página que permita cancelamento de cadastro         | Alta  |
+| RF- 20 | Botão que leve para a página de cancelamento de cadastro | Alta  |
 
 **Prioridade: Alta / Média / Baixa. 
 
@@ -102,8 +102,8 @@ Oferecer formas de contato com os usuários voluntários e material informativo 
 |--------|-------------------------|----|
 | RNF- 00 |  Site deve ser intuitivo                     | Alta   | 
 | RNF- 01 |  Deve ser atrativo para os usuários           | Média  | 
-| RNF- 02 |  Deve ter tons claros e elegres        | Média  | 
-| RNF- 03 |  Deve permitir inteação do usuário com as clinicas | Baixo  | 
+| RNF- 02 |  Deve ter tons claros e alegres        | Média  | 
+| RNF- 03 |  Deve permitir interação do usuário com as clínicas | Baixo  | 
 | RNF- 04 |  Deve oferecer informações precisas                | Alto  | 
 
 **Prioridade: Alta / Média / Baixa. 
