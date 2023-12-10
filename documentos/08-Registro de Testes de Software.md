@@ -38,3 +38,10 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeEsqueceuSenha.png"
 </figure>
 <br>
+  
+|Caso de Teste    | CT-02: Verificar para onde vai a página esqueceu a senha  |
+|:---|:---|
+| Resultados obtidos | RF-00 O site deve permitir enviar o e-mail para receber o código. <br> RF-00: O site deve fazer com que receba um código. Resultado teste:O botão de enviar está sem funcionamento, por isso não ocorre o envio do código para e-mail. Resultado teste: O botão de enviar está sem funcionamento, por isso não ocorre o envio do código para e-mail. <br>  RF-00: O site deve permitir ao usuário confirmar os dados e assim ir pra página de Login. Resultado teste: O botão confirmar está sem funcionamento, por isso não ocorre a finalização do processo, nem o redirecionamento para página de Login.   |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+
+<br>
