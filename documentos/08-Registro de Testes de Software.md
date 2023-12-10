@@ -4,9 +4,37 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 
 Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-01 - Verificar o cadastramento e os links da página de Login |
 |:---|:---|
-| Resultados obtidos | Descrever resultados do teste  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+| Resultados obtidos | RF-00: O site deve permitir ao usuário cadastrar uma conta: Resultado do teste: Os botões da página ainda não possuem funcionamento, não podendo concluir o cadastro do usuário.   |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeLogin1.png"
+</figure>
+<br>
+  
+|Caso de Teste    | CT-01 - Verificar o cadastramento e os links da página de Login |
+|:---|:---|
+| Resultados obtidos | RF-00: O site deve permitir ao usuário cadastrar uma conta e assim ele será direcionado a página de busca: Resultado do teste: Ao se cadastrar no site o voluntário deveria ser direcionado até a página de busca, mas não possuímos a função dos botões em funcionamento. <br> RF-00: O site deve permitir apertar um botão que leva para a página formulário de novos registros, como: foto, e-mail e senha. Resultado do teste: Os botões “esqueci minha senha” e “cadastre-se” direcionam corretamente o usuário. |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeLogin2.png"
+</figure>
 
-[Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeLogin3.png"
+</figure>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeLogin4.png"
+</figure>
+<br>
+
+|Caso de Teste    | CT-02: Verificar para onde vai a página esqueceu a senha  |
+|:---|:---|
+| Resultados obtidos | RF-00: O site deve permitir ao usuário digitar e-mail. Resultado teste: O site permite a digitação de um e-mail.    |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeEsqueceuSenha.png"
+</figure>
+<br>
