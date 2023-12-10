@@ -45,3 +45,20 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Responsável pela execução do caso de Teste | Leticia Mateus |
 
 <br>
+
+|Caso de Teste    | CT-03: Verificar as funcionalidades da página de "formulário de usuário"   |
+|:---|:---|
+| Resultados obtidos | RF-02: O site deve permitir ao usuário cadastrar uma conta no botão "concluir". <br> RF-02: O site deve permitir ao usuário colocar e-mail, senha e confirmar e assim ir pra página de usuário. <br> RF-02: O site deve fazer com que o usuário clique em "concluir" e seja redirecionado a página de buscas.Resultado do teste:Devia as não funcionalidades dos botões, não é possível concluir o processo de cadastro. <br> RF-02: O site deve fazer com que ele poste uma foto dele e envia. Resultado do teste: É permitido a seleção de imagens, porém ao enviar é direcionado a uma página de erro devido a não funcionalidade do botão.    |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeFormuUsuario1.png"
+</figure>
+
+  <figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeFormuUsuario2.png"
+</figure>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeFormuUsuario3.png"
+</figure>
+<br>
