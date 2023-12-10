@@ -202,7 +202,7 @@ Página composta por um arquivo HTML () e um arquivo Style.CSS (style.css)
 
 ### Página de busca (RF-04 RF-06)  
 <figure> 
-  <img src=""
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/paginaDeBuscaPesquisa.png"
     <figcaption>Figura 33 </figcaption>
 </figure>
 <br> 
@@ -214,16 +214,17 @@ A tela Página de busca tem como objetivo possibilitar ao usuário voluntário f
 -RF- 06 
  
 #### Artefatos da funcionalidade
--HTML -   <br>
+-HTML - pesquisa.html  <br>
 -Style.css 
 
 #### Estrutura de Dados
-Página composta por um arquivo HTML () e um arquivo Style.CSS (style.css) 
+Página composta por um arquivo HTML (pesquisa.html) e um arquivo Style.CSS (style.css) 
 
 #### Instruções de acesso
--Abra um navegador de Internet e informe a seguinte URL:<a [href="">codigo-fonte/Cancelamento.HTML</a>
+-Abra um navegador de Internet e informe a seguinte URL:<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/pesquisa.html](https://pet190.vercel.app/pesquisa.html)">codigo-fonte/pesquisa.html</a>
 
 #### Responsável
+Pedro de Oliveira Rosas 
 
 ### Página de visualização do perfil organizacional pelo usuário voluntário (RF- 06 RF- 07 RF-09 RF-10)   
 <figure> 

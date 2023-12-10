@@ -94,3 +94,16 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeEmergencia2.png"
 </figure>
+<br>
+
+|Caso de Teste    | CT-08: Verificar as funcionalidades da página de "Busca"    |
+|:---|:---|
+| Resultados obtidos |RF-06: Permitir que o usuário selecione o que deseja buscar. Resultado do teste: O usuário pode selecionar o que deseja buscar e o site possui a função do botão Buscar em funcionamento.    |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testePesquisa1.png"
+</figure>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testePesquisa2.png"
+</figure>
