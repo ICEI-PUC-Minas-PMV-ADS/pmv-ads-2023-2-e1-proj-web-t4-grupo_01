@@ -139,7 +139,7 @@ Página permite ao usuário cancelar seu cadastro.
 Página composta por um arquivo HTML (emergencia.html) e um arquivo Style.CSS (style.css) 
 
 #### Instruções de acesso
--Abra um navegador de Internet e informe a seguinte URL:<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Cancelamento.htm](https://pet190.vercel.app/Cancelamento.html)l](https://pet190.vercel.app/emergencia.html)">codigo-fonte/emergencia.html</a>
+-Abra um navegador de Internet e informe a seguinte URL:<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/emergencia.html](https://pet190.vercel.app/emergencia.html)">codigo-fonte/emergencia.html</a>
 
 #### Responsável
 Quezia Emilly
@@ -169,7 +169,7 @@ Página composta por um arquivo HTML (FormularioOrganizacional.html) e um arquiv
 
 #### Instruções de acesso
 
--Abra um navegador de Internet e informe a seguinte URL:<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Recuperarsenha.html](https://pet190.vercel.app/Recuperarsenha.html)](https://pet190.vercel.app/FormularioOrganizacional.html)">codigo-fonte/FormularioOrganizacional.html</a>
+-Abra um navegador de Internet e informe a seguinte URL:<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/FormularioOrganizacional.html](https://pet190.vercel.app/FormularioOrganizacional.html)">codigo-fonte/FormularioOrganizacional.html</a>
 <br>
 
 #### Responsável
@@ -290,10 +290,10 @@ Página de visualização do perfil organizacional tem como objetivo fornecer in
 Página composta por um arquivo HTML (perfil1.html \ perfil2.html \ perfil3.html \ perfil4.html \ perfil5.html \ perfil6.html \ perfil7.html \ perfil8.html) e um arquivo Style.CSS (style.css) 
 
 #### Instruções de acesso
--Abra um navegador de Internet e informe a seguinte URL:<a [href="[[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Perfil1.html](https://pet190.vercel.app/Perfil1.html ))">codigo-fonte/Perfil1.html</a>
+-Abra um navegador de Internet e informe a seguinte URL:<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Perfil1.html](https://pet190.vercel.app/Perfil1.html ))">codigo-fonte/Perfil1.html</a>
 <br>
 <br>
-<a [href="[[[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/perfil2.html](https://pet190.vercel.app/perfil2.html )">codigo-fonte/perfil2.html</a>
+<a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/perfil2.html](https://pet190.vercel.app/perfil2.html )">codigo-fonte/perfil2.html</a>
 <br>
 <br>
 <a [href="[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/perfil3.html](https://pet190.vercel.app/perfil3.html )">codigo-fonte/perfil3.html</a>
