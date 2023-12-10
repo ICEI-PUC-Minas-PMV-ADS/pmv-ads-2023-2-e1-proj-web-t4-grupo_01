@@ -84,16 +84,16 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
    <ul>
     <li>RF-02:	O site deve permitir ao usuário cadastrar uma conta no botão "confirmar".</li>
     <li>RF-02:	O site deve permitir ao usuário colocar e-mail, senha e confirmar e assim ir pra página de usuário.</li>
-   <li>RF-02:	O site deve fazer com que ele poste uma foto dele e enviar (o botão enviar não está funcionando, mas redireciona a uma página de error).</li>
+   <li>RF-02:	O site deve fazer com que ele poste uma foto dele e enviar.</li>
     <li>RF-02:	O site deve fazer com que o usuário clique em "concluir" e seja redirecionado a página de buscas.</li>
    </ul>
   </td>
   <td>Verificar se as caixas de preenchimento estão funcionado, e os botões.</td>
   <td>
    <ol>
-    <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
-    <li>Colocar o endereço nesses navegadores descritos</li>
-    <li>Será visualizado a página de Recuperar Senha.</li>
+    <li>Acessar o link em qualquer navegador. (Firefox, Chrome e Edge).</li>
+    <li>Colocar o endereço nesses navegadores. descritos</li>
+    <li>Será visualizado a página de Recuperar. Senha.</li>
     <li>Clicar nas funções para ver se funciona.</li>
    </ol>
    </td>
