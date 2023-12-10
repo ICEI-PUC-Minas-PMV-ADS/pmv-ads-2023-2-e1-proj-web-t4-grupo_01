@@ -61,6 +61,38 @@ function fechaRegistro() {
           respostaVet.style.display = "flex";
       }
   }
+  
+  function selectEmergencia() {
+    let elemento = document.getElementById("pesquisa-form-dropdown").value;
+    let respostaOrg = document.getElementById("resposta-org");
+    let respostaVet = document.getElementById("resposta-vet");
+    let respostaHotel = document.getElementById("resposta-pethotel");
+    let respostaShop = document.getElementById("resposta-petshop");
+    if ((elemento == "org")) {
+        respostaHotel.style.display = "none";
+        respostaOrg.style.display = "flex";
+        respostaShop.style.display = "none";
+        respostaVet.style.display = "none";
+    }
+    if ((elemento == "petshop")) {
+        respostaOrg.style.display = "none";
+        respostaHotel.style.display = "none";
+        respostaShop.style.display = "flex";
+        respostaVet.style.display = "none";
+    }
+    if ((elemento == "pethotel")) {
+        respostaHotel.style.display = "flex";
+        respostaOrg.style.display = "none";
+        respostaShop.style.display = "none";
+        respostaVet.style.display = "none";
+    }
+    if ((elemento == "vet")) {
+        respostaHotel.style.display = "none";
+        respostaOrg.style.display = "none";
+        respostaShop.style.display = "none";
+        respostaVet.style.display = "flex";
+    }
+}
   /* -Código da pagina formulário de usuário vonluntário- */
   
   /* -Código da pagina formulário de usuário organizacional- */
