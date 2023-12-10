@@ -74,6 +74,25 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
   <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeFormularioOrganizacional2.png"
 </figure>
-
-
 <br>
+
+|Caso de Teste    | CT-05: Verificar a página "cancelamento de usuário”   |
+|:---|:---|
+| Resultados obtidos | RF-07: O site deve permitir ao usuário justificar seu cancelamento. Resultado do teste: Permite que o usuário justifique o cancelamento, porém os botões de conclusão não estão ativos.     |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeCancelamento.png"
+</figure>
+<br>
+
+|Caso de Teste    | CT-06: Verificar as funcionalidades da página de "Emergência"    |
+|:---|:---|
+| Resultados obtidos |RF-05: O site deve conter informações sobre cuidados em situações de emergência que tentem ajudar o usuário. <br> RF-06: O site deve conter botão para ir até página de busca. <br> RF-07: O site deve conter botão para logout. Resultado do teste:  O site possui todos os requisitos solicitados, porém os botões estão sem funcionalidades.   |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeEmergencia1.png"
+</figure>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeEmergencia2.png"
+</figure>
