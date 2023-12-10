@@ -311,7 +311,7 @@ Página composta por um arquivo HTML (perfil1.html \ perfil2.html \ perfil3.html
 <a [href="[[[[[[[[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Recuperarsenha.html](https://pet190.vercel.app/Recuperarsenha.html)](https://pet190.vercel.app/FormularioOrganizacional.html](https://pet190.vercel.app/Perfil1.html ))](https://pet190.vercel.app/perfil2.html )](https://pet190.vercel.app/perfil3.html )](https://pet190.vercel.app/perfil4.html )](https://pet190.vercel.app/perfil5.html )](https://pet190.vercel.app/perfil6.html ](https://pet190.vercel.app/perfil7.html ))">codigo-fonte/Perfil7.html</a>
 <br>
 <br>
-<a [href="[[[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Recuperarsenha.html](https://pet190.vercel.app/Recuperarsenha.html)](https://pet190.vercel.app/perfil8.html )">codigo-fonte/Perfil8.html</a>
+<a [href="[[https://htmlpreview.github.io/?https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/codigo-fonte/Perfil8.html](https://pet190.vercel.app/perfil8.html )">codigo-fonte/Perfil8.html</a>
 
 #### Responsável
 Leticia Mateus
