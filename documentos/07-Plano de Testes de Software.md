@@ -56,14 +56,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
    <li>RF-00:	O site deve fazer com que receba um código.</li>
    </ul>
   </td>
-  <td>Verificar o recebimento do código, as novas senhas, e os botões de "Confirmar" e "Descartar" (Ambos não estão funcionando, nem o recebimento do código).</td>
+  <td>Verificar o recebimento do código, as novas senhas, e os botões de "Confirmar" e "Descartar".</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
     <li>Colocar o endereço nesses navegadores descritos.</li>
    </ol>
    </td>
-  <td>Todos os botôes devem direcionar as páginas (Não criadas ainda).</td>
+  <td>Todos os botôes devem direcionar as páginas.</td>
   <td>Pedro</td>
  </tr>
 </table>
@@ -88,7 +88,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>RF-02:	O site deve fazer com que o usuário clique em "concluir" e seja redirecionado a página de buscas.</li>
    </ul>
   </td>
-  <td>Verificar se as caixas de preenchimento estão funcionado, e os botões (ainda sem funcionalidade).</td>
+  <td>Verificar se as caixas de preenchimento estão funcionado, e os botões.</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
@@ -97,7 +97,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>Clicar nas funções para ver se funciona.</li>
    </ol>
    </td>
-  <td>Todos os links da página de "formulário de usuário" devem encaminhar os usuários para as páginas como informado. (Nessa página em questão não está)</td>
+  <td>Todos os links da página de "formulário de usuário" devem encaminhar os usuários para as páginas como informado.</td>
   <td>Leticia</td>
  </tr>
 </table>
@@ -121,10 +121,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>RF-03:	O site deve permitir ao usuário colocar Nome, endereço de e-mail, cidade de residência, foto de perfil e autobiografia para usuários ‘voluntários’ e nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia e confirmar e assim ir pra página de usuário.</li>
     <li>RNF-03: Solicitar das organizações/clínicas o CNPJ durante o preenchimento das informações no app.</li>
     <li>RNF-04: Solicitar das organizações/clínicas o link para o site delas no preenchimento das informações no app. </li>
-   <li>RF-02:	O site deve fazer com que ele poste uma foto dele e enviar (o botão enviar não está funcionando, mas redireciona a uma página de error).</li>
+   <li>RF-02:	O site deve fazer com que ele poste uma foto dele e enviar.</li>
    </ul>
   </td>
-  <td>Verificar se os botões e as caixas estão funcionando corretamente (estão sem funcionalidade, mas estão na página).</td>
+  <td>Verificar se os botões e as caixas estão funcionando corretamente.</td>
   <td>
    <ol>
     <li>Acessar o link em qualqer navegador (Firefox, Chrome e Edge).</li>
@@ -133,7 +133,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>Clicar nas funções para ver se funciona.</li>
    </ol>
    </td>
-  <td>Todos os links da página de "formulário de usuário" devem encaminhar os usuários para as páginas como informado. (NADA ESTÁ FUNCIONANDO)</td>
+  <td>Todos os links da página de "formulário de usuário" devem encaminhar os usuários para as páginas como informado.</td>
   <td>Leticia</td>
  </tr>
 </table>
@@ -196,7 +196,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
     <li>Clicar nas funções para ver se funciona.  </li>
    </ol>
    </td>
-  <td>Todos os links da página de "emergência" devem encaminhar os usuários para as páginas como informado. (Nessa página em questão não está). </td>
+  <td>Todos os links da página de "emergência" devem encaminhar os usuários para as páginas como informado. </td>
   <td>Quezia</td>
  </tr>
 </table>
