@@ -2,8 +2,6 @@
 
 Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
 
-Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
-
 |Caso de Teste    | CT-01 - Verificar o cadastramento e os links da página de Login |
 |:---|:---|
 | Resultados obtidos | RF-00: O site deve permitir ao usuário cadastrar uma conta: Resultado do teste: Os botões da página ainda não possuem funcionamento, não podendo concluir o cadastro do usuário.   |
