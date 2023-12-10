@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>PET 190 Pesquisa</title>
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="author" content="grupo1">
+        <meta name="viewpoint" content="width = 100%, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo-header">
+                <figure class="logo-pet-190-mini">
+                    <img src="img/logobranco.png" width="40px" height="40px" alt="logo-pet-190">
+                </figure>
+                <figcaption class="logo-pet-190-titulo-mini" style="order: 2;">
+                    <span style="color:#736262">PET </span> 190
+                </figcaption>
+            </div>
+            <a href="emergencia.html"><button class="btn-emergencia" type="button">
+                    Emergência</button></a>
+            <div class="menu-header-perfil">
+                <a href="formularioUsuario.html"><button class="btn-header-perfil-editar" type="button">
+                        Editar</button></a>
+                <figure class="foto-voluntario-mini">
+                    <img src="img/fotovoluntario.jpg" width="40px" height="40px" alt="foto-voluntario"
+                        style="border-radius: 15px; border: 1px; border-color: lightgrey;">
+                </figure>
+                <a href="index.html"><button class="btn-sair" type="button">
+                        Sair</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pesquisa-corpo">
+            <div class="pesquisa-menu">
+                <div class="pesquisa-form-area">
+                    <form class="pesquisa-form">
+                        <label for="pesquisa-form-dropdown">Escolha o que procura:</label>
+                        <select id="pesquisa-form-dropdown" name="pesquisa" size="1">
+                            <option value="petshop">Pet Shop</option>
+                            <option value="vet">Clínica Veterinária</option>
+                            <option value="pethotel">Pet Hotel</option>
+                            <option value="org">ONGs e Abrigos para Pets</option>
+                            <option value="empty" selected> </option>
+                        </select>
+                        <button class="btn-select-busca" type="button" onclick="selectBusca()">
+                            Buscar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="pesquisa-resposta">
+                <div class="pesquisa-item">
+                    <div class="resposta-org" id="resposta-org">
+                        <div class="resposta-padrao" onclick="window.location.href='perfil1.html'">
+                            <div>
+                                <img src="img/orgs/caomer/projetocaomer.png" width="80px" height="80px"
+                                    alt="logo-projeto-caomer"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Projeto CãoMer</b>
+                                </p>
+                                <p style="margin: 0;">Rua Primeiro de Maio, 165 Bairro Vila Boa Vista Contagem/MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9492-6049</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9492-6049</p>
+                                <p style="margin: 0;"><time>08:00</time>-<time>18:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resposta-padrao" onclick="window.location.href='perfil2.html'">
+                            <div>
+                                <img src="img/orgs/caoviver/caoviver.png" width="80px" height="80px"
+                                    alt="logo-projeto-caoviver"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>CãoViver</b>
+                                </p>
+                                <p style="margin: 0;">Rua Primeiro de Maio, 165 Bairro Vila Boa Vista Contagem/MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9166-8563</p>
+                                    <p style="margin: 0;">
+                                    Telefone: (31) 9 9166-8563</p>
+                                <p style="margin: 0;"><time>08:00</time>-<time>16:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                            <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resposta-petshop" id="resposta-petshop">
+                        <div class="resposta-padrao" onclick="window.location.href='perfil3.html'">
+                            <div>
+                                <img src="img/orgs/dogsShop/dogsshop.png" width="80px" height="80px"
+                                    alt="logo-petshop-dogsshop"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Dogs Shop</b>
+                                </p>
+                                <p style="margin: 0;">Av. Bernardo Monteiro 1441 Funcionários, CEP 30150-281 Boa Vista
+                                    Contagem/MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 3191-2000</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 3224-8525</p>
+                                <p style="margin: 0;"><time>09:00</time>-<time>19:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                            <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resposta-padrao" onclick="window.location.href='perfil4.html'">
+                            <div>
+                                <img src="img/orgs/rancho&pet/rhancho&pets.png" width="80px" height="80px"
+                                    alt="logo-rancho-&-pets"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Rancho & Pet</b>
+                                </p>
+                                <p style="margin: 0;">Rua Carlos Muzzi, 207 - Bairro - Palmeiras - Cidade: Belo
+                                    Horizonte - MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 98904-0042</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 98904-0042</p>
+                                <p style="margin: 0;"><time>08:00</time>-<time>18:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                        style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resposta-pethotel" id="resposta-pethotel">
+                        <div class="resposta-padrao" onclick="window.location.href='perfil7.html'">
+                            <div>
+                                <img src="img/orgs/hotelPampulha/petHotelPampulha.png" width="80px" height="80px"
+                                    alt="logo-pet-hotel-pampulha"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Pet Hotel Pampulha</b>
+                                </p>
+                                <p style="margin: 0;">Av. Portugal, 810 Jd. Atlântico - Belo Horizonte-MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9166-8563</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9166-8563</p>
+                                <p style="margin: 0;"><time>08:00</time>-<time>16:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                        style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resposta-padrao" onclick="window.location.href='perfil8.html'">
+                            <div>
+                                <img src="img/orgs/animalhouse/animalhouse.png" width="80px" height="80px"
+                                    alt="logo-animal-house"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Animal House</b>
+                                </p>
+                                <p style="margin: 0;">Rua Salgueiro, 399, Ipiranga - Belo Horizonte-MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9166-8563</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 9 9166-8563</p>
+                                <p style="margin: 0;"><time>08:00</time>-<time>18:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resposta-vet" id="resposta-vet">
+                        <div class="resposta-padrao" onclick="window.location.href='perfil5.html'">
+                            <div>
+                                <img src="img/orgs/saudeAnimal/saudeAnimal.jpg" width="80px" height="80px"
+                                    alt="logo-veterinária-saude-animal"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                                </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Saúde Animal</b>
+                                </p>
+                                <p style="margin: 0;">Rua Gonçalves 65 Candelária (Venda Nova) Belo Horizonte/MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 3234-2517</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 99749-2202</p>
+                                <p style="margin: 0;"><time>08:00</time>-<time>19:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resposta-padrao" onclick="window.location.href='perfil6.html'">
+                            <div>
+                                <img src="img/orgs/centroSaudeAnimal/centrosaude.png" width="80px" height="80px"
+                                    alt="logo-veterinária-centro-de-saude"
+                                    style="margin: 10px; border-radius: 15px; border: 1px; border-color: lightgrey; background-color: white;">
+                            </div>
+                            <div>
+                                <p style="margin: 0;">
+                                    <b>Dr. Animal</b>
+                                </p>
+                                <p style="margin: 0;">Rua Apatíta, 86 Bairro: Candelária Belo Horizonte/MG</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 3457-5594</p>
+                                <p style="margin: 0;">
+                                    Telefone: (31) 3457-5594</p>
+                                <p style="margin: 0;"><time>08:30</time>-<time>21:00</time> Aberto</p>
+                            </div>
+                            <div class="perfil-top-rating-box">
+                                <div class="rating-box">
+                                    Avaliação:
+                                    <div class="rating-box-box">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-1"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-2"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-3"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia-4"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                        <img src="img/patasdouradas.png" width="30px" height="30px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                                <div class="like-box">
+                                    Favoritar:
+                                    <div class="like-box-box">
+                                        <img src="img/Heartpaw.png" width="50px" height="50px" alt="avalia5"
+                                            style=" border: 1px; border-color: lightgrey;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer já completo, NÃO EDITAR!!! -->
+    <footer>
+        <div class="black-line"></div>
+        <div class="footer-contents">
+            <h1 class="footer-text">
+                PET190 foi desenvolvido pelo grupo 1 da turma 4 como parte do curso de Análise e Desenvolvimento
+                de sistemas no 2 semestre de 2023 da PUC MG com a orientação da professora Nathália Assis
+                Valentim
+            </h1>
+            <h1 class="logo-puc-footer">
+                <img src="img/Logo-PUC-Minas.png" width="50" height="50" alt="logo-puc-mg">
+            </h1>
+        </div>
+        <!--<div class="footer-box">
+        </div> -->
+    </footer>
+</body>
+
+</html>
