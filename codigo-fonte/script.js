@@ -61,35 +61,59 @@ function fechaRegistro() {
           respostaVet.style.display = "flex";
       }
   }
-  
+
   function selectEmergencia() {
-    let elemento = document.getElementById("pesquisa-form-dropdown").value;
-    let respostaOrg = document.getElementById("resposta-org");
+    let elementoEmergencia = document.getElementById("emergencia-form-dropdown").value;
+    let emergenciaApresenta = document.getElementById("emergencia-apresenta");
+    let emergenciaTransito = document.getElementById("emergencia-transito");
+    let emergenciaVeneno = document.getElementById("emergencia-veneno");
+    let emergenciaOrfao = document.getElementById("emergencia-orfao");
+    let emergenciaSelva = document.getElementById("emergencia-selva");
+    let emergenciaVet = document.getElementById("emergencia-vet");
     let respostaVet = document.getElementById("resposta-vet");
-    let respostaHotel = document.getElementById("resposta-pethotel");
-    let respostaShop = document.getElementById("resposta-petshop");
-    if ((elemento == "org")) {
-        respostaHotel.style.display = "none";
-        respostaOrg.style.display = "flex";
-        respostaShop.style.display = "none";
-        respostaVet.style.display = "none";
+    if ((elementoEmergencia == "transito")) {
+        emergenciaApresenta.style.display = "none";
+        emergenciaTransito.style.display = "flex";
+        emergenciaVeneno.style.display = "none";
+        emergenciaOrfao.style.display = "none";
+        emergenciaSelva.style.display = "none";
+        emergenciaVet.style.display = "none";
+        respostaVet.style.display = "flex";
     }
-    if ((elemento == "petshop")) {
-        respostaOrg.style.display = "none";
-        respostaHotel.style.display = "none";
-        respostaShop.style.display = "flex";
-        respostaVet.style.display = "none";
+    if ((elementoEmergencia == "veneno")) {
+        emergenciaApresenta.style.display = "none";
+        emergenciaTransito.style.display = "none";
+        emergenciaVeneno.style.display = "flex";
+        emergenciaOrfao.style.display = "none";
+        emergenciaSelva.style.display = "none";
+        emergenciaVet.style.display = "none";
+        respostaVet.style.display = "flex";
     }
-    if ((elemento == "pethotel")) {
-        respostaHotel.style.display = "flex";
-        respostaOrg.style.display = "none";
-        respostaShop.style.display = "none";
-        respostaVet.style.display = "none";
+    if ((elementoEmergencia == "orfao")) {
+        emergenciaApresenta.style.display = "none";
+        emergenciaTransito.style.display = "none";
+        emergenciaVeneno.style.display = "none";
+        emergenciaOrfao.style.display = "flex";
+        emergenciaSelva.style.display = "none";
+        emergenciaVet.style.display = "none";
+        respostaVet.style.display = "flex";
     }
-    if ((elemento == "vet")) {
-        respostaHotel.style.display = "none";
-        respostaOrg.style.display = "none";
-        respostaShop.style.display = "none";
+    if ((elementoEmergencia == "selva")) {
+        emergenciaApresenta.style.display = "none";
+        emergenciaTransito.style.display = "none";
+        emergenciaVeneno.style.display = "none";
+        emergenciaOrfao.style.display = "none";
+        emergenciaSelva.style.display = "flex";
+        emergenciaVet.style.display = "none";
+        respostaVet.style.display = "flex";
+    }
+    if ((elementoEmergencia == "vet")) {
+        emergenciaApresenta.style.display = "none";
+        emergenciaTransito.style.display = "none";
+        emergenciaVeneno.style.display = "none";
+        emergenciaOrfao.style.display = "none";
+        emergenciaSelva.style.display = "none";
+        emergenciaVet.style.display = "flex";
         respostaVet.style.display = "flex";
     }
 }

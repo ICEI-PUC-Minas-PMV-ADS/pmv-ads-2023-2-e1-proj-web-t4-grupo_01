@@ -967,8 +967,20 @@ textarea::placeholder {
 
 }
 
-.emergencia-explica {
+.emergencia-apresenta{
   display: flex;
+  background-color: lightgray;
+  flex-direction: column;
+  height: auto;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 5px;
+  width: 95dvw;
+
+}
+
+.emergencia-explica {
+  display: none;
   background-color: lightgray;
   flex-direction: column;
   height: auto;
@@ -996,20 +1008,6 @@ textarea::placeholder {
   box-shadow: 0px 4px 8px darkgray;
 }
 
-.resposta-vet {
-  display: none;
-  flex-direction: column;
-}
-
-.resposta-org {
-  display: none;
-  flex-direction: column;
-}
-
-.resposta-petshop {
-  display: none;
-  flex-direction: column;
-}
 
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
 no final do documento*/
