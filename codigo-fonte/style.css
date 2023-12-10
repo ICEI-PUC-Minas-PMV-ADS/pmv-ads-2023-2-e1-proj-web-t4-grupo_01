@@ -35,18 +35,18 @@ body {
 
 main {
   font-family: Laila;
-  text-shadow: 0px 4px 4px darkgray;
+  text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.4);
   display: flex;
- /* min-height: 535px; */
-  width: 100%;
-  position: absolute;
+  width: 100dvw;
+  position: fixed;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   z-index: 1;
   top: 48px;
   bottom: 54px;
- 
+  margin: 0;
+
 }
 
 header {
@@ -88,7 +88,7 @@ button {
   border-radius: 20px;
   border-color: darkgrey;
   transition-duration: 0.4s;
-  box-shadow: 0px 4px 8px lightgray;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.4);
   margin: 8px;
   height: 20px;
   padding: auto 8px auto 8px;
@@ -106,7 +106,7 @@ select {
   border-radius: 20px;
   border-color: lightgrey;
   padding: 2px 8px;
-  box-shadow: 0px 4px 8px lightgray;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.4);
 }
 
 /* Estilizações do cabeçalho */
@@ -115,7 +115,7 @@ select {
   display: block;
   margin: auto;
   width: 200px;
-  filter: drop-shadow(0px 8px 4px darkgray);
+  filter: drop-shadow(0px 8px 4px rgb(0, 0, 0, 0.4));
 }
 
 .logo-pet-190-titulo {
@@ -123,7 +123,7 @@ select {
   font-family: kalam;
   font-size: 47pt;
   color: #ff9494;
-  text-shadow: 0px 8px 4px darkgray;
+  text-shadow: 0px 8px 4px rgb(0, 0, 0, 0.4);
   letter-spacing: -4pt;
   line-height: 40%;
   width: 170px;
@@ -201,7 +201,7 @@ select {
   width: 90px;
   display: flex;
   min-width: 90px;
-  box-shadow: 0px 4px 8px lightgray;
+  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.4);
   margin: 8px;
   height: 20px;
   padding: auto 8px auto 8px;
@@ -250,6 +250,41 @@ meio do documento*/
 .catch-frase {
   font-size: 14pt;
   text-align: center;
+}
+
+.escolha-cadastro {
+  display: flex;
+  z-index: 4;
+  position: absolute;
+  top: 25dvh;
+  width: 25dvw;
+  height: 25dvh;
+  border-radius: 5px;
+  background-color: lightgray;
+  border-color: darkgray;
+  border: 1px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: nowrap;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.4);
+}
+
+.ocupa-tela {
+  display: none;
+  z-index: 3;
+  background-color: rgb(0, 0, 0, 0.4);
+  height: 100dvh;
+  width: 100dvw;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -80px;
+  bottom: -170px;
+  left: 0;
+  right: 0;
+
 }
 
 /* Página perfil1 */
@@ -424,7 +459,7 @@ meio do documento*/
 .perfil-body-galeria {
   display: grid;
   height: auto;
-  grid-template: auto / repeat(4,25%);
+  grid-template: auto / repeat(4, 25%);
 }
 
 .intro-galeria {
@@ -475,7 +510,6 @@ textarea::placeholder {
   grid-template-columns: auto 696px auto;
   grid-template-rows: 100%;
   width: 100%;
-  min-height: 730px;
   height: 100%;
   align-items: center;
   font-family: Laila;
@@ -484,6 +518,8 @@ textarea::placeholder {
   top: -60px;
   left: 0;
   right: 0;
+  padding-bottom: 60px;
+  overflow-y: auto;
 }
 
 .fomulario-inicial {
@@ -840,6 +876,61 @@ textarea::placeholder {
   align-items: flex-start;
 }
 
+/* Pagina pesquisa */
+
+.pesquisa-corpo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.pesquisa-menu {
+  background-color: lightgray;
+  height: auto;
+  padding-bottom: 5px;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+}
+
+.pesquisa-item {
+  padding-bottom: 68px;
+}
+
+.resposta-padrao {
+  display: flex;
+  background-color: lightgray;
+  height: auto;
+  border-radius: 20px 20px 20px 20px;
+  align-items: center;
+  margin: 10px;
+  font-size: small;
+  padding: 5px;
+  width: 95dvw;
+  box-shadow: 0px 4px 8px darkgray;
+}
+
+.resposta-org {
+  display: none;
+  flex-direction: column;
+}
+
+.resposta-vet {
+  display: none;
+  flex-direction: column;
+}
+
+.resposta-pethotel {
+  display: none;
+  flex-direction: column;
+}
+
+.resposta-petshop {
+  display: none;
+  flex-direction: column;
+}
+
+
 /* Essa parte diz respeito a configuração especifica de cada pagina para o footer e deve ser mantida aqui 
 no final do documento*/
 
@@ -875,76 +966,4 @@ no final do documento*/
 .logo-puc-footer {
   display: flex;
   margin: 0px auto 0px 0px;
-}
-/*Página emergencia*/
-.opcoes {
-  display: flex;
-  flex-direction: column;
-  /* Altera a direção para coluna */
-  align-items: center;
-  margin-top: 90px;
-  width: 900px;
-  font-family: 'Laila', sans-serif;
-}
-
-.opcoes p {
-  margin: 0;
-}
-
-.opcoes form {
-  margin: 0;
-}
-
-#situ-emerg {
-  display: flex;
-  flex-direction: column;
-  /* Altera a direção para coluna */
-  align-items: flex-start;
-  /* Alinha os itens à esquerda */
-  margin-top: 10px;
-  margin-right: 50px;
-  width: 700px;
-  font-family: 'Laila', sans-serif;
-}
-
-.parag {
-  padding: 5px;
-  margin: 5px;
-}
-
-.espaca-paragra {
-  float: left;
-  padding: 10px;
-  margin-right: 20px;
-  padding-bottom: 50px;
-}
-
-.resultado-1-toa {
-  align-items: center;
-  background-color: rgba(239, 239, 239, 0.6999999881);
-  border: solid 0.1rem rgba(0, 0, 0, 0.200000003);
-  border-radius: 2rem;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  box-sizing: border-box;
-  display: flex;
-  height: 12rem;
-  left: 0;
-  padding: 0.8rem 2.8rem 1rem 2rem;
-  position: absolute;
-  top: 59.2rem;
-  width: 82rem;
-}
-
-.espacamento-avali {
-  padding: 10px;
-}
-
-/* Página de resgate que está junto com a pág de emergencia */
-
-.texto-topo {
-  position: absolute;
-  top: 150px;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0; 
 }
