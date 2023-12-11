@@ -63,6 +63,19 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 
 |Caso de Teste    | CT-04: Verificar as funcionalidades da página de "formulário organizacional"  |
 |:---|:---|
+| Resultados obtidos | RF-03: Ao clicar no botão: sou empresa (QUE SERÁ FEITO EM JAVASCRITP, ELE É REDIRECIONADO A PÁGINA DE FORMULÁRIO ORGNANIZACIONAL) Resultado teste: Funcionalidade existente e em funcionamento.    |
+| Responsável pela execução do caso de Teste | Leticia Mateus |
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeOrganizacional1.png"
+</figure>
+
+  <figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/testeOrganizacional2.png"
+</figure>
+<br>
+
+|Caso de Teste    | CT-04: Verificar as funcionalidades da página de "formulário organizacional"  |
+|:---|:---|
 | Resultados obtidos | RF-03: O site deve permitir ao usuário colocar Nome, endereço de e-mail, cidade de residência, foto de perfil e autobiografia para usuários ‘voluntários’ e nome, CNPJ, endereço de e-mail, endereço de funcionamento, telefone, horário de funcionamento, site da organização, foto de perfil e autobiografia e confirmar e assim ir pra página de usuário. Resultado do teste: É permitido a inserção de informações como descrito, mas o botão concluir para finalizar o processo de cadastramento não possui funcionalidade.    |
 | Responsável pela execução do caso de Teste | Leticia Mateus |
 <figure> 
