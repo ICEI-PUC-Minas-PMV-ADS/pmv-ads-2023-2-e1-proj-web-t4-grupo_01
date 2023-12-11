@@ -175,31 +175,6 @@ Página composta por um arquivo HTML (FormularioOrganizacional.html) e um arquiv
 #### Responsável
 Leticia Mateus
 
-### Página de Edição de galeria (RF-08 RF-15)  
-<figure> 
-  <img src=""
-    <figcaption>Figura 33 </figcaption>
-</figure>
-<br> 
-<br> 
-Página de edição de galeria tem como objetivo possibilitar a edição de imagens e informações da galeria, além disso o usuário organizacional pode criar uma nova ou até mesmo deletar uma galeria. 
-
-#### Requisito atendido
--RF- 08 <br>
--RF- 15 
- 
-#### Artefatos da funcionalidade
--HTML -   <br>
--Style.css 
-
-#### Estrutura de Dados
-Página composta por um arquivo HTML () e um arquivo Style.CSS (style.css) 
-
-#### Instruções de acesso
--Abra um navegador de Internet e informe a seguinte URL:<a [href="">codigo-fonte/Cancelamento.HTML</a>
-
-#### Responsável
-
 ### Página de busca (RF-04 RF-06)  
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t4-grupo_01/blob/main/documentos/img/paginaDeBuscaPesquisa.png"
